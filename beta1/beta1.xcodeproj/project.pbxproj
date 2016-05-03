@@ -17,9 +17,12 @@
 		FE66E89B1CD840D40092FADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE66E8991CD840D40092FADF /* LaunchScreen.storyboard */; };
 		FE66E8A61CD840D40092FADF /* beta1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E8A51CD840D40092FADF /* beta1Tests.m */; };
 		FE66E8B11CD840D40092FADF /* beta1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E8B01CD840D40092FADF /* beta1UITests.m */; };
-		FE66E8C31CD8452E0092FADF /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E8C21CD8452E0092FADF /* FirstTableViewController.m */; };
-		FE66E8C61CD845410092FADF /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E8C51CD845410092FADF /* SecondTableViewController.m */; };
-		FE66E8C91CD845550092FADF /* ThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E8C81CD845550092FADF /* ThirdTableViewController.m */; };
+		FE66E8CB1CD861800092FADF /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE66E8CA1CD861800092FADF /* Second.storyboard */; };
+		FE66E8CD1CD861900092FADF /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE66E8CC1CD861900092FADF /* Third.storyboard */; };
+		FE66E8D01CD863B20092FADF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E8CF1CD863B20092FADF /* FirstViewController.m */; };
+		FE66E8D31CD863C40092FADF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E8D21CD863C40092FADF /* SecondViewController.m */; };
+		FE66E8D61CD863D80092FADF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E8D51CD863D80092FADF /* ThirdViewController.m */; };
+		FE66E8DC1CD868870092FADF /* Bate1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E8DB1CD868870092FADF /* Bate1ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,12 +63,16 @@
 		FE66E8AC1CD840D40092FADF /* beta1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beta1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE66E8B01CD840D40092FADF /* beta1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beta1UITests.m; sourceTree = "<group>"; };
 		FE66E8B21CD840D40092FADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE66E8C11CD8452E0092FADF /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
-		FE66E8C21CD8452E0092FADF /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
-		FE66E8C41CD845410092FADF /* SecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
-		FE66E8C51CD845410092FADF /* SecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
-		FE66E8C71CD845550092FADF /* ThirdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTableViewController.h; sourceTree = "<group>"; };
-		FE66E8C81CD845550092FADF /* ThirdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTableViewController.m; sourceTree = "<group>"; };
+		FE66E8CA1CD861800092FADF /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		FE66E8CC1CD861900092FADF /* Third.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
+		FE66E8CE1CD863B20092FADF /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FE66E8CF1CD863B20092FADF /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FE66E8D11CD863C40092FADF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FE66E8D21CD863C40092FADF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FE66E8D41CD863D80092FADF /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		FE66E8D51CD863D80092FADF /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		FE66E8DA1CD868870092FADF /* Bate1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bate1ViewController.h; sourceTree = "<group>"; };
+		FE66E8DB1CD868870092FADF /* Bate1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bate1ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +186,8 @@
 				FE66E8911CD840D40092FADF /* Main.storyboard */,
 				FE66E8971CD840D40092FADF /* Assets.xcassets */,
 				FE66E8991CD840D40092FADF /* LaunchScreen.storyboard */,
+				FE66E8CA1CD861800092FADF /* Second.storyboard */,
+				FE66E8CC1CD861900092FADF /* Third.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -196,12 +205,14 @@
 			children = (
 				FE66E88E1CD840D40092FADF /* ViewController.h */,
 				FE66E88F1CD840D40092FADF /* ViewController.m */,
-				FE66E8C11CD8452E0092FADF /* FirstTableViewController.h */,
-				FE66E8C21CD8452E0092FADF /* FirstTableViewController.m */,
-				FE66E8C41CD845410092FADF /* SecondTableViewController.h */,
-				FE66E8C51CD845410092FADF /* SecondTableViewController.m */,
-				FE66E8C71CD845550092FADF /* ThirdTableViewController.h */,
-				FE66E8C81CD845550092FADF /* ThirdTableViewController.m */,
+				FE66E8DA1CD868870092FADF /* Bate1ViewController.h */,
+				FE66E8DB1CD868870092FADF /* Bate1ViewController.m */,
+				FE66E8CE1CD863B20092FADF /* FirstViewController.h */,
+				FE66E8CF1CD863B20092FADF /* FirstViewController.m */,
+				FE66E8D11CD863C40092FADF /* SecondViewController.h */,
+				FE66E8D21CD863C40092FADF /* SecondViewController.m */,
+				FE66E8D41CD863D80092FADF /* ThirdViewController.h */,
+				FE66E8D51CD863D80092FADF /* ThirdViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -315,9 +326,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE66E8CB1CD861800092FADF /* Second.storyboard in Resources */,
 				FE66E89B1CD840D40092FADF /* LaunchScreen.storyboard in Resources */,
 				FE66E8981CD840D40092FADF /* Assets.xcassets in Resources */,
 				FE66E8931CD840D40092FADF /* Main.storyboard in Resources */,
+				FE66E8CD1CD861900092FADF /* Third.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,13 +403,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE66E8C91CD845550092FADF /* ThirdTableViewController.m in Sources */,
+				FE66E8D31CD863C40092FADF /* SecondViewController.m in Sources */,
 				FE66E8901CD840D40092FADF /* ViewController.m in Sources */,
 				FE66E88D1CD840D40092FADF /* AppDelegate.m in Sources */,
-				FE66E8C31CD8452E0092FADF /* FirstTableViewController.m in Sources */,
+				FE66E8D01CD863B20092FADF /* FirstViewController.m in Sources */,
+				FE66E8DC1CD868870092FADF /* Bate1ViewController.m in Sources */,
 				FE66E88A1CD840D40092FADF /* main.m in Sources */,
 				FE66E8961CD840D40092FADF /* beta1.xcdatamodeld in Sources */,
-				FE66E8C61CD845410092FADF /* SecondTableViewController.m in Sources */,
+				FE66E8D61CD863D80092FADF /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

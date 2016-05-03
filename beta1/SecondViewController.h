@@ -1,5 +1,5 @@
 //
-//  SecondTableViewController.h
+//  SecondViewController.h
 //  beta1
 //
 //  Created by 袁文轶 on 16/5/3.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondTableViewController : UITableViewController
+@interface SecondViewController : UIViewController
 
 @end

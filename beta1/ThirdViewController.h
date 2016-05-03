@@ -1,5 +1,5 @@
 //
-//  ThirdTableViewController.h
+//  ThirdViewController.h
 //  beta1
 //
 //  Created by 袁文轶 on 16/5/3.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ThirdTableViewController : UITableViewController
+@interface ThirdViewController : UIViewController
 
 @end
