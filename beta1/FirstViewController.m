@@ -17,11 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     if (self.navigationController.tabBarItem.tag == 0) {
-        self.navigationItem.title = @"首页";
+        self.navigationItem.title = @"会话";
     } else if(self.navigationController.tabBarItem.tag == 1){
-        self.navigationItem.title = @"聊天";
+        self.navigationItem.title = @"联系人";
     }else {
-        self.navigationItem.title = @"我";
+        self.navigationItem.title = @"朋友人";
     }
 
 }

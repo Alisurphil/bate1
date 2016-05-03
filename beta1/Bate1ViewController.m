@@ -23,17 +23,17 @@
     //将_firstVC设置为_firstNC导航控制器的跟视图
     _FirstNC = [[UINavigationController alloc]initWithRootViewController:_FirstVC];
     //为_firstNC导航控制器设置tab bar item，将该选项卡栏项目的标题设置为first,图片设置为名为first的图片，下表设为0
-    _FirstNC.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"首页" image:[UIImage imageNamed:@"main"] tag:0];
+    _FirstNC.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"会话" image:[UIImage imageNamed:@"main"] tag:0];
     
     UIStoryboard *storyboard2 = [UIStoryboard storyboardWithName:@"Second" bundle:[NSBundle mainBundle]];
     _SecondVC = [storyboard2 instantiateViewControllerWithIdentifier:@"Second"];
     _SecondNC = [[UINavigationController alloc]initWithRootViewController:_SecondVC];
-    _SecondNC.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"聊天" image:[UIImage imageNamed:@"chat"] tag:1];
+    _SecondNC.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"联系人" image:[UIImage imageNamed:@"chat"] tag:1];
     
     UIStoryboard *storyboard3 = [UIStoryboard storyboardWithName:@"Third" bundle:[NSBundle mainBundle]];
     _ThirdVC = [storyboard3 instantiateViewControllerWithIdentifier:@"Third"];
     _ThirdNC = [[UINavigationController alloc]initWithRootViewController:_ThirdVC];
-    _ThirdNC.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"我" image:[UIImage imageNamed:@"me"] tag:2];
+    _ThirdNC.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"朋友圈" image:[UIImage imageNamed:@"me"] tag:2];
     //设置选项卡栏控制器的选项卡栏项目（@［］数组中的每个item都会对应一个选项卡栏项目）
     self.viewControllers = @[_FirstNC,_SecondNC,_ThirdNC];
 }
