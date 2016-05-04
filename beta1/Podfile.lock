@@ -20,11 +20,14 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - ECSlidingViewController (2.0.3)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
+  - ECSlidingViewController (~> 2.0.3)
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  ECSlidingViewController: 6485c14f23b4487e9946535421ca8f111f86cc53
 
 COCOAPODS: 0.39.0

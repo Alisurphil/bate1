@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ECSlidingViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,7 +27,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C6D66FE7D3AD8963382F17E79643E1B8</key>
+		<key>4B99C5ECA84BCB6F0F34495C1FDAE798</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FEB30DAF5F254D434B0B5626D182F0BF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

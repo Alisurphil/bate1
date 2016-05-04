@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "Bate1ViewController.h"
+#import "LeftViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -24,10 +25,18 @@
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
     //在main.story中找到名为tab的页面
     Bate1ViewController *BateVC = [storyboard instantiateViewControllerWithIdentifier:@"Bate"];
+    [Parse setApplicationId:@"mfuxulVFdLqosOwOSqUAhBrB6HopBZ6IyYyB6jzg" clientKey:@"vTNiFFMIEyutRnmHP0V3ZZTWojvNgEWuYRFoz0HY"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+    testObject[@"foo"] = @"bar";
+    [testObject saveInBackground];
+
     //将上述页面设置为app入口
     self.window.rootViewController = BateVC;
     return YES;
 }
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  beta1
+//
+//  Created by 袁文轶 on 16/5/4.
+//  Copyright © 2016年 袁文轶. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import <Foundation/Foundation.h>
+#import <Parse/Parse.h>
+#import <UIKit/UIKit.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AFNetworking.h"
+#import "Utilities.h"
+#import "ECSlidingViewController.h"
+#import "Constants.h"
+
+#endif /* PrefixHeader_pch */

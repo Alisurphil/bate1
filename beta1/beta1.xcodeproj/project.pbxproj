@@ -23,6 +23,22 @@
 		FE66E8D31CD863C40092FADF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E8D21CD863C40092FADF /* SecondViewController.m */; };
 		FE66E8D61CD863D80092FADF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E8D51CD863D80092FADF /* ThirdViewController.m */; };
 		FE66E8DC1CD868870092FADF /* Bate1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E8DB1CD868870092FADF /* Bate1ViewController.m */; };
+		FEA65FF31CD8795E00A857DD /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA65FF21CD8795E00A857DD /* LeftViewController.m */; };
+		FEA65FF61CD87C0F00A857DD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA65FF51CD87C0F00A857DD /* LoginViewController.m */; };
+		FEA65FF91CD87C6A00A857DD /* RegisteredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA65FF81CD87C6A00A857DD /* RegisteredViewController.m */; };
+		FEF4CBDC1CD98C1600C96E11 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4CBDB1CD98C1600C96E11 /* Utilities.m */; };
+		FEF4CBDE1CD98CDD00C96E11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBDD1CD98CDD00C96E11 /* Foundation.framework */; };
+		FEF4CBE21CD98F5200C96E11 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBE11CD98F5200C96E11 /* Parse.framework */; };
+		FEF4CBE61CD992B100C96E11 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBE51CD992B100C96E11 /* QuartzCore.framework */; };
+		FEF4CBE81CD992C300C96E11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBE71CD992C300C96E11 /* CoreGraphics.framework */; };
+		FEF4CBEE1CD992F100C96E11 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBED1CD992F100C96E11 /* SystemConfiguration.framework */; };
+		FEF4CBFA1CD9979200C96E11 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBF91CD9979200C96E11 /* libz.tbd */; };
+		FEF4CBFC1CD9979D00C96E11 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBFB1CD9979D00C96E11 /* libsqlite3.tbd */; };
+		FEF4CC021CD99E0200C96E11 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBFD1CD99E0200C96E11 /* Bolts.framework */; };
+		FEF4CC081CD9A94900C96E11 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBE91CD992D100C96E11 /* Accounts.framework */; };
+		FEF4CC091CD9A95500C96E11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBE31CD992A500C96E11 /* UIKit.framework */; };
+		FEF4CC0A1CD9A96500C96E11 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBEB1CD992E300C96E11 /* Social.framework */; };
+		FEF4CC0B1CD9A97700C96E11 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBEF1CD992FC00C96E11 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +89,36 @@
 		FE66E8D51CD863D80092FADF /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		FE66E8DA1CD868870092FADF /* Bate1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bate1ViewController.h; sourceTree = "<group>"; };
 		FE66E8DB1CD868870092FADF /* Bate1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bate1ViewController.m; sourceTree = "<group>"; };
+		FEA65FF11CD8795E00A857DD /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		FEA65FF21CD8795E00A857DD /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		FEA65FF41CD87C0F00A857DD /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FEA65FF51CD87C0F00A857DD /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		FEA65FF71CD87C6A00A857DD /* RegisteredViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisteredViewController.h; sourceTree = "<group>"; };
+		FEA65FF81CD87C6A00A857DD /* RegisteredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisteredViewController.m; sourceTree = "<group>"; };
+		FEF4CBD61CD983FE00C96E11 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FEF4CBDA1CD98C1600C96E11 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		FEF4CBDB1CD98C1600C96E11 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		FEF4CBDD1CD98CDD00C96E11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEF4CBE01CD98DA100C96E11 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		FEF4CBE11CD98F5200C96E11 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = beta1/Parse.framework; sourceTree = "<group>"; };
+		FEF4CBE31CD992A500C96E11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FEF4CBE51CD992B100C96E11 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FEF4CBE71CD992C300C96E11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FEF4CBE91CD992D100C96E11 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		FEF4CBEB1CD992E300C96E11 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FEF4CBED1CD992F100C96E11 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FEF4CBEF1CD992FC00C96E11 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FEF4CBF11CD9973300C96E11 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FEF4CBF31CD9974600C96E11 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FEF4CBF51CD9976400C96E11 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FEF4CBF71CD9977C00C96E11 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FEF4CBF91CD9979200C96E11 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FEF4CBFB1CD9979D00C96E11 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		FEF4CBFD1CD99E0200C96E11 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = beta1/Bolts.framework; sourceTree = "<group>"; };
+		FEF4CBFE1CD99E0200C96E11 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = beta1/ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		FEF4CBFF1CD99E0200C96E11 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = beta1/ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		FEF4CC001CD99E0200C96E11 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseTwitterUtils.framework; path = beta1/ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		FEF4CC011CD99E0200C96E11 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = beta1/ParseUI.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +126,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF4CC0B1CD9A97700C96E11 /* AudioToolbox.framework in Frameworks */,
+				FEF4CC0A1CD9A96500C96E11 /* Social.framework in Frameworks */,
+				FEF4CC091CD9A95500C96E11 /* UIKit.framework in Frameworks */,
+				FEF4CC081CD9A94900C96E11 /* Accounts.framework in Frameworks */,
+				FEF4CC021CD99E0200C96E11 /* Bolts.framework in Frameworks */,
+				FEF4CBE21CD98F5200C96E11 /* Parse.framework in Frameworks */,
+				FEF4CBFC1CD9979D00C96E11 /* libsqlite3.tbd in Frameworks */,
+				FEF4CBFA1CD9979200C96E11 /* libz.tbd in Frameworks */,
+				FEF4CBEE1CD992F100C96E11 /* SystemConfiguration.framework in Frameworks */,
+				FEF4CBE81CD992C300C96E11 /* CoreGraphics.framework in Frameworks */,
+				FEF4CBE61CD992B100C96E11 /* QuartzCore.framework in Frameworks */,
+				FEF4CBDE1CD98CDD00C96E11 /* Foundation.framework in Frameworks */,
 				069D6B0B605BDABFBF331254 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,14 +171,45 @@
 		4792A8FAD786FF7F55484C03 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FEF4CBFD1CD99E0200C96E11 /* Bolts.framework */,
+				FEF4CBFE1CD99E0200C96E11 /* ParseFacebookUtils.framework */,
+				FEF4CBFF1CD99E0200C96E11 /* ParseFacebookUtilsV4.framework */,
+				FEF4CC001CD99E0200C96E11 /* ParseTwitterUtils.framework */,
+				FEF4CC011CD99E0200C96E11 /* ParseUI.framework */,
+				FEF4CBFB1CD9979D00C96E11 /* libsqlite3.tbd */,
+				FEF4CBF91CD9979200C96E11 /* libz.tbd */,
+				FEF4CBF71CD9977C00C96E11 /* StoreKit.framework */,
+				FEF4CBF51CD9976400C96E11 /* Security.framework */,
+				FEF4CBF31CD9974600C96E11 /* CoreLocation.framework */,
+				FEF4CBF11CD9973300C96E11 /* CFNetwork.framework */,
+				FEF4CBEF1CD992FC00C96E11 /* AudioToolbox.framework */,
+				FEF4CBED1CD992F100C96E11 /* SystemConfiguration.framework */,
+				FEF4CBEB1CD992E300C96E11 /* Social.framework */,
+				FEF4CBE91CD992D100C96E11 /* Accounts.framework */,
+				FEF4CBE71CD992C300C96E11 /* CoreGraphics.framework */,
+				FEF4CBE51CD992B100C96E11 /* QuartzCore.framework */,
+				FEF4CBE31CD992A500C96E11 /* UIKit.framework */,
+				FEF4CBE11CD98F5200C96E11 /* Parse.framework */,
+				FEF4CBDD1CD98CDD00C96E11 /* Foundation.framework */,
 				F05A34ED8505DB24673140C1 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FE5D3DFB1CD8A55E008EE58C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FEF4CBDA1CD98C1600C96E11 /* Utilities.h */,
+				FEF4CBDB1CD98C1600C96E11 /* Utilities.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
 		FE66E87C1CD840D40092FADF = {
 			isa = PBXGroup;
 			children = (
+				FEF4CBDF1CD98D6300C96E11 /* Constants */,
+				FE5D3DFB1CD8A55E008EE58C /* Utility */,
 				FE66E8C01CD844550092FADF /* Controller */,
 				FE66E8BF1CD844460092FADF /* Model */,
 				FE66E8BE1CD844350092FADF /* View */,
@@ -158,6 +247,7 @@
 				FE66E89C1CD840D40092FADF /* Info.plist */,
 				FE66E88C1CD840D40092FADF /* AppDelegate.m */,
 				FE66E8891CD840D40092FADF /* main.m */,
+				FEF4CBD61CD983FE00C96E11 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -207,14 +297,28 @@
 				FE66E88F1CD840D40092FADF /* ViewController.m */,
 				FE66E8DA1CD868870092FADF /* Bate1ViewController.h */,
 				FE66E8DB1CD868870092FADF /* Bate1ViewController.m */,
+				FEA65FF41CD87C0F00A857DD /* LoginViewController.h */,
+				FEA65FF51CD87C0F00A857DD /* LoginViewController.m */,
+				FEA65FF71CD87C6A00A857DD /* RegisteredViewController.h */,
+				FEA65FF81CD87C6A00A857DD /* RegisteredViewController.m */,
 				FE66E8CE1CD863B20092FADF /* FirstViewController.h */,
 				FE66E8CF1CD863B20092FADF /* FirstViewController.m */,
 				FE66E8D11CD863C40092FADF /* SecondViewController.h */,
 				FE66E8D21CD863C40092FADF /* SecondViewController.m */,
 				FE66E8D41CD863D80092FADF /* ThirdViewController.h */,
 				FE66E8D51CD863D80092FADF /* ThirdViewController.m */,
+				FEA65FF11CD8795E00A857DD /* LeftViewController.h */,
+				FEA65FF21CD8795E00A857DD /* LeftViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		FEF4CBDF1CD98D6300C96E11 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FEF4CBE01CD98DA100C96E11 /* Constants.h */,
+			);
+			name = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,9 +507,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA65FF31CD8795E00A857DD /* LeftViewController.m in Sources */,
 				FE66E8D31CD863C40092FADF /* SecondViewController.m in Sources */,
 				FE66E8901CD840D40092FADF /* ViewController.m in Sources */,
 				FE66E88D1CD840D40092FADF /* AppDelegate.m in Sources */,
+				FEA65FF91CD87C6A00A857DD /* RegisteredViewController.m in Sources */,
+				FEA65FF61CD87C0F00A857DD /* LoginViewController.m in Sources */,
+				FEF4CBDC1CD98C1600C96E11 /* Utilities.m in Sources */,
 				FE66E8D01CD863B20092FADF /* FirstViewController.m in Sources */,
 				FE66E8DC1CD868870092FADF /* Bate1ViewController.m in Sources */,
 				FE66E88A1CD840D40092FADF /* main.m in Sources */,
@@ -556,6 +664,11 @@
 			baseConfigurationReference = 3FB370494D783422F92CE473 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/beta1",
+				);
+				GCC_PREFIX_HEADER = /Users/yuanwenyi/Desktop/bate1/beta1/beta1/PrefixHeader.pch;
 				INFOPLIST_FILE = beta1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.date1;
@@ -568,6 +681,11 @@
 			baseConfigurationReference = A799931B887F2A29191C7810 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/beta1",
+				);
+				GCC_PREFIX_HEADER = /Users/yuanwenyi/Desktop/bate1/beta1/beta1/PrefixHeader.pch;
 				INFOPLIST_FILE = beta1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.date1;

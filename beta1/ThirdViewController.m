@@ -30,6 +30,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [[NSNotificationCenter defaultCenter]postNotificationName:@"EnableSwitch" object:nil];
+}
+//每当离开该页面以后调用以下方法（进入其他视图页面以后）
+-(void)viewDidDisappear:(BOOL)animated{
+    [super viewDidDisappear:animated];
+    [[NSNotificationCenter defaultCenter]postNotificationName:@"DisableSwitch" object:nil];
+}
+
 
 /*
 #pragma mark - Navigation
