@@ -20,5 +20,12 @@
 #import "Utilities.h"
 #import "ECSlidingViewController.h"
 #import "Constants.h"
-
+#import "LoginViewController.h"
+#import "LeftViewController.h"
+#import "FirstViewController.h"
+#import "SecondViewController.h"
+#import "ThirdViewController.h"
+#import "RegisteredViewController.h"
+#import "Bate1ViewController.h"
+#import "TAOverlay.h"
 #endif /* PrefixHeader_pch */

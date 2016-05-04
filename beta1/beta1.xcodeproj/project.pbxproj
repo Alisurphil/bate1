@@ -668,7 +668,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/beta1",
 				);
-				GCC_PREFIX_HEADER = /Users/yuanwenyi/Desktop/bate1/beta1/beta1/PrefixHeader.pch;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/beta1/PrefixHeader.pch";
 				INFOPLIST_FILE = beta1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.date1;
@@ -685,7 +686,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/beta1",
 				);
-				GCC_PREFIX_HEADER = /Users/yuanwenyi/Desktop/bate1/beta1/beta1/PrefixHeader.pch;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/beta1/PrefixHeader.pch";
 				INFOPLIST_FILE = beta1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.date1;

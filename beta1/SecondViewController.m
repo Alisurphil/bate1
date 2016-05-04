@@ -7,6 +7,7 @@
 //
 
 #import "SecondViewController.h"
+#import "LoginViewController.h"
 
 @interface SecondViewController ()
 
@@ -32,12 +33,12 @@
 }
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
-    [[NSNotificationCenter defaultCenter]postNotificationName:@"EnableSwitch" object:nil];
+    [[NSNotificationCenter defaultCenter]postNotificationName:@"enablePanGes" object:nil];
 }
 //每当离开该页面以后调用以下方法（进入其他视图页面以后）
 -(void)viewDidDisappear:(BOOL)animated{
     [super viewDidDisappear:animated];
-    [[NSNotificationCenter defaultCenter]postNotificationName:@"DisableSwitch" object:nil];
+    [[NSNotificationCenter defaultCenter]postNotificationName:@"disablePanGes" object:nil];
 }
 
 

@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TAOverlay.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -27,7 +32,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4B99C5ECA84BCB6F0F34495C1FDAE798</key>
+		<key>B92C8A8968A6CBA71554A350103C5E80</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D44F4F588C9975054B7DAAE2324B5483</key>
 		<dict>
 			<key>primary</key>
 			<true/>

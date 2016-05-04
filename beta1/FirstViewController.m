@@ -7,7 +7,8 @@
 //
 
 #import "FirstViewController.h"
-
+#import "LoginViewController.h"
+#import "Bate1ViewController.h"
 @interface FirstViewController ()
 
 @end
@@ -31,7 +32,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
--(void)viewDidAppear:(BOOL)animated{
+
+/*-(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
     [[NSNotificationCenter defaultCenter]postNotificationName:@"EnableSwitch" object:nil];
 }
@@ -39,7 +41,7 @@
 -(void)viewDidDisappear:(BOOL)animated{
     [super viewDidDisappear:animated];
     [[NSNotificationCenter defaultCenter]postNotificationName:@"DisableSwitch" object:nil];
-}
+}*/
 
 
 /*

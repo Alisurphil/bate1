@@ -10,8 +10,9 @@
 
 #import "Bate1ViewController.h"
 #import "LeftViewController.h"
-@interface LoginViewController : UIViewController</*UIViewControllerAnimatedTransitioning,*/ ECSlidingViewControllerDelegate/*, ECSlidingViewControllerLayout*/>
+@interface LoginViewController : UIViewController<UIViewControllerAnimatedTransitioning, ECSlidingViewControllerDelegate, ECSlidingViewControllerLayout>
 
 @property (strong, nonatomic) ECSlidingViewController *slidingViewController;
 @property (assign, nonatomic) ECSlidingViewControllerOperation operation;
+
 @end
