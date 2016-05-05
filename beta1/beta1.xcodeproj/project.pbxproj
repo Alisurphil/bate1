@@ -77,6 +77,261 @@
 		C90B389A1CDAE8780006368B /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = C90B38981CDAE8780006368B /* wav.mm */; };
 		C90B389F1CDAE88D0006368B /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C90B389E1CDAE88D0006368B /* libopencore-amrnb.a */; };
 		C90B38A41CDAE89D0006368B /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C90B38A31CDAE89D0006368B /* libopencore-amrwb.a */; };
+		C90B38AA1CDB140B0006368B /* callRing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C90B38A71CDB140B0006368B /* callRing.mp3 */; };
+		C90B38AB1CDB140B0006368B /* CallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38A91CDB140B0006368B /* CallViewController.m */; };
+		C90B38B21CDB143D0006368B /* ChatListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38AF1CDB143D0006368B /* ChatListCell.m */; };
+		C90B38B31CDB143D0006368B /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38B11CDB143D0006368B /* ChatListViewController.m */; };
+		C90B38BF1CDB14650006368B /* ChatSendHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38B61CDB14650006368B /* ChatSendHelper.m */; };
+		C90B38C01CDB14650006368B /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38B81CDB14650006368B /* ChatViewController.m */; };
+		C90B38C11CDB14650006368B /* ChatViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38BA1CDB14650006368B /* ChatViewController+Category.m */; };
+		C90B38C21CDB14650006368B /* ConvertToCommonEmoticonsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38BC1CDB14650006368B /* ConvertToCommonEmoticonsHelper.m */; };
+		C90B38C31CDB14650006368B /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38BE1CDB14650006368B /* LocationViewController.m */; };
+		C90B38C71CDB147F0006368B /* DXMessageToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38C61CDB147F0006368B /* DXMessageToolBar.m */; };
+		C90B38CE1CDB14CB0006368B /* DXFaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38CB1CDB14CB0006368B /* DXFaceView.m */; };
+		C90B38CF1CDB14CB0006368B /* FacialView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38CD1CDB14CB0006368B /* FacialView.m */; };
+		C90B38D31CDB14EC0006368B /* DXChatBarMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38D21CDB14EC0006368B /* DXChatBarMoreView.m */; };
+		C90B38D71CDB15030006368B /* DXRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38D61CDB15030006368B /* DXRecordView.m */; };
+		C90B38DF1CDB152F0006368B /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38DA1CDB152F0006368B /* MessageModel.m */; };
+		C90B38E01CDB152F0006368B /* MessageModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38DC1CDB152F0006368B /* MessageModelManager.m */; };
+		C90B38E11CDB152F0006368B /* MessageReadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38DE1CDB152F0006368B /* MessageReadManager.m */; };
+		C90B38E91CDB15530006368B /* EMChatTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38E41CDB15530006368B /* EMChatTimeCell.m */; };
+		C90B38EA1CDB15530006368B /* EMChatViewBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38E61CDB15530006368B /* EMChatViewBaseCell.m */; };
+		C90B38EB1CDB15530006368B /* EMChatViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38E81CDB15530006368B /* EMChatViewCell.m */; };
+		C90B38F91CDB156C0006368B /* EMChatAudioBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38EE1CDB156C0006368B /* EMChatAudioBubbleView.m */; };
+		C90B38FA1CDB156C0006368B /* EMChatBaseBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38F01CDB156C0006368B /* EMChatBaseBubbleView.m */; };
+		C90B38FB1CDB156C0006368B /* EMChatImageBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38F21CDB156C0006368B /* EMChatImageBubbleView.m */; };
+		C90B38FC1CDB156C0006368B /* EMChatLocationBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38F41CDB156C0006368B /* EMChatLocationBubbleView.m */; };
+		C90B38FD1CDB156C0006368B /* EMChatTextBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38F61CDB156C0006368B /* EMChatTextBubbleView.m */; };
+		C90B38FE1CDB156C0006368B /* EMChatVideoBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B38F81CDB156C0006368B /* EMChatVideoBubbleView.m */; };
+		C90B39141CDB15A80006368B /* ChatGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39011CDB15A80006368B /* ChatGroupDetailViewController.m */; };
+		C90B39151CDB15A80006368B /* ContactSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39031CDB15A80006368B /* ContactSelectionViewController.m */; };
+		C90B39161CDB15A80006368B /* ContactView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39051CDB15A80006368B /* ContactView.m */; };
+		C90B39171CDB15A80006368B /* CreateGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39071CDB15A80006368B /* CreateGroupViewController.m */; };
+		C90B39181CDB15A80006368B /* GroupBansViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39091CDB15A80006368B /* GroupBansViewController.m */; };
+		C90B39191CDB15A80006368B /* GroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B390B1CDB15A80006368B /* GroupListViewController.m */; };
+		C90B391A1CDB15A80006368B /* GroupSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B390D1CDB15A80006368B /* GroupSettingViewController.m */; };
+		C90B391B1CDB15A80006368B /* GroupSubjectChangingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B390F1CDB15A80006368B /* GroupSubjectChangingViewController.m */; };
+		C90B391C1CDB15A80006368B /* PublicGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39111CDB15A80006368B /* PublicGroupDetailViewController.m */; };
+		C90B391D1CDB15A80006368B /* PublicGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39131CDB15A80006368B /* PublicGroupListViewController.m */; };
+		C90B39251CDB15BE0006368B /* ChatroomDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39201CDB15BE0006368B /* ChatroomDetailViewController.m */; };
+		C90B39261CDB15BE0006368B /* ChatroomListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39221CDB15BE0006368B /* ChatroomListViewController.m */; };
+		C90B39271CDB15BE0006368B /* MyChatroomListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39241CDB15BE0006368B /* MyChatroomListViewController.m */; };
+		C90B392F1CDB15E70006368B /* ChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B392A1CDB15E70006368B /* ChineseToPinyin.m */; };
+		C90B39301CDB15E70006368B /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B392C1CDB15E70006368B /* ContactsViewController.m */; };
+		C90B39311CDB15E70006368B /* RealtimeSearchUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B392E1CDB15E70006368B /* RealtimeSearchUtil.m */; };
+		C90B393B1CDB160E0006368B /* AddFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39341CDB160E0006368B /* AddFriendCell.m */; };
+		C90B393C1CDB160E0006368B /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39361CDB160E0006368B /* AddFriendViewController.m */; };
+		C90B393D1CDB160E0006368B /* ApplyFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39381CDB160E0006368B /* ApplyFriendCell.m */; };
+		C90B393E1CDB160E0006368B /* ApplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B393A1CDB160E0006368B /* ApplyViewController.m */; };
+		C90B39441CDB16280006368B /* InvitationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39411CDB16280006368B /* InvitationManager.m */; };
+		C90B39451CDB16280006368B /* UserProfileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39431CDB16280006368B /* UserProfileManager.m */; };
+		C90B39491CDB163B0006368B /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39481CDB163B0006368B /* UserProfileViewController.m */; };
+		C90B39551CDB166F0006368B /* EMRobotChatTextBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B394C1CDB166F0006368B /* EMRobotChatTextBubbleView.m */; };
+		C90B39561CDB166F0006368B /* EMRotbotChatViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B394E1CDB166F0006368B /* EMRotbotChatViewCell.m */; };
+		C90B39571CDB166F0006368B /* RobotChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39501CDB166F0006368B /* RobotChatViewController.m */; };
+		C90B39581CDB166F0006368B /* RobotListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39521CDB166F0006368B /* RobotListViewController.m */; };
+		C90B39591CDB166F0006368B /* RobotManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39541CDB166F0006368B /* RobotManager.m */; };
+		C90B39631CDB17B40006368B /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B395C1CDB17B40006368B /* BaseTableViewCell.m */; };
+		C90B39641CDB17B40006368B /* EMSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B395E1CDB17B40006368B /* EMSearchBar.m */; };
+		C90B39651CDB17B40006368B /* EMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39601CDB17B40006368B /* EMTextView.m */; };
+		C90B39661CDB17B40006368B /* XHMessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39621CDB17B40006368B /* XHMessageTextView.m */; };
+		C90B396A1CDB17C60006368B /* EMRemarkImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39691CDB17C60006368B /* EMRemarkImageView.m */; };
+		C90B39741CDB17E00006368B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B396D1CDB17E00006368B /* BaseViewController.m */; };
+		C90B39751CDB17E00006368B /* EMChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B396F1CDB17E00006368B /* EMChooseViewController.m */; };
+		C90B39761CDB17E00006368B /* EMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39711CDB17E00006368B /* EMNavigationController.m */; };
+		C90B39771CDB17E00006368B /* EMSearchDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39731CDB17E00006368B /* EMSearchDisplayController.m */; };
+		C90B39871CDB19280006368B /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B397A1CDB19280006368B /* NSDate+Category.m */; };
+		C90B39881CDB19280006368B /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B397C1CDB19280006368B /* NSDateFormatter+Category.m */; };
+		C90B39891CDB19280006368B /* NSString+Valid.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B397E1CDB19280006368B /* NSString+Valid.m */; };
+		C90B398A1CDB19280006368B /* UIImageView+HeadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39801CDB19280006368B /* UIImageView+HeadImage.m */; };
+		C90B398B1CDB19280006368B /* UIResponder+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39821CDB19280006368B /* UIResponder+Router.m */; };
+		C90B398C1CDB19280006368B /* UIViewController+DismissKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39841CDB19280006368B /* UIViewController+DismissKeyboard.m */; };
+		C90B398D1CDB19280006368B /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B39861CDB19280006368B /* UIViewController+HUD.m */; };
+		C90B39961CDB19D30006368B /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39901CDB19D30006368B /* 29.png */; };
+		C90B39971CDB19D30006368B /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39911CDB19D30006368B /* 57.png */; };
+		C90B39981CDB19D30006368B /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39921CDB19D30006368B /* 58.png */; };
+		C90B39991CDB19D30006368B /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39931CDB19D30006368B /* 80.png */; };
+		C90B399A1CDB19D30006368B /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39941CDB19D30006368B /* 114.png */; };
+		C90B399B1CDB19D30006368B /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39951CDB19D30006368B /* 120.png */; };
+		C90B399F1CDB19E90006368B /* chatListCellHead.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B399D1CDB19E90006368B /* chatListCellHead.png */; };
+		C90B39A01CDB19E90006368B /* chatListCellHead@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B399E1CDB19E90006368B /* chatListCellHead@2x.png */; };
+		C90B39AE1CDB1A110006368B /* call_out_h.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39A21CDB1A110006368B /* call_out_h.png */; };
+		C90B39AF1CDB1A110006368B /* call_out_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39A31CDB1A110006368B /* call_out_h@2x.png */; };
+		C90B39B01CDB1A110006368B /* call_out.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39A41CDB1A110006368B /* call_out.png */; };
+		C90B39B11CDB1A110006368B /* call_out@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39A51CDB1A110006368B /* call_out@2x.png */; };
+		C90B39B21CDB1A110006368B /* call_silence_h.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39A61CDB1A110006368B /* call_silence_h.png */; };
+		C90B39B31CDB1A110006368B /* call_silence_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39A71CDB1A110006368B /* call_silence_h@2x.png */; };
+		C90B39B41CDB1A110006368B /* call_silence.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39A81CDB1A110006368B /* call_silence.png */; };
+		C90B39B51CDB1A110006368B /* call_silence@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39A91CDB1A110006368B /* call_silence@2x.png */; };
+		C90B39B61CDB1A110006368B /* callBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39AA1CDB1A110006368B /* callBg@2x.png */; };
+		C90B39B71CDB1A110006368B /* chat_video_play.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39AB1CDB1A110006368B /* chat_video_play.png */; };
+		C90B39B81CDB1A110006368B /* imageDownloadFail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39AC1CDB1A110006368B /* imageDownloadFail@2x.png */; };
+		C90B39B91CDB1A110006368B /* messageSendFail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39AD1CDB1A110006368B /* messageSendFail@2x.png */; };
+		C90B39E31CDB1A350006368B /* VoiceSearchFeedback001.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39BB1CDB1A350006368B /* VoiceSearchFeedback001.png */; };
+		C90B39E41CDB1A350006368B /* VoiceSearchFeedback001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39BC1CDB1A350006368B /* VoiceSearchFeedback001@2x.png */; };
+		C90B39E51CDB1A350006368B /* VoiceSearchFeedback002.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39BD1CDB1A350006368B /* VoiceSearchFeedback002.png */; };
+		C90B39E61CDB1A350006368B /* VoiceSearchFeedback002@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39BE1CDB1A350006368B /* VoiceSearchFeedback002@2x.png */; };
+		C90B39E71CDB1A350006368B /* VoiceSearchFeedback003.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39BF1CDB1A350006368B /* VoiceSearchFeedback003.png */; };
+		C90B39E81CDB1A350006368B /* VoiceSearchFeedback003@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39C01CDB1A350006368B /* VoiceSearchFeedback003@2x.png */; };
+		C90B39E91CDB1A350006368B /* VoiceSearchFeedback004.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39C11CDB1A350006368B /* VoiceSearchFeedback004.png */; };
+		C90B39EA1CDB1A350006368B /* VoiceSearchFeedback004@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39C21CDB1A350006368B /* VoiceSearchFeedback004@2x.png */; };
+		C90B39EB1CDB1A350006368B /* VoiceSearchFeedback005.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39C31CDB1A350006368B /* VoiceSearchFeedback005.png */; };
+		C90B39EC1CDB1A350006368B /* VoiceSearchFeedback005@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39C41CDB1A350006368B /* VoiceSearchFeedback005@2x.png */; };
+		C90B39ED1CDB1A350006368B /* VoiceSearchFeedback006.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39C51CDB1A350006368B /* VoiceSearchFeedback006.png */; };
+		C90B39EE1CDB1A350006368B /* VoiceSearchFeedback006@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39C61CDB1A350006368B /* VoiceSearchFeedback006@2x.png */; };
+		C90B39EF1CDB1A350006368B /* VoiceSearchFeedback007.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39C71CDB1A350006368B /* VoiceSearchFeedback007.png */; };
+		C90B39F01CDB1A350006368B /* VoiceSearchFeedback007@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39C81CDB1A350006368B /* VoiceSearchFeedback007@2x.png */; };
+		C90B39F11CDB1A350006368B /* VoiceSearchFeedback008.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39C91CDB1A350006368B /* VoiceSearchFeedback008.png */; };
+		C90B39F21CDB1A350006368B /* VoiceSearchFeedback008@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39CA1CDB1A350006368B /* VoiceSearchFeedback008@2x.png */; };
+		C90B39F31CDB1A350006368B /* VoiceSearchFeedback009.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39CB1CDB1A350006368B /* VoiceSearchFeedback009.png */; };
+		C90B39F41CDB1A350006368B /* VoiceSearchFeedback009@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39CC1CDB1A350006368B /* VoiceSearchFeedback009@2x.png */; };
+		C90B39F51CDB1A350006368B /* VoiceSearchFeedback010.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39CD1CDB1A350006368B /* VoiceSearchFeedback010.png */; };
+		C90B39F61CDB1A350006368B /* VoiceSearchFeedback010@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39CE1CDB1A350006368B /* VoiceSearchFeedback010@2x.png */; };
+		C90B39F71CDB1A350006368B /* VoiceSearchFeedback011.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39CF1CDB1A350006368B /* VoiceSearchFeedback011.png */; };
+		C90B39F81CDB1A350006368B /* VoiceSearchFeedback011@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39D01CDB1A350006368B /* VoiceSearchFeedback011@2x.png */; };
+		C90B39F91CDB1A350006368B /* VoiceSearchFeedback012.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39D11CDB1A350006368B /* VoiceSearchFeedback012.png */; };
+		C90B39FA1CDB1A350006368B /* VoiceSearchFeedback012@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39D21CDB1A350006368B /* VoiceSearchFeedback012@2x.png */; };
+		C90B39FB1CDB1A350006368B /* VoiceSearchFeedback013.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39D31CDB1A350006368B /* VoiceSearchFeedback013.png */; };
+		C90B39FC1CDB1A350006368B /* VoiceSearchFeedback013@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39D41CDB1A350006368B /* VoiceSearchFeedback013@2x.png */; };
+		C90B39FD1CDB1A350006368B /* VoiceSearchFeedback014.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39D51CDB1A350006368B /* VoiceSearchFeedback014.png */; };
+		C90B39FE1CDB1A350006368B /* VoiceSearchFeedback014@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39D61CDB1A350006368B /* VoiceSearchFeedback014@2x.png */; };
+		C90B39FF1CDB1A350006368B /* VoiceSearchFeedback015.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39D71CDB1A350006368B /* VoiceSearchFeedback015.png */; };
+		C90B3A001CDB1A350006368B /* VoiceSearchFeedback015@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39D81CDB1A350006368B /* VoiceSearchFeedback015@2x.png */; };
+		C90B3A011CDB1A350006368B /* VoiceSearchFeedback016.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39D91CDB1A350006368B /* VoiceSearchFeedback016.png */; };
+		C90B3A021CDB1A350006368B /* VoiceSearchFeedback016@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39DA1CDB1A350006368B /* VoiceSearchFeedback016@2x.png */; };
+		C90B3A031CDB1A350006368B /* VoiceSearchFeedback017.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39DB1CDB1A350006368B /* VoiceSearchFeedback017.png */; };
+		C90B3A041CDB1A350006368B /* VoiceSearchFeedback017@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39DC1CDB1A350006368B /* VoiceSearchFeedback017@2x.png */; };
+		C90B3A051CDB1A350006368B /* VoiceSearchFeedback018.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39DD1CDB1A350006368B /* VoiceSearchFeedback018.png */; };
+		C90B3A061CDB1A350006368B /* VoiceSearchFeedback018@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39DE1CDB1A350006368B /* VoiceSearchFeedback018@2x.png */; };
+		C90B3A071CDB1A350006368B /* VoiceSearchFeedback019.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39DF1CDB1A350006368B /* VoiceSearchFeedback019.png */; };
+		C90B3A081CDB1A350006368B /* VoiceSearchFeedback019@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39E01CDB1A350006368B /* VoiceSearchFeedback019@2x.png */; };
+		C90B3A091CDB1A350006368B /* VoiceSearchFeedback020.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39E11CDB1A350006368B /* VoiceSearchFeedback020.png */; };
+		C90B3A0A1CDB1A350006368B /* VoiceSearchFeedback020@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B39E21CDB1A350006368B /* VoiceSearchFeedback020@2x.png */; };
+		C90B3A161CDB1A500006368B /* chatBar_more_card.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A0C1CDB1A500006368B /* chatBar_more_card.png */; };
+		C90B3A171CDB1A500006368B /* chatBar_more_card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A0D1CDB1A500006368B /* chatBar_more_card@2x.png */; };
+		C90B3A181CDB1A500006368B /* chatBar_more_cardSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A0E1CDB1A500006368B /* chatBar_more_cardSelected.png */; };
+		C90B3A191CDB1A500006368B /* chatBar_more_cardSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A0F1CDB1A500006368B /* chatBar_more_cardSelected@2x.png */; };
+		C90B3A1A1CDB1A500006368B /* chatBar_more_face.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A101CDB1A500006368B /* chatBar_more_face.png */; };
+		C90B3A1B1CDB1A500006368B /* chatBar_more_face@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A111CDB1A500006368B /* chatBar_more_face@2x.png */; };
+		C90B3A1C1CDB1A500006368B /* chatBar_more_faceSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A121CDB1A500006368B /* chatBar_more_faceSelected.png */; };
+		C90B3A1D1CDB1A500006368B /* chatBar_more_faceSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A131CDB1A500006368B /* chatBar_more_faceSelected@2x.png */; };
+		C90B3A1E1CDB1A500006368B /* chatBar_textBg.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A141CDB1A500006368B /* chatBar_textBg.png */; };
+		C90B3A1F1CDB1A500006368B /* chatBar_textBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A151CDB1A500006368B /* chatBar_textBg@2x.png */; };
+		C90B3A291CDB1A630006368B /* chat_location_annotation_someone.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A211CDB1A630006368B /* chat_location_annotation_someone.png */; };
+		C90B3A2A1CDB1A630006368B /* chat_location_annotation_someone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A221CDB1A630006368B /* chat_location_annotation_someone@2x.png */; };
+		C90B3A2B1CDB1A630006368B /* chat_location_detail_disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A231CDB1A630006368B /* chat_location_detail_disclosure.png */; };
+		C90B3A2C1CDB1A630006368B /* chat_location_detail_disclosure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A241CDB1A630006368B /* chat_location_detail_disclosure@2x.png */; };
+		C90B3A2D1CDB1A630006368B /* chat_location_detail_disclosureHL.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A251CDB1A630006368B /* chat_location_detail_disclosureHL.png */; };
+		C90B3A2E1CDB1A630006368B /* chat_location_detail_disclosureHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A261CDB1A630006368B /* chat_location_detail_disclosureHL@2x.png */; };
+		C90B3A2F1CDB1A630006368B /* chat_location_preview.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A271CDB1A630006368B /* chat_location_preview.png */; };
+		C90B3A301CDB1A630006368B /* chat_location_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A281CDB1A630006368B /* chat_location_preview@2x.png */; };
+		C90B3A341CDB1A760006368B /* faceDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A321CDB1A760006368B /* faceDelete.png */; };
+		C90B3A351CDB1A760006368B /* faceDelete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A331CDB1A760006368B /* faceDelete@2x.png */; };
+		C90B3A4C1CDB1AA60006368B /* chatBar_face.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A371CDB1AA60006368B /* chatBar_face.png */; };
+		C90B3A4D1CDB1AA60006368B /* chatBar_face@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A381CDB1AA60006368B /* chatBar_face@2x.png */; };
+		C90B3A4E1CDB1AA60006368B /* chatBar_faceSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A391CDB1AA60006368B /* chatBar_faceSelected.png */; };
+		C90B3A4F1CDB1AA60006368B /* chatBar_faceSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A3A1CDB1AA60006368B /* chatBar_faceSelected@2x.png */; };
+		C90B3A501CDB1AA60006368B /* chatBar_keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A3B1CDB1AA60006368B /* chatBar_keyboard.png */; };
+		C90B3A511CDB1AA60006368B /* chatBar_keyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A3C1CDB1AA60006368B /* chatBar_keyboard@2x.png */; };
+		C90B3A521CDB1AA60006368B /* chatBar_keyboardSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A3D1CDB1AA60006368B /* chatBar_keyboardSelected.png */; };
+		C90B3A531CDB1AA60006368B /* chatBar_keyboardSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A3E1CDB1AA60006368B /* chatBar_keyboardSelected@2x.png */; };
+		C90B3A541CDB1AA60006368B /* chatBar_more.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A3F1CDB1AA60006368B /* chatBar_more.png */; };
+		C90B3A551CDB1AA60006368B /* chatBar_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A401CDB1AA60006368B /* chatBar_more@2x.png */; };
+		C90B3A561CDB1AA60006368B /* chatBar_moreSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A411CDB1AA60006368B /* chatBar_moreSelected.png */; };
+		C90B3A571CDB1AA60006368B /* chatBar_moreSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A421CDB1AA60006368B /* chatBar_moreSelected@2x.png */; };
+		C90B3A581CDB1AA60006368B /* chatBar_record.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A431CDB1AA60006368B /* chatBar_record.png */; };
+		C90B3A591CDB1AA60006368B /* chatBar_record@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A441CDB1AA60006368B /* chatBar_record@2x.png */; };
+		C90B3A5A1CDB1AA60006368B /* chatBar_recordBg.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A451CDB1AA60006368B /* chatBar_recordBg.png */; };
+		C90B3A5B1CDB1AA60006368B /* chatBar_recordBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A461CDB1AA60006368B /* chatBar_recordBg@2x.png */; };
+		C90B3A5C1CDB1AA60006368B /* chatBar_recordSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A471CDB1AA60006368B /* chatBar_recordSelected.png */; };
+		C90B3A5D1CDB1AA60006368B /* chatBar_recordSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A481CDB1AA60006368B /* chatBar_recordSelected@2x.png */; };
+		C90B3A5E1CDB1AA60006368B /* chatBar_recordSelectedBg.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A491CDB1AA60006368B /* chatBar_recordSelectedBg.png */; };
+		C90B3A5F1CDB1AA60006368B /* chatBar_recordSelectedBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A4A1CDB1AA60006368B /* chatBar_recordSelectedBg@2x.png */; };
+		C90B3A601CDB1AA60006368B /* messageToolbarBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A4B1CDB1AA60006368B /* messageToolbarBg@2x.png */; };
+		C90B3A6E1CDB1AB60006368B /* chatBar_colorMore_audioCall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A621CDB1AB60006368B /* chatBar_colorMore_audioCall@2x.png */; };
+		C90B3A6F1CDB1AB60006368B /* chatBar_colorMore_audioCallSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A631CDB1AB60006368B /* chatBar_colorMore_audioCallSelected@2x.png */; };
+		C90B3A701CDB1AB60006368B /* chatBar_colorMore_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A641CDB1AB60006368B /* chatBar_colorMore_camera@2x.png */; };
+		C90B3A711CDB1AB60006368B /* chatBar_colorMore_cameraSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A651CDB1AB60006368B /* chatBar_colorMore_cameraSelected@2x.png */; };
+		C90B3A721CDB1AB60006368B /* chatBar_colorMore_location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A661CDB1AB60006368B /* chatBar_colorMore_location@2x.png */; };
+		C90B3A731CDB1AB60006368B /* chatBar_colorMore_locationSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A671CDB1AB60006368B /* chatBar_colorMore_locationSelected@2x.png */; };
+		C90B3A741CDB1AB60006368B /* chatBar_colorMore_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A681CDB1AB60006368B /* chatBar_colorMore_photo@2x.png */; };
+		C90B3A751CDB1AB60006368B /* chatBar_colorMore_photoSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A691CDB1AB60006368B /* chatBar_colorMore_photoSelected@2x.png */; };
+		C90B3A761CDB1AB60006368B /* chatBar_colorMore_video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A6A1CDB1AB60006368B /* chatBar_colorMore_video@2x.png */; };
+		C90B3A771CDB1AB60006368B /* chatBar_colorMore_videoCall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A6B1CDB1AB60006368B /* chatBar_colorMore_videoCall@2x.png */; };
+		C90B3A781CDB1AB60006368B /* chatBar_colorMore_videoCallSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A6C1CDB1AB60006368B /* chatBar_colorMore_videoCallSelected@2x.png */; };
+		C90B3A791CDB1AB60006368B /* chatBar_colorMore_videoSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A6D1CDB1AB60006368B /* chatBar_colorMore_videoSelected@2x.png */; };
+		C90B3A871CDB1ACA0006368B /* chatBar_more_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A7B1CDB1ACA0006368B /* chatBar_more_camera.png */; };
+		C90B3A881CDB1ACA0006368B /* chatBar_more_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A7C1CDB1ACA0006368B /* chatBar_more_camera@2x.png */; };
+		C90B3A891CDB1ACA0006368B /* chatBar_more_cameraSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A7D1CDB1ACA0006368B /* chatBar_more_cameraSelected.png */; };
+		C90B3A8A1CDB1ACA0006368B /* chatBar_more_cameraSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A7E1CDB1ACA0006368B /* chatBar_more_cameraSelected@2x.png */; };
+		C90B3A8B1CDB1ACA0006368B /* chatBar_more_location.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A7F1CDB1ACA0006368B /* chatBar_more_location.png */; };
+		C90B3A8C1CDB1ACA0006368B /* chatBar_more_location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A801CDB1ACA0006368B /* chatBar_more_location@2x.png */; };
+		C90B3A8D1CDB1ACA0006368B /* chatBar_more_locationSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A811CDB1ACA0006368B /* chatBar_more_locationSelected.png */; };
+		C90B3A8E1CDB1ACA0006368B /* chatBar_more_locationSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A821CDB1ACA0006368B /* chatBar_more_locationSelected@2x.png */; };
+		C90B3A8F1CDB1ACA0006368B /* chatBar_more_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A831CDB1ACA0006368B /* chatBar_more_photo.png */; };
+		C90B3A901CDB1ACA0006368B /* chatBar_more_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A841CDB1ACA0006368B /* chatBar_more_photo@2x.png */; };
+		C90B3A911CDB1ACA0006368B /* chatBar_more_photoSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A851CDB1ACA0006368B /* chatBar_more_photoSelected.png */; };
+		C90B3A921CDB1ACA0006368B /* chatBar_more_photoSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A861CDB1ACA0006368B /* chatBar_more_photoSelected@2x.png */; };
+		C90B3AA01CDB1AE20006368B /* chat_receiver_audio_playing_full.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A941CDB1AE20006368B /* chat_receiver_audio_playing_full.png */; };
+		C90B3AA11CDB1AE20006368B /* chat_receiver_audio_playing_full@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A951CDB1AE20006368B /* chat_receiver_audio_playing_full@2x.png */; };
+		C90B3AA21CDB1AE20006368B /* chat_receiver_audio_playing000.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A961CDB1AE20006368B /* chat_receiver_audio_playing000.png */; };
+		C90B3AA31CDB1AE20006368B /* chat_receiver_audio_playing000@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A971CDB1AE20006368B /* chat_receiver_audio_playing000@2x.png */; };
+		C90B3AA41CDB1AE20006368B /* chat_receiver_audio_playing001.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A981CDB1AE20006368B /* chat_receiver_audio_playing001.png */; };
+		C90B3AA51CDB1AE20006368B /* chat_receiver_audio_playing001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A991CDB1AE20006368B /* chat_receiver_audio_playing001@2x.png */; };
+		C90B3AA61CDB1AE20006368B /* chat_receiver_audio_playing002.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A9A1CDB1AE20006368B /* chat_receiver_audio_playing002.png */; };
+		C90B3AA71CDB1AE20006368B /* chat_receiver_audio_playing002@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A9B1CDB1AE20006368B /* chat_receiver_audio_playing002@2x.png */; };
+		C90B3AA81CDB1AE20006368B /* chat_receiver_audio_playing003.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A9C1CDB1AE20006368B /* chat_receiver_audio_playing003.png */; };
+		C90B3AA91CDB1AE20006368B /* chat_receiver_audio_playing003@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A9D1CDB1AE20006368B /* chat_receiver_audio_playing003@2x.png */; };
+		C90B3AAA1CDB1AE20006368B /* chat_receiver_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A9E1CDB1AE20006368B /* chat_receiver_bg.png */; };
+		C90B3AAB1CDB1AE20006368B /* chat_receiver_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3A9F1CDB1AE20006368B /* chat_receiver_bg@2x.png */; };
+		C90B3AB91CDB1AF20006368B /* chat_sender_audio_playing_000.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AAD1CDB1AF20006368B /* chat_sender_audio_playing_000.png */; };
+		C90B3ABA1CDB1AF20006368B /* chat_sender_audio_playing_000@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AAE1CDB1AF20006368B /* chat_sender_audio_playing_000@2x.png */; };
+		C90B3ABB1CDB1AF20006368B /* chat_sender_audio_playing_001.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AAF1CDB1AF20006368B /* chat_sender_audio_playing_001.png */; };
+		C90B3ABC1CDB1AF20006368B /* chat_sender_audio_playing_001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AB01CDB1AF20006368B /* chat_sender_audio_playing_001@2x.png */; };
+		C90B3ABD1CDB1AF20006368B /* chat_sender_audio_playing_002.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AB11CDB1AF20006368B /* chat_sender_audio_playing_002.png */; };
+		C90B3ABE1CDB1AF20006368B /* chat_sender_audio_playing_002@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AB21CDB1AF20006368B /* chat_sender_audio_playing_002@2x.png */; };
+		C90B3ABF1CDB1AF20006368B /* chat_sender_audio_playing_003.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AB31CDB1AF20006368B /* chat_sender_audio_playing_003.png */; };
+		C90B3AC01CDB1AF20006368B /* chat_sender_audio_playing_003@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AB41CDB1AF20006368B /* chat_sender_audio_playing_003@2x.png */; };
+		C90B3AC11CDB1AF20006368B /* chat_sender_audio_playing_full.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AB51CDB1AF20006368B /* chat_sender_audio_playing_full.png */; };
+		C90B3AC21CDB1AF20006368B /* chat_sender_audio_playing_full@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AB61CDB1AF20006368B /* chat_sender_audio_playing_full@2x.png */; };
+		C90B3AC31CDB1AF20006368B /* chat_sender_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AB71CDB1AF20006368B /* chat_sender_bg.png */; };
+		C90B3AC41CDB1AF20006368B /* chat_sender_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AB81CDB1AF20006368B /* chat_sender_bg@2x.png */; };
+		C90B3ACA1CDB1B100006368B /* account.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AC61CDB1B100006368B /* account.png */; };
+		C90B3ACB1CDB1B100006368B /* account@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AC71CDB1B100006368B /* account@2x.png */; };
+		C90B3ACC1CDB1B100006368B /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AC81CDB1B100006368B /* password.png */; };
+		C90B3ACD1CDB1B100006368B /* password@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AC91CDB1B100006368B /* password@2x.png */; };
+		C90B3AD51CDB1B220006368B /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3ACF1CDB1B220006368B /* add@2x.png */; };
+		C90B3AD61CDB1B220006368B /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AD01CDB1B220006368B /* back@2x.png */; };
+		C90B3AD71CDB1B220006368B /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AD11CDB1B220006368B /* delete@2x.png */; };
+		C90B3AD81CDB1B220006368B /* group_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AD21CDB1B220006368B /* group_detail@2x.png */; };
+		C90B3AD91CDB1B220006368B /* titleBar.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AD31CDB1B220006368B /* titleBar.png */; };
+		C90B3ADA1CDB1B220006368B /* titleBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AD41CDB1B220006368B /* titleBar@2x.png */; };
+		C90B3AE61CDB1B360006368B /* group_creategroup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3ADC1CDB1B360006368B /* group_creategroup@2x.png */; };
+		C90B3AE71CDB1B360006368B /* group_header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3ADD1CDB1B360006368B /* group_header@2x.png */; };
+		C90B3AE81CDB1B360006368B /* group_invitee_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3ADE1CDB1B360006368B /* group_invitee_delete@2x.png */; };
+		C90B3AE91CDB1B360006368B /* group_joinpublicgroup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3ADF1CDB1B360006368B /* group_joinpublicgroup@2x.png */; };
+		C90B3AEA1CDB1B360006368B /* group_participant_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AE01CDB1B360006368B /* group_participant_add@2x.png */; };
+		C90B3AEB1CDB1B360006368B /* group_participant_addHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AE11CDB1B360006368B /* group_participant_addHL@2x.png */; };
+		C90B3AEC1CDB1B360006368B /* groupPrivateHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AE21CDB1B360006368B /* groupPrivateHeader@2x.png */; };
+		C90B3AED1CDB1B360006368B /* groupPublicHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AE31CDB1B360006368B /* groupPublicHeader@2x.png */; };
+		C90B3AEE1CDB1B360006368B /* nav_createGroup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AE41CDB1B360006368B /* nav_createGroup@2x.png */; };
+		C90B3AEF1CDB1B360006368B /* newFriends@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AE51CDB1B360006368B /* newFriends@2x.png */; };
+		C90B3B011CDB1B530006368B /* tabbar_chats.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AF11CDB1B530006368B /* tabbar_chats.png */; };
+		C90B3B021CDB1B530006368B /* tabbar_chats@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AF21CDB1B530006368B /* tabbar_chats@2x.png */; };
+		C90B3B031CDB1B530006368B /* tabbar_chatsHL.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AF31CDB1B530006368B /* tabbar_chatsHL.png */; };
+		C90B3B041CDB1B530006368B /* tabbar_chatsHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AF41CDB1B530006368B /* tabbar_chatsHL@2x.png */; };
+		C90B3B051CDB1B530006368B /* tabbar_contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AF51CDB1B530006368B /* tabbar_contacts.png */; };
+		C90B3B061CDB1B530006368B /* tabbar_contacts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AF61CDB1B530006368B /* tabbar_contacts@2x.png */; };
+		C90B3B071CDB1B530006368B /* tabbar_contactsHL.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AF71CDB1B530006368B /* tabbar_contactsHL.png */; };
+		C90B3B081CDB1B530006368B /* tabbar_contactsHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AF81CDB1B530006368B /* tabbar_contactsHL@2x.png */; };
+		C90B3B091CDB1B530006368B /* tabbar_setting.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AF91CDB1B530006368B /* tabbar_setting.png */; };
+		C90B3B0A1CDB1B530006368B /* tabbar_setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AFA1CDB1B530006368B /* tabbar_setting@2x.png */; };
+		C90B3B0B1CDB1B530006368B /* tabbar_settingHL.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AFB1CDB1B530006368B /* tabbar_settingHL.png */; };
+		C90B3B0C1CDB1B530006368B /* tabbar_settingHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AFC1CDB1B530006368B /* tabbar_settingHL@2x.png */; };
+		C90B3B0D1CDB1B530006368B /* tabbarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AFD1CDB1B530006368B /* tabbarBackground.png */; };
+		C90B3B0E1CDB1B530006368B /* tabbarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AFE1CDB1B530006368B /* tabbarBackground@2x.png */; };
+		C90B3B0F1CDB1B530006368B /* tabbarSelectBg.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3AFF1CDB1B530006368B /* tabbarSelectBg.png */; };
+		C90B3B101CDB1B530006368B /* tabbarSelectBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C90B3B001CDB1B530006368B /* tabbarSelectBg@2x.png */; };
 		FE66E88A1CD840D40092FADF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E8891CD840D40092FADF /* main.m */; };
 		FE66E88D1CD840D40092FADF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E88C1CD840D40092FADF /* AppDelegate.m */; };
 		FE66E8901CD840D40092FADF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E88F1CD840D40092FADF /* ViewController.m */; };
@@ -272,6 +527,331 @@
 		C90B38A11CDAE89D0006368B /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dec_if.h; path = "3rd/VoiceConvert/opencore-amrwb/dec_if.h"; sourceTree = "<group>"; };
 		C90B38A21CDAE89D0006368B /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = if_rom.h; path = "3rd/VoiceConvert/opencore-amrwb/if_rom.h"; sourceTree = "<group>"; };
 		C90B38A31CDAE89D0006368B /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "3rd/VoiceConvert/opencore-amrwb/libopencore-amrwb.a"; sourceTree = "<group>"; };
+		C90B38A71CDB140B0006368B /* callRing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = callRing.mp3; path = class/Call/callRing.mp3; sourceTree = "<group>"; };
+		C90B38A81CDB140B0006368B /* CallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CallViewController.h; path = class/Call/CallViewController.h; sourceTree = "<group>"; };
+		C90B38A91CDB140B0006368B /* CallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CallViewController.m; path = class/Call/CallViewController.m; sourceTree = "<group>"; };
+		C90B38AE1CDB143D0006368B /* ChatListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatListCell.h; path = class/Chat/ChatList/ChatListCell.h; sourceTree = "<group>"; };
+		C90B38AF1CDB143D0006368B /* ChatListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatListCell.m; path = class/Chat/ChatList/ChatListCell.m; sourceTree = "<group>"; };
+		C90B38B01CDB143D0006368B /* ChatListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatListViewController.h; path = class/Chat/ChatList/ChatListViewController.h; sourceTree = "<group>"; };
+		C90B38B11CDB143D0006368B /* ChatListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatListViewController.m; path = class/Chat/ChatList/ChatListViewController.m; sourceTree = "<group>"; };
+		C90B38B51CDB14650006368B /* ChatSendHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatSendHelper.h; path = class/Chat/ChatView/ChatSendHelper.h; sourceTree = "<group>"; };
+		C90B38B61CDB14650006368B /* ChatSendHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatSendHelper.m; path = class/Chat/ChatView/ChatSendHelper.m; sourceTree = "<group>"; };
+		C90B38B71CDB14650006368B /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatViewController.h; path = class/Chat/ChatView/ChatViewController.h; sourceTree = "<group>"; };
+		C90B38B81CDB14650006368B /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatViewController.m; path = class/Chat/ChatView/ChatViewController.m; sourceTree = "<group>"; };
+		C90B38B91CDB14650006368B /* ChatViewController+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ChatViewController+Category.h"; path = "class/Chat/ChatView/ChatViewController+Category.h"; sourceTree = "<group>"; };
+		C90B38BA1CDB14650006368B /* ChatViewController+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ChatViewController+Category.m"; path = "class/Chat/ChatView/ChatViewController+Category.m"; sourceTree = "<group>"; };
+		C90B38BB1CDB14650006368B /* ConvertToCommonEmoticonsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConvertToCommonEmoticonsHelper.h; path = class/Chat/ChatView/ConvertToCommonEmoticonsHelper.h; sourceTree = "<group>"; };
+		C90B38BC1CDB14650006368B /* ConvertToCommonEmoticonsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConvertToCommonEmoticonsHelper.m; path = class/Chat/ChatView/ConvertToCommonEmoticonsHelper.m; sourceTree = "<group>"; };
+		C90B38BD1CDB14650006368B /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationViewController.h; path = class/Chat/ChatView/LocationViewController.h; sourceTree = "<group>"; };
+		C90B38BE1CDB14650006368B /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationViewController.m; path = class/Chat/ChatView/LocationViewController.m; sourceTree = "<group>"; };
+		C90B38C51CDB147F0006368B /* DXMessageToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DXMessageToolBar.h; path = class/Chat/ChatView/MessageToolbar/DXMessageToolBar.h; sourceTree = "<group>"; };
+		C90B38C61CDB147F0006368B /* DXMessageToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DXMessageToolBar.m; path = class/Chat/ChatView/MessageToolbar/DXMessageToolBar.m; sourceTree = "<group>"; };
+		C90B38CA1CDB14CB0006368B /* DXFaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DXFaceView.h; path = class/Chat/ChatView/MessageToolbar/MessageToolBarBottomView/FaceView/DXFaceView.h; sourceTree = "<group>"; };
+		C90B38CB1CDB14CB0006368B /* DXFaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DXFaceView.m; path = class/Chat/ChatView/MessageToolbar/MessageToolBarBottomView/FaceView/DXFaceView.m; sourceTree = "<group>"; };
+		C90B38CC1CDB14CB0006368B /* FacialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FacialView.h; path = class/Chat/ChatView/MessageToolbar/MessageToolBarBottomView/FaceView/FacialView.h; sourceTree = "<group>"; };
+		C90B38CD1CDB14CB0006368B /* FacialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FacialView.m; path = class/Chat/ChatView/MessageToolbar/MessageToolBarBottomView/FaceView/FacialView.m; sourceTree = "<group>"; };
+		C90B38D11CDB14EC0006368B /* DXChatBarMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DXChatBarMoreView.h; path = class/Chat/ChatView/MessageToolbar/MessageToolBarBottomView/MoreView/DXChatBarMoreView.h; sourceTree = "<group>"; };
+		C90B38D21CDB14EC0006368B /* DXChatBarMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DXChatBarMoreView.m; path = class/Chat/ChatView/MessageToolbar/MessageToolBarBottomView/MoreView/DXChatBarMoreView.m; sourceTree = "<group>"; };
+		C90B38D51CDB15030006368B /* DXRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DXRecordView.h; path = class/Chat/ChatView/MessageToolbar/MessageToolBarBottomView/RecordView/DXRecordView.h; sourceTree = "<group>"; };
+		C90B38D61CDB15030006368B /* DXRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DXRecordView.m; path = class/Chat/ChatView/MessageToolbar/MessageToolBarBottomView/RecordView/DXRecordView.m; sourceTree = "<group>"; };
+		C90B38D91CDB152F0006368B /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageModel.h; path = class/Chat/ChatView/MessageView/MessageModel.h; sourceTree = "<group>"; };
+		C90B38DA1CDB152F0006368B /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageModel.m; path = class/Chat/ChatView/MessageView/MessageModel.m; sourceTree = "<group>"; };
+		C90B38DB1CDB152F0006368B /* MessageModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageModelManager.h; path = class/Chat/ChatView/MessageView/MessageModelManager.h; sourceTree = "<group>"; };
+		C90B38DC1CDB152F0006368B /* MessageModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageModelManager.m; path = class/Chat/ChatView/MessageView/MessageModelManager.m; sourceTree = "<group>"; };
+		C90B38DD1CDB152F0006368B /* MessageReadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageReadManager.h; path = class/Chat/ChatView/MessageView/MessageReadManager.h; sourceTree = "<group>"; };
+		C90B38DE1CDB152F0006368B /* MessageReadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageReadManager.m; path = class/Chat/ChatView/MessageView/MessageReadManager.m; sourceTree = "<group>"; };
+		C90B38E31CDB15530006368B /* EMChatTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMChatTimeCell.h; path = class/Chat/ChatView/MessageView/ChatCell/EMChatTimeCell.h; sourceTree = "<group>"; };
+		C90B38E41CDB15530006368B /* EMChatTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMChatTimeCell.m; path = class/Chat/ChatView/MessageView/ChatCell/EMChatTimeCell.m; sourceTree = "<group>"; };
+		C90B38E51CDB15530006368B /* EMChatViewBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMChatViewBaseCell.h; path = class/Chat/ChatView/MessageView/ChatCell/EMChatViewBaseCell.h; sourceTree = "<group>"; };
+		C90B38E61CDB15530006368B /* EMChatViewBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMChatViewBaseCell.m; path = class/Chat/ChatView/MessageView/ChatCell/EMChatViewBaseCell.m; sourceTree = "<group>"; };
+		C90B38E71CDB15530006368B /* EMChatViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMChatViewCell.h; path = class/Chat/ChatView/MessageView/ChatCell/EMChatViewCell.h; sourceTree = "<group>"; };
+		C90B38E81CDB15530006368B /* EMChatViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMChatViewCell.m; path = class/Chat/ChatView/MessageView/ChatCell/EMChatViewCell.m; sourceTree = "<group>"; };
+		C90B38ED1CDB156C0006368B /* EMChatAudioBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMChatAudioBubbleView.h; path = class/Chat/ChatView/MessageView/ChatCell/ChatCellBubble/EMChatAudioBubbleView.h; sourceTree = "<group>"; };
+		C90B38EE1CDB156C0006368B /* EMChatAudioBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMChatAudioBubbleView.m; path = class/Chat/ChatView/MessageView/ChatCell/ChatCellBubble/EMChatAudioBubbleView.m; sourceTree = "<group>"; };
+		C90B38EF1CDB156C0006368B /* EMChatBaseBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMChatBaseBubbleView.h; path = class/Chat/ChatView/MessageView/ChatCell/ChatCellBubble/EMChatBaseBubbleView.h; sourceTree = "<group>"; };
+		C90B38F01CDB156C0006368B /* EMChatBaseBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMChatBaseBubbleView.m; path = class/Chat/ChatView/MessageView/ChatCell/ChatCellBubble/EMChatBaseBubbleView.m; sourceTree = "<group>"; };
+		C90B38F11CDB156C0006368B /* EMChatImageBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMChatImageBubbleView.h; path = class/Chat/ChatView/MessageView/ChatCell/ChatCellBubble/EMChatImageBubbleView.h; sourceTree = "<group>"; };
+		C90B38F21CDB156C0006368B /* EMChatImageBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMChatImageBubbleView.m; path = class/Chat/ChatView/MessageView/ChatCell/ChatCellBubble/EMChatImageBubbleView.m; sourceTree = "<group>"; };
+		C90B38F31CDB156C0006368B /* EMChatLocationBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMChatLocationBubbleView.h; path = class/Chat/ChatView/MessageView/ChatCell/ChatCellBubble/EMChatLocationBubbleView.h; sourceTree = "<group>"; };
+		C90B38F41CDB156C0006368B /* EMChatLocationBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMChatLocationBubbleView.m; path = class/Chat/ChatView/MessageView/ChatCell/ChatCellBubble/EMChatLocationBubbleView.m; sourceTree = "<group>"; };
+		C90B38F51CDB156C0006368B /* EMChatTextBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMChatTextBubbleView.h; path = class/Chat/ChatView/MessageView/ChatCell/ChatCellBubble/EMChatTextBubbleView.h; sourceTree = "<group>"; };
+		C90B38F61CDB156C0006368B /* EMChatTextBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMChatTextBubbleView.m; path = class/Chat/ChatView/MessageView/ChatCell/ChatCellBubble/EMChatTextBubbleView.m; sourceTree = "<group>"; };
+		C90B38F71CDB156C0006368B /* EMChatVideoBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMChatVideoBubbleView.h; path = class/Chat/ChatView/MessageView/ChatCell/ChatCellBubble/EMChatVideoBubbleView.h; sourceTree = "<group>"; };
+		C90B38F81CDB156C0006368B /* EMChatVideoBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMChatVideoBubbleView.m; path = class/Chat/ChatView/MessageView/ChatCell/ChatCellBubble/EMChatVideoBubbleView.m; sourceTree = "<group>"; };
+		C90B39001CDB15A80006368B /* ChatGroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatGroupDetailViewController.h; path = class/ChatGroup/ChatGroupDetailViewController.h; sourceTree = "<group>"; };
+		C90B39011CDB15A80006368B /* ChatGroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatGroupDetailViewController.m; path = class/ChatGroup/ChatGroupDetailViewController.m; sourceTree = "<group>"; };
+		C90B39021CDB15A80006368B /* ContactSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactSelectionViewController.h; path = class/ChatGroup/ContactSelectionViewController.h; sourceTree = "<group>"; };
+		C90B39031CDB15A80006368B /* ContactSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactSelectionViewController.m; path = class/ChatGroup/ContactSelectionViewController.m; sourceTree = "<group>"; };
+		C90B39041CDB15A80006368B /* ContactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactView.h; path = class/ChatGroup/ContactView.h; sourceTree = "<group>"; };
+		C90B39051CDB15A80006368B /* ContactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactView.m; path = class/ChatGroup/ContactView.m; sourceTree = "<group>"; };
+		C90B39061CDB15A80006368B /* CreateGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateGroupViewController.h; path = class/ChatGroup/CreateGroupViewController.h; sourceTree = "<group>"; };
+		C90B39071CDB15A80006368B /* CreateGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateGroupViewController.m; path = class/ChatGroup/CreateGroupViewController.m; sourceTree = "<group>"; };
+		C90B39081CDB15A80006368B /* GroupBansViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupBansViewController.h; path = class/ChatGroup/GroupBansViewController.h; sourceTree = "<group>"; };
+		C90B39091CDB15A80006368B /* GroupBansViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupBansViewController.m; path = class/ChatGroup/GroupBansViewController.m; sourceTree = "<group>"; };
+		C90B390A1CDB15A80006368B /* GroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupListViewController.h; path = class/ChatGroup/GroupListViewController.h; sourceTree = "<group>"; };
+		C90B390B1CDB15A80006368B /* GroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupListViewController.m; path = class/ChatGroup/GroupListViewController.m; sourceTree = "<group>"; };
+		C90B390C1CDB15A80006368B /* GroupSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupSettingViewController.h; path = class/ChatGroup/GroupSettingViewController.h; sourceTree = "<group>"; };
+		C90B390D1CDB15A80006368B /* GroupSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupSettingViewController.m; path = class/ChatGroup/GroupSettingViewController.m; sourceTree = "<group>"; };
+		C90B390E1CDB15A80006368B /* GroupSubjectChangingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupSubjectChangingViewController.h; path = class/ChatGroup/GroupSubjectChangingViewController.h; sourceTree = "<group>"; };
+		C90B390F1CDB15A80006368B /* GroupSubjectChangingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupSubjectChangingViewController.m; path = class/ChatGroup/GroupSubjectChangingViewController.m; sourceTree = "<group>"; };
+		C90B39101CDB15A80006368B /* PublicGroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublicGroupDetailViewController.h; path = class/ChatGroup/PublicGroupDetailViewController.h; sourceTree = "<group>"; };
+		C90B39111CDB15A80006368B /* PublicGroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PublicGroupDetailViewController.m; path = class/ChatGroup/PublicGroupDetailViewController.m; sourceTree = "<group>"; };
+		C90B39121CDB15A80006368B /* PublicGroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublicGroupListViewController.h; path = class/ChatGroup/PublicGroupListViewController.h; sourceTree = "<group>"; };
+		C90B39131CDB15A80006368B /* PublicGroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PublicGroupListViewController.m; path = class/ChatGroup/PublicGroupListViewController.m; sourceTree = "<group>"; };
+		C90B391F1CDB15BE0006368B /* ChatroomDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatroomDetailViewController.h; path = class/Chatroom/ChatroomDetailViewController.h; sourceTree = "<group>"; };
+		C90B39201CDB15BE0006368B /* ChatroomDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatroomDetailViewController.m; path = class/Chatroom/ChatroomDetailViewController.m; sourceTree = "<group>"; };
+		C90B39211CDB15BE0006368B /* ChatroomListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatroomListViewController.h; path = class/Chatroom/ChatroomListViewController.h; sourceTree = "<group>"; };
+		C90B39221CDB15BE0006368B /* ChatroomListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatroomListViewController.m; path = class/Chatroom/ChatroomListViewController.m; sourceTree = "<group>"; };
+		C90B39231CDB15BE0006368B /* MyChatroomListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyChatroomListViewController.h; path = class/Chatroom/MyChatroomListViewController.h; sourceTree = "<group>"; };
+		C90B39241CDB15BE0006368B /* MyChatroomListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyChatroomListViewController.m; path = class/Chatroom/MyChatroomListViewController.m; sourceTree = "<group>"; };
+		C90B39291CDB15E70006368B /* ChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChineseToPinyin.h; path = class/Contacts/ChineseToPinyin.h; sourceTree = "<group>"; };
+		C90B392A1CDB15E70006368B /* ChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChineseToPinyin.m; path = class/Contacts/ChineseToPinyin.m; sourceTree = "<group>"; };
+		C90B392B1CDB15E70006368B /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactsViewController.h; path = class/Contacts/ContactsViewController.h; sourceTree = "<group>"; };
+		C90B392C1CDB15E70006368B /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactsViewController.m; path = class/Contacts/ContactsViewController.m; sourceTree = "<group>"; };
+		C90B392D1CDB15E70006368B /* RealtimeSearchUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RealtimeSearchUtil.h; path = class/Contacts/RealtimeSearchUtil.h; sourceTree = "<group>"; };
+		C90B392E1CDB15E70006368B /* RealtimeSearchUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RealtimeSearchUtil.m; path = class/Contacts/RealtimeSearchUtil.m; sourceTree = "<group>"; };
+		C90B39331CDB160E0006368B /* AddFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddFriendCell.h; path = class/Contacts/FriendApply/AddFriendCell.h; sourceTree = "<group>"; };
+		C90B39341CDB160E0006368B /* AddFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddFriendCell.m; path = class/Contacts/FriendApply/AddFriendCell.m; sourceTree = "<group>"; };
+		C90B39351CDB160E0006368B /* AddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddFriendViewController.h; path = class/Contacts/FriendApply/AddFriendViewController.h; sourceTree = "<group>"; };
+		C90B39361CDB160E0006368B /* AddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddFriendViewController.m; path = class/Contacts/FriendApply/AddFriendViewController.m; sourceTree = "<group>"; };
+		C90B39371CDB160E0006368B /* ApplyFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplyFriendCell.h; path = class/Contacts/FriendApply/ApplyFriendCell.h; sourceTree = "<group>"; };
+		C90B39381CDB160E0006368B /* ApplyFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplyFriendCell.m; path = class/Contacts/FriendApply/ApplyFriendCell.m; sourceTree = "<group>"; };
+		C90B39391CDB160E0006368B /* ApplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplyViewController.h; path = class/Contacts/FriendApply/ApplyViewController.h; sourceTree = "<group>"; };
+		C90B393A1CDB160E0006368B /* ApplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplyViewController.m; path = class/Contacts/FriendApply/ApplyViewController.m; sourceTree = "<group>"; };
+		C90B39401CDB16280006368B /* InvitationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InvitationManager.h; path = "class/Core Data/InvitationManager.h"; sourceTree = "<group>"; };
+		C90B39411CDB16280006368B /* InvitationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InvitationManager.m; path = "class/Core Data/InvitationManager.m"; sourceTree = "<group>"; };
+		C90B39421CDB16280006368B /* UserProfileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserProfileManager.h; path = "class/Core Data/UserProfileManager.h"; sourceTree = "<group>"; };
+		C90B39431CDB16280006368B /* UserProfileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserProfileManager.m; path = "class/Core Data/UserProfileManager.m"; sourceTree = "<group>"; };
+		C90B39471CDB163B0006368B /* UserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserProfileViewController.h; path = class/Profile/UserProfileViewController.h; sourceTree = "<group>"; };
+		C90B39481CDB163B0006368B /* UserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserProfileViewController.m; path = class/Profile/UserProfileViewController.m; sourceTree = "<group>"; };
+		C90B394B1CDB166F0006368B /* EMRobotChatTextBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMRobotChatTextBubbleView.h; path = class/Robot/EMRobotChatTextBubbleView.h; sourceTree = "<group>"; };
+		C90B394C1CDB166F0006368B /* EMRobotChatTextBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMRobotChatTextBubbleView.m; path = class/Robot/EMRobotChatTextBubbleView.m; sourceTree = "<group>"; };
+		C90B394D1CDB166F0006368B /* EMRotbotChatViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMRotbotChatViewCell.h; path = class/Robot/EMRotbotChatViewCell.h; sourceTree = "<group>"; };
+		C90B394E1CDB166F0006368B /* EMRotbotChatViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMRotbotChatViewCell.m; path = class/Robot/EMRotbotChatViewCell.m; sourceTree = "<group>"; };
+		C90B394F1CDB166F0006368B /* RobotChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobotChatViewController.h; path = class/Robot/RobotChatViewController.h; sourceTree = "<group>"; };
+		C90B39501CDB166F0006368B /* RobotChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobotChatViewController.m; path = class/Robot/RobotChatViewController.m; sourceTree = "<group>"; };
+		C90B39511CDB166F0006368B /* RobotListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobotListViewController.h; path = class/Robot/RobotListViewController.h; sourceTree = "<group>"; };
+		C90B39521CDB166F0006368B /* RobotListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobotListViewController.m; path = class/Robot/RobotListViewController.m; sourceTree = "<group>"; };
+		C90B39531CDB166F0006368B /* RobotManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobotManager.h; path = class/Robot/RobotManager.h; sourceTree = "<group>"; };
+		C90B39541CDB166F0006368B /* RobotManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobotManager.m; path = class/Robot/RobotManager.m; sourceTree = "<group>"; };
+		C90B395B1CDB17B40006368B /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTableViewCell.h; path = Custom/BaseTableViewCell.h; sourceTree = "<group>"; };
+		C90B395C1CDB17B40006368B /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseTableViewCell.m; path = Custom/BaseTableViewCell.m; sourceTree = "<group>"; };
+		C90B395D1CDB17B40006368B /* EMSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMSearchBar.h; path = Custom/EMSearchBar.h; sourceTree = "<group>"; };
+		C90B395E1CDB17B40006368B /* EMSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMSearchBar.m; path = Custom/EMSearchBar.m; sourceTree = "<group>"; };
+		C90B395F1CDB17B40006368B /* EMTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMTextView.h; path = Custom/EMTextView.h; sourceTree = "<group>"; };
+		C90B39601CDB17B40006368B /* EMTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMTextView.m; path = Custom/EMTextView.m; sourceTree = "<group>"; };
+		C90B39611CDB17B40006368B /* XHMessageTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XHMessageTextView.h; path = Custom/XHMessageTextView.h; sourceTree = "<group>"; };
+		C90B39621CDB17B40006368B /* XHMessageTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XHMessageTextView.m; path = Custom/XHMessageTextView.m; sourceTree = "<group>"; };
+		C90B39681CDB17C60006368B /* EMRemarkImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMRemarkImageView.h; path = Custom/View/EMRemarkImageView.h; sourceTree = "<group>"; };
+		C90B39691CDB17C60006368B /* EMRemarkImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMRemarkImageView.m; path = Custom/View/EMRemarkImageView.m; sourceTree = "<group>"; };
+		C90B396C1CDB17E00006368B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = Custom/ViewController/BaseViewController.h; sourceTree = "<group>"; };
+		C90B396D1CDB17E00006368B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = Custom/ViewController/BaseViewController.m; sourceTree = "<group>"; };
+		C90B396E1CDB17E00006368B /* EMChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMChooseViewController.h; path = Custom/ViewController/EMChooseViewController.h; sourceTree = "<group>"; };
+		C90B396F1CDB17E00006368B /* EMChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMChooseViewController.m; path = Custom/ViewController/EMChooseViewController.m; sourceTree = "<group>"; };
+		C90B39701CDB17E00006368B /* EMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMNavigationController.h; path = Custom/ViewController/EMNavigationController.h; sourceTree = "<group>"; };
+		C90B39711CDB17E00006368B /* EMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMNavigationController.m; path = Custom/ViewController/EMNavigationController.m; sourceTree = "<group>"; };
+		C90B39721CDB17E00006368B /* EMSearchDisplayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMSearchDisplayController.h; path = Custom/ViewController/EMSearchDisplayController.h; sourceTree = "<group>"; };
+		C90B39731CDB17E00006368B /* EMSearchDisplayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMSearchDisplayController.m; path = Custom/ViewController/EMSearchDisplayController.m; sourceTree = "<group>"; };
+		C90B39791CDB19280006368B /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Category.h"; path = "Category/NSDate+Category.h"; sourceTree = "<group>"; };
+		C90B397A1CDB19280006368B /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Category.m"; path = "Category/NSDate+Category.m"; sourceTree = "<group>"; };
+		C90B397B1CDB19280006368B /* NSDateFormatter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+Category.h"; path = "Category/NSDateFormatter+Category.h"; sourceTree = "<group>"; };
+		C90B397C1CDB19280006368B /* NSDateFormatter+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+Category.m"; path = "Category/NSDateFormatter+Category.m"; sourceTree = "<group>"; };
+		C90B397D1CDB19280006368B /* NSString+Valid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Valid.h"; path = "Category/NSString+Valid.h"; sourceTree = "<group>"; };
+		C90B397E1CDB19280006368B /* NSString+Valid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Valid.m"; path = "Category/NSString+Valid.m"; sourceTree = "<group>"; };
+		C90B397F1CDB19280006368B /* UIImageView+HeadImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HeadImage.h"; path = "Category/UIImageView+HeadImage.h"; sourceTree = "<group>"; };
+		C90B39801CDB19280006368B /* UIImageView+HeadImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HeadImage.m"; path = "Category/UIImageView+HeadImage.m"; sourceTree = "<group>"; };
+		C90B39811CDB19280006368B /* UIResponder+Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIResponder+Router.h"; path = "Category/UIResponder+Router.h"; sourceTree = "<group>"; };
+		C90B39821CDB19280006368B /* UIResponder+Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+Router.m"; path = "Category/UIResponder+Router.m"; sourceTree = "<group>"; };
+		C90B39831CDB19280006368B /* UIViewController+DismissKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+DismissKeyboard.h"; path = "Category/UIViewController+DismissKeyboard.h"; sourceTree = "<group>"; };
+		C90B39841CDB19280006368B /* UIViewController+DismissKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+DismissKeyboard.m"; path = "Category/UIViewController+DismissKeyboard.m"; sourceTree = "<group>"; };
+		C90B39851CDB19280006368B /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+HUD.h"; path = "Category/UIViewController+HUD.h"; sourceTree = "<group>"; };
+		C90B39861CDB19280006368B /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+HUD.m"; path = "Category/UIViewController+HUD.m"; sourceTree = "<group>"; };
+		C90B39901CDB19D30006368B /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 29.png; path = Resources/appicon/29.png; sourceTree = SOURCE_ROOT; };
+		C90B39911CDB19D30006368B /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 57.png; path = Resources/appicon/57.png; sourceTree = SOURCE_ROOT; };
+		C90B39921CDB19D30006368B /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 58.png; path = Resources/appicon/58.png; sourceTree = SOURCE_ROOT; };
+		C90B39931CDB19D30006368B /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 80.png; path = Resources/appicon/80.png; sourceTree = SOURCE_ROOT; };
+		C90B39941CDB19D30006368B /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 114.png; path = Resources/appicon/114.png; sourceTree = SOURCE_ROOT; };
+		C90B39951CDB19D30006368B /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 120.png; path = Resources/appicon/120.png; sourceTree = SOURCE_ROOT; };
+		C90B399D1CDB19E90006368B /* chatListCellHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatListCellHead.png; path = Resources/chatListCell/chatListCellHead.png; sourceTree = SOURCE_ROOT; };
+		C90B399E1CDB19E90006368B /* chatListCellHead@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatListCellHead@2x.png"; path = "Resources/chatListCell/chatListCellHead@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39A21CDB1A110006368B /* call_out_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = call_out_h.png; path = Resources/ChatView/call_out_h.png; sourceTree = SOURCE_ROOT; };
+		C90B39A31CDB1A110006368B /* call_out_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "call_out_h@2x.png"; path = "Resources/ChatView/call_out_h@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39A41CDB1A110006368B /* call_out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = call_out.png; path = Resources/ChatView/call_out.png; sourceTree = SOURCE_ROOT; };
+		C90B39A51CDB1A110006368B /* call_out@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "call_out@2x.png"; path = "Resources/ChatView/call_out@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39A61CDB1A110006368B /* call_silence_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = call_silence_h.png; path = Resources/ChatView/call_silence_h.png; sourceTree = SOURCE_ROOT; };
+		C90B39A71CDB1A110006368B /* call_silence_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "call_silence_h@2x.png"; path = "Resources/ChatView/call_silence_h@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39A81CDB1A110006368B /* call_silence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = call_silence.png; path = Resources/ChatView/call_silence.png; sourceTree = SOURCE_ROOT; };
+		C90B39A91CDB1A110006368B /* call_silence@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "call_silence@2x.png"; path = "Resources/ChatView/call_silence@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39AA1CDB1A110006368B /* callBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "callBg@2x.png"; path = "Resources/ChatView/callBg@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39AB1CDB1A110006368B /* chat_video_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat_video_play.png; path = Resources/ChatView/chat_video_play.png; sourceTree = SOURCE_ROOT; };
+		C90B39AC1CDB1A110006368B /* imageDownloadFail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "imageDownloadFail@2x.png"; path = "Resources/ChatView/imageDownloadFail@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39AD1CDB1A110006368B /* messageSendFail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "messageSendFail@2x.png"; path = "Resources/ChatView/messageSendFail@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39BB1CDB1A350006368B /* VoiceSearchFeedback001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback001.png; path = Resources/ChatView/audio/VoiceSearchFeedback001.png; sourceTree = SOURCE_ROOT; };
+		C90B39BC1CDB1A350006368B /* VoiceSearchFeedback001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback001@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback001@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39BD1CDB1A350006368B /* VoiceSearchFeedback002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback002.png; path = Resources/ChatView/audio/VoiceSearchFeedback002.png; sourceTree = SOURCE_ROOT; };
+		C90B39BE1CDB1A350006368B /* VoiceSearchFeedback002@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback002@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback002@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39BF1CDB1A350006368B /* VoiceSearchFeedback003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback003.png; path = Resources/ChatView/audio/VoiceSearchFeedback003.png; sourceTree = SOURCE_ROOT; };
+		C90B39C01CDB1A350006368B /* VoiceSearchFeedback003@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback003@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback003@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39C11CDB1A350006368B /* VoiceSearchFeedback004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback004.png; path = Resources/ChatView/audio/VoiceSearchFeedback004.png; sourceTree = SOURCE_ROOT; };
+		C90B39C21CDB1A350006368B /* VoiceSearchFeedback004@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback004@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback004@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39C31CDB1A350006368B /* VoiceSearchFeedback005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback005.png; path = Resources/ChatView/audio/VoiceSearchFeedback005.png; sourceTree = SOURCE_ROOT; };
+		C90B39C41CDB1A350006368B /* VoiceSearchFeedback005@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback005@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback005@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39C51CDB1A350006368B /* VoiceSearchFeedback006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback006.png; path = Resources/ChatView/audio/VoiceSearchFeedback006.png; sourceTree = SOURCE_ROOT; };
+		C90B39C61CDB1A350006368B /* VoiceSearchFeedback006@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback006@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback006@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39C71CDB1A350006368B /* VoiceSearchFeedback007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback007.png; path = Resources/ChatView/audio/VoiceSearchFeedback007.png; sourceTree = SOURCE_ROOT; };
+		C90B39C81CDB1A350006368B /* VoiceSearchFeedback007@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback007@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback007@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39C91CDB1A350006368B /* VoiceSearchFeedback008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback008.png; path = Resources/ChatView/audio/VoiceSearchFeedback008.png; sourceTree = SOURCE_ROOT; };
+		C90B39CA1CDB1A350006368B /* VoiceSearchFeedback008@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback008@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback008@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39CB1CDB1A350006368B /* VoiceSearchFeedback009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback009.png; path = Resources/ChatView/audio/VoiceSearchFeedback009.png; sourceTree = SOURCE_ROOT; };
+		C90B39CC1CDB1A350006368B /* VoiceSearchFeedback009@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback009@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback009@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39CD1CDB1A350006368B /* VoiceSearchFeedback010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback010.png; path = Resources/ChatView/audio/VoiceSearchFeedback010.png; sourceTree = SOURCE_ROOT; };
+		C90B39CE1CDB1A350006368B /* VoiceSearchFeedback010@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback010@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback010@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39CF1CDB1A350006368B /* VoiceSearchFeedback011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback011.png; path = Resources/ChatView/audio/VoiceSearchFeedback011.png; sourceTree = SOURCE_ROOT; };
+		C90B39D01CDB1A350006368B /* VoiceSearchFeedback011@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback011@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback011@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39D11CDB1A350006368B /* VoiceSearchFeedback012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback012.png; path = Resources/ChatView/audio/VoiceSearchFeedback012.png; sourceTree = SOURCE_ROOT; };
+		C90B39D21CDB1A350006368B /* VoiceSearchFeedback012@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback012@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback012@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39D31CDB1A350006368B /* VoiceSearchFeedback013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback013.png; path = Resources/ChatView/audio/VoiceSearchFeedback013.png; sourceTree = SOURCE_ROOT; };
+		C90B39D41CDB1A350006368B /* VoiceSearchFeedback013@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback013@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback013@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39D51CDB1A350006368B /* VoiceSearchFeedback014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback014.png; path = Resources/ChatView/audio/VoiceSearchFeedback014.png; sourceTree = SOURCE_ROOT; };
+		C90B39D61CDB1A350006368B /* VoiceSearchFeedback014@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback014@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback014@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39D71CDB1A350006368B /* VoiceSearchFeedback015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback015.png; path = Resources/ChatView/audio/VoiceSearchFeedback015.png; sourceTree = SOURCE_ROOT; };
+		C90B39D81CDB1A350006368B /* VoiceSearchFeedback015@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback015@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback015@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39D91CDB1A350006368B /* VoiceSearchFeedback016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback016.png; path = Resources/ChatView/audio/VoiceSearchFeedback016.png; sourceTree = SOURCE_ROOT; };
+		C90B39DA1CDB1A350006368B /* VoiceSearchFeedback016@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback016@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback016@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39DB1CDB1A350006368B /* VoiceSearchFeedback017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback017.png; path = Resources/ChatView/audio/VoiceSearchFeedback017.png; sourceTree = SOURCE_ROOT; };
+		C90B39DC1CDB1A350006368B /* VoiceSearchFeedback017@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback017@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback017@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39DD1CDB1A350006368B /* VoiceSearchFeedback018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback018.png; path = Resources/ChatView/audio/VoiceSearchFeedback018.png; sourceTree = SOURCE_ROOT; };
+		C90B39DE1CDB1A350006368B /* VoiceSearchFeedback018@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback018@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback018@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39DF1CDB1A350006368B /* VoiceSearchFeedback019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback019.png; path = Resources/ChatView/audio/VoiceSearchFeedback019.png; sourceTree = SOURCE_ROOT; };
+		C90B39E01CDB1A350006368B /* VoiceSearchFeedback019@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback019@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback019@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B39E11CDB1A350006368B /* VoiceSearchFeedback020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VoiceSearchFeedback020.png; path = Resources/ChatView/audio/VoiceSearchFeedback020.png; sourceTree = SOURCE_ROOT; };
+		C90B39E21CDB1A350006368B /* VoiceSearchFeedback020@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoiceSearchFeedback020@2x.png"; path = "Resources/ChatView/audio/VoiceSearchFeedback020@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A0C1CDB1A500006368B /* chatBar_more_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_more_card.png; path = Resources/ChatView/ChatBarImages/chatBar_more_card.png; sourceTree = SOURCE_ROOT; };
+		C90B3A0D1CDB1A500006368B /* chatBar_more_card@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_more_card@2x.png"; path = "Resources/ChatView/ChatBarImages/chatBar_more_card@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A0E1CDB1A500006368B /* chatBar_more_cardSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_more_cardSelected.png; path = Resources/ChatView/ChatBarImages/chatBar_more_cardSelected.png; sourceTree = SOURCE_ROOT; };
+		C90B3A0F1CDB1A500006368B /* chatBar_more_cardSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_more_cardSelected@2x.png"; path = "Resources/ChatView/ChatBarImages/chatBar_more_cardSelected@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A101CDB1A500006368B /* chatBar_more_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_more_face.png; path = Resources/ChatView/ChatBarImages/chatBar_more_face.png; sourceTree = SOURCE_ROOT; };
+		C90B3A111CDB1A500006368B /* chatBar_more_face@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_more_face@2x.png"; path = "Resources/ChatView/ChatBarImages/chatBar_more_face@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A121CDB1A500006368B /* chatBar_more_faceSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_more_faceSelected.png; path = Resources/ChatView/ChatBarImages/chatBar_more_faceSelected.png; sourceTree = SOURCE_ROOT; };
+		C90B3A131CDB1A500006368B /* chatBar_more_faceSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_more_faceSelected@2x.png"; path = "Resources/ChatView/ChatBarImages/chatBar_more_faceSelected@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A141CDB1A500006368B /* chatBar_textBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_textBg.png; path = Resources/ChatView/ChatBarImages/chatBar_textBg.png; sourceTree = SOURCE_ROOT; };
+		C90B3A151CDB1A500006368B /* chatBar_textBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_textBg@2x.png"; path = "Resources/ChatView/ChatBarImages/chatBar_textBg@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A211CDB1A630006368B /* chat_location_annotation_someone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat_location_annotation_someone.png; path = Resources/ChatView/chatLocation/chat_location_annotation_someone.png; sourceTree = SOURCE_ROOT; };
+		C90B3A221CDB1A630006368B /* chat_location_annotation_someone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chat_location_annotation_someone@2x.png"; path = "Resources/ChatView/chatLocation/chat_location_annotation_someone@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A231CDB1A630006368B /* chat_location_detail_disclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat_location_detail_disclosure.png; path = Resources/ChatView/chatLocation/chat_location_detail_disclosure.png; sourceTree = SOURCE_ROOT; };
+		C90B3A241CDB1A630006368B /* chat_location_detail_disclosure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chat_location_detail_disclosure@2x.png"; path = "Resources/ChatView/chatLocation/chat_location_detail_disclosure@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A251CDB1A630006368B /* chat_location_detail_disclosureHL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat_location_detail_disclosureHL.png; path = Resources/ChatView/chatLocation/chat_location_detail_disclosureHL.png; sourceTree = SOURCE_ROOT; };
+		C90B3A261CDB1A630006368B /* chat_location_detail_disclosureHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chat_location_detail_disclosureHL@2x.png"; path = "Resources/ChatView/chatLocation/chat_location_detail_disclosureHL@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A271CDB1A630006368B /* chat_location_preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat_location_preview.png; path = Resources/ChatView/chatLocation/chat_location_preview.png; sourceTree = SOURCE_ROOT; };
+		C90B3A281CDB1A630006368B /* chat_location_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chat_location_preview@2x.png"; path = "Resources/ChatView/chatLocation/chat_location_preview@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A321CDB1A760006368B /* faceDelete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = faceDelete.png; path = Resources/ChatView/emoji/faceDelete.png; sourceTree = SOURCE_ROOT; };
+		C90B3A331CDB1A760006368B /* faceDelete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "faceDelete@2x.png"; path = "Resources/ChatView/emoji/faceDelete@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A371CDB1AA60006368B /* chatBar_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_face.png; path = Resources/ChatView/MessageToolbarImages/chatBar_face.png; sourceTree = SOURCE_ROOT; };
+		C90B3A381CDB1AA60006368B /* chatBar_face@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_face@2x.png"; path = "Resources/ChatView/MessageToolbarImages/chatBar_face@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A391CDB1AA60006368B /* chatBar_faceSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_faceSelected.png; path = Resources/ChatView/MessageToolbarImages/chatBar_faceSelected.png; sourceTree = SOURCE_ROOT; };
+		C90B3A3A1CDB1AA60006368B /* chatBar_faceSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_faceSelected@2x.png"; path = "Resources/ChatView/MessageToolbarImages/chatBar_faceSelected@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A3B1CDB1AA60006368B /* chatBar_keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_keyboard.png; path = Resources/ChatView/MessageToolbarImages/chatBar_keyboard.png; sourceTree = SOURCE_ROOT; };
+		C90B3A3C1CDB1AA60006368B /* chatBar_keyboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_keyboard@2x.png"; path = "Resources/ChatView/MessageToolbarImages/chatBar_keyboard@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A3D1CDB1AA60006368B /* chatBar_keyboardSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_keyboardSelected.png; path = Resources/ChatView/MessageToolbarImages/chatBar_keyboardSelected.png; sourceTree = SOURCE_ROOT; };
+		C90B3A3E1CDB1AA60006368B /* chatBar_keyboardSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_keyboardSelected@2x.png"; path = "Resources/ChatView/MessageToolbarImages/chatBar_keyboardSelected@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A3F1CDB1AA60006368B /* chatBar_more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_more.png; path = Resources/ChatView/MessageToolbarImages/chatBar_more.png; sourceTree = SOURCE_ROOT; };
+		C90B3A401CDB1AA60006368B /* chatBar_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_more@2x.png"; path = "Resources/ChatView/MessageToolbarImages/chatBar_more@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A411CDB1AA60006368B /* chatBar_moreSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_moreSelected.png; path = Resources/ChatView/MessageToolbarImages/chatBar_moreSelected.png; sourceTree = SOURCE_ROOT; };
+		C90B3A421CDB1AA60006368B /* chatBar_moreSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_moreSelected@2x.png"; path = "Resources/ChatView/MessageToolbarImages/chatBar_moreSelected@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A431CDB1AA60006368B /* chatBar_record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_record.png; path = Resources/ChatView/MessageToolbarImages/chatBar_record.png; sourceTree = SOURCE_ROOT; };
+		C90B3A441CDB1AA60006368B /* chatBar_record@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_record@2x.png"; path = "Resources/ChatView/MessageToolbarImages/chatBar_record@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A451CDB1AA60006368B /* chatBar_recordBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_recordBg.png; path = Resources/ChatView/MessageToolbarImages/chatBar_recordBg.png; sourceTree = SOURCE_ROOT; };
+		C90B3A461CDB1AA60006368B /* chatBar_recordBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_recordBg@2x.png"; path = "Resources/ChatView/MessageToolbarImages/chatBar_recordBg@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A471CDB1AA60006368B /* chatBar_recordSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_recordSelected.png; path = Resources/ChatView/MessageToolbarImages/chatBar_recordSelected.png; sourceTree = SOURCE_ROOT; };
+		C90B3A481CDB1AA60006368B /* chatBar_recordSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_recordSelected@2x.png"; path = "Resources/ChatView/MessageToolbarImages/chatBar_recordSelected@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A491CDB1AA60006368B /* chatBar_recordSelectedBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_recordSelectedBg.png; path = Resources/ChatView/MessageToolbarImages/chatBar_recordSelectedBg.png; sourceTree = SOURCE_ROOT; };
+		C90B3A4A1CDB1AA60006368B /* chatBar_recordSelectedBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_recordSelectedBg@2x.png"; path = "Resources/ChatView/MessageToolbarImages/chatBar_recordSelectedBg@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A4B1CDB1AA60006368B /* messageToolbarBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "messageToolbarBg@2x.png"; path = "Resources/ChatView/MessageToolbarImages/messageToolbarBg@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A621CDB1AB60006368B /* chatBar_colorMore_audioCall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_colorMore_audioCall@2x.png"; path = "Resources/ChatView/MessageToolbarImages/Color/chatBar_colorMore_audioCall@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A631CDB1AB60006368B /* chatBar_colorMore_audioCallSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_colorMore_audioCallSelected@2x.png"; path = "Resources/ChatView/MessageToolbarImages/Color/chatBar_colorMore_audioCallSelected@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A641CDB1AB60006368B /* chatBar_colorMore_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_colorMore_camera@2x.png"; path = "Resources/ChatView/MessageToolbarImages/Color/chatBar_colorMore_camera@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A651CDB1AB60006368B /* chatBar_colorMore_cameraSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_colorMore_cameraSelected@2x.png"; path = "Resources/ChatView/MessageToolbarImages/Color/chatBar_colorMore_cameraSelected@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A661CDB1AB60006368B /* chatBar_colorMore_location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_colorMore_location@2x.png"; path = "Resources/ChatView/MessageToolbarImages/Color/chatBar_colorMore_location@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A671CDB1AB60006368B /* chatBar_colorMore_locationSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_colorMore_locationSelected@2x.png"; path = "Resources/ChatView/MessageToolbarImages/Color/chatBar_colorMore_locationSelected@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A681CDB1AB60006368B /* chatBar_colorMore_photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_colorMore_photo@2x.png"; path = "Resources/ChatView/MessageToolbarImages/Color/chatBar_colorMore_photo@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A691CDB1AB60006368B /* chatBar_colorMore_photoSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_colorMore_photoSelected@2x.png"; path = "Resources/ChatView/MessageToolbarImages/Color/chatBar_colorMore_photoSelected@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A6A1CDB1AB60006368B /* chatBar_colorMore_video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_colorMore_video@2x.png"; path = "Resources/ChatView/MessageToolbarImages/Color/chatBar_colorMore_video@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A6B1CDB1AB60006368B /* chatBar_colorMore_videoCall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_colorMore_videoCall@2x.png"; path = "Resources/ChatView/MessageToolbarImages/Color/chatBar_colorMore_videoCall@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A6C1CDB1AB60006368B /* chatBar_colorMore_videoCallSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_colorMore_videoCallSelected@2x.png"; path = "Resources/ChatView/MessageToolbarImages/Color/chatBar_colorMore_videoCallSelected@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A6D1CDB1AB60006368B /* chatBar_colorMore_videoSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_colorMore_videoSelected@2x.png"; path = "Resources/ChatView/MessageToolbarImages/Color/chatBar_colorMore_videoSelected@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A7B1CDB1ACA0006368B /* chatBar_more_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_more_camera.png; path = Resources/ChatView/MessageToolbarImages/Gray/chatBar_more_camera.png; sourceTree = SOURCE_ROOT; };
+		C90B3A7C1CDB1ACA0006368B /* chatBar_more_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_more_camera@2x.png"; path = "Resources/ChatView/MessageToolbarImages/Gray/chatBar_more_camera@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A7D1CDB1ACA0006368B /* chatBar_more_cameraSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_more_cameraSelected.png; path = Resources/ChatView/MessageToolbarImages/Gray/chatBar_more_cameraSelected.png; sourceTree = SOURCE_ROOT; };
+		C90B3A7E1CDB1ACA0006368B /* chatBar_more_cameraSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_more_cameraSelected@2x.png"; path = "Resources/ChatView/MessageToolbarImages/Gray/chatBar_more_cameraSelected@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A7F1CDB1ACA0006368B /* chatBar_more_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_more_location.png; path = Resources/ChatView/MessageToolbarImages/Gray/chatBar_more_location.png; sourceTree = SOURCE_ROOT; };
+		C90B3A801CDB1ACA0006368B /* chatBar_more_location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_more_location@2x.png"; path = "Resources/ChatView/MessageToolbarImages/Gray/chatBar_more_location@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A811CDB1ACA0006368B /* chatBar_more_locationSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_more_locationSelected.png; path = Resources/ChatView/MessageToolbarImages/Gray/chatBar_more_locationSelected.png; sourceTree = SOURCE_ROOT; };
+		C90B3A821CDB1ACA0006368B /* chatBar_more_locationSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_more_locationSelected@2x.png"; path = "Resources/ChatView/MessageToolbarImages/Gray/chatBar_more_locationSelected@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A831CDB1ACA0006368B /* chatBar_more_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_more_photo.png; path = Resources/ChatView/MessageToolbarImages/Gray/chatBar_more_photo.png; sourceTree = SOURCE_ROOT; };
+		C90B3A841CDB1ACA0006368B /* chatBar_more_photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_more_photo@2x.png"; path = "Resources/ChatView/MessageToolbarImages/Gray/chatBar_more_photo@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A851CDB1ACA0006368B /* chatBar_more_photoSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chatBar_more_photoSelected.png; path = Resources/ChatView/MessageToolbarImages/Gray/chatBar_more_photoSelected.png; sourceTree = SOURCE_ROOT; };
+		C90B3A861CDB1ACA0006368B /* chatBar_more_photoSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chatBar_more_photoSelected@2x.png"; path = "Resources/ChatView/MessageToolbarImages/Gray/chatBar_more_photoSelected@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A941CDB1AE20006368B /* chat_receiver_audio_playing_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat_receiver_audio_playing_full.png; path = Resources/ChatView/receiver_bubble/chat_receiver_audio_playing_full.png; sourceTree = SOURCE_ROOT; };
+		C90B3A951CDB1AE20006368B /* chat_receiver_audio_playing_full@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chat_receiver_audio_playing_full@2x.png"; path = "Resources/ChatView/receiver_bubble/chat_receiver_audio_playing_full@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A961CDB1AE20006368B /* chat_receiver_audio_playing000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat_receiver_audio_playing000.png; path = Resources/ChatView/receiver_bubble/chat_receiver_audio_playing000.png; sourceTree = SOURCE_ROOT; };
+		C90B3A971CDB1AE20006368B /* chat_receiver_audio_playing000@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chat_receiver_audio_playing000@2x.png"; path = "Resources/ChatView/receiver_bubble/chat_receiver_audio_playing000@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A981CDB1AE20006368B /* chat_receiver_audio_playing001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat_receiver_audio_playing001.png; path = Resources/ChatView/receiver_bubble/chat_receiver_audio_playing001.png; sourceTree = SOURCE_ROOT; };
+		C90B3A991CDB1AE20006368B /* chat_receiver_audio_playing001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chat_receiver_audio_playing001@2x.png"; path = "Resources/ChatView/receiver_bubble/chat_receiver_audio_playing001@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A9A1CDB1AE20006368B /* chat_receiver_audio_playing002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat_receiver_audio_playing002.png; path = Resources/ChatView/receiver_bubble/chat_receiver_audio_playing002.png; sourceTree = SOURCE_ROOT; };
+		C90B3A9B1CDB1AE20006368B /* chat_receiver_audio_playing002@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chat_receiver_audio_playing002@2x.png"; path = "Resources/ChatView/receiver_bubble/chat_receiver_audio_playing002@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A9C1CDB1AE20006368B /* chat_receiver_audio_playing003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat_receiver_audio_playing003.png; path = Resources/ChatView/receiver_bubble/chat_receiver_audio_playing003.png; sourceTree = SOURCE_ROOT; };
+		C90B3A9D1CDB1AE20006368B /* chat_receiver_audio_playing003@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chat_receiver_audio_playing003@2x.png"; path = "Resources/ChatView/receiver_bubble/chat_receiver_audio_playing003@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3A9E1CDB1AE20006368B /* chat_receiver_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat_receiver_bg.png; path = Resources/ChatView/receiver_bubble/chat_receiver_bg.png; sourceTree = SOURCE_ROOT; };
+		C90B3A9F1CDB1AE20006368B /* chat_receiver_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chat_receiver_bg@2x.png"; path = "Resources/ChatView/receiver_bubble/chat_receiver_bg@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AAD1CDB1AF20006368B /* chat_sender_audio_playing_000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat_sender_audio_playing_000.png; path = Resources/ChatView/sender_bubble/chat_sender_audio_playing_000.png; sourceTree = SOURCE_ROOT; };
+		C90B3AAE1CDB1AF20006368B /* chat_sender_audio_playing_000@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chat_sender_audio_playing_000@2x.png"; path = "Resources/ChatView/sender_bubble/chat_sender_audio_playing_000@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AAF1CDB1AF20006368B /* chat_sender_audio_playing_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat_sender_audio_playing_001.png; path = Resources/ChatView/sender_bubble/chat_sender_audio_playing_001.png; sourceTree = SOURCE_ROOT; };
+		C90B3AB01CDB1AF20006368B /* chat_sender_audio_playing_001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chat_sender_audio_playing_001@2x.png"; path = "Resources/ChatView/sender_bubble/chat_sender_audio_playing_001@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AB11CDB1AF20006368B /* chat_sender_audio_playing_002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat_sender_audio_playing_002.png; path = Resources/ChatView/sender_bubble/chat_sender_audio_playing_002.png; sourceTree = SOURCE_ROOT; };
+		C90B3AB21CDB1AF20006368B /* chat_sender_audio_playing_002@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chat_sender_audio_playing_002@2x.png"; path = "Resources/ChatView/sender_bubble/chat_sender_audio_playing_002@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AB31CDB1AF20006368B /* chat_sender_audio_playing_003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat_sender_audio_playing_003.png; path = Resources/ChatView/sender_bubble/chat_sender_audio_playing_003.png; sourceTree = SOURCE_ROOT; };
+		C90B3AB41CDB1AF20006368B /* chat_sender_audio_playing_003@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chat_sender_audio_playing_003@2x.png"; path = "Resources/ChatView/sender_bubble/chat_sender_audio_playing_003@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AB51CDB1AF20006368B /* chat_sender_audio_playing_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat_sender_audio_playing_full.png; path = Resources/ChatView/sender_bubble/chat_sender_audio_playing_full.png; sourceTree = SOURCE_ROOT; };
+		C90B3AB61CDB1AF20006368B /* chat_sender_audio_playing_full@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chat_sender_audio_playing_full@2x.png"; path = "Resources/ChatView/sender_bubble/chat_sender_audio_playing_full@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AB71CDB1AF20006368B /* chat_sender_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat_sender_bg.png; path = Resources/ChatView/sender_bubble/chat_sender_bg.png; sourceTree = SOURCE_ROOT; };
+		C90B3AB81CDB1AF20006368B /* chat_sender_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chat_sender_bg@2x.png"; path = "Resources/ChatView/sender_bubble/chat_sender_bg@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AC61CDB1B100006368B /* account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = account.png; path = Resources/Login/account.png; sourceTree = SOURCE_ROOT; };
+		C90B3AC71CDB1B100006368B /* account@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "account@2x.png"; path = "Resources/Login/account@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AC81CDB1B100006368B /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = password.png; path = Resources/Login/password.png; sourceTree = SOURCE_ROOT; };
+		C90B3AC91CDB1B100006368B /* password@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "password@2x.png"; path = "Resources/Login/password@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3ACF1CDB1B220006368B /* add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add@2x.png"; path = "Resources/NavigationBar/add@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AD01CDB1B220006368B /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back@2x.png"; path = "Resources/NavigationBar/back@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AD11CDB1B220006368B /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "delete@2x.png"; path = "Resources/NavigationBar/delete@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AD21CDB1B220006368B /* group_detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "group_detail@2x.png"; path = "Resources/NavigationBar/group_detail@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AD31CDB1B220006368B /* titleBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = titleBar.png; path = Resources/NavigationBar/titleBar.png; sourceTree = SOURCE_ROOT; };
+		C90B3AD41CDB1B220006368B /* titleBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "titleBar@2x.png"; path = "Resources/NavigationBar/titleBar@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3ADC1CDB1B360006368B /* group_creategroup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "group_creategroup@2x.png"; path = "Resources/other/group_creategroup@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3ADD1CDB1B360006368B /* group_header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "group_header@2x.png"; path = "Resources/other/group_header@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3ADE1CDB1B360006368B /* group_invitee_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "group_invitee_delete@2x.png"; path = "Resources/other/group_invitee_delete@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3ADF1CDB1B360006368B /* group_joinpublicgroup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "group_joinpublicgroup@2x.png"; path = "Resources/other/group_joinpublicgroup@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AE01CDB1B360006368B /* group_participant_add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "group_participant_add@2x.png"; path = "Resources/other/group_participant_add@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AE11CDB1B360006368B /* group_participant_addHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "group_participant_addHL@2x.png"; path = "Resources/other/group_participant_addHL@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AE21CDB1B360006368B /* groupPrivateHeader@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "groupPrivateHeader@2x.png"; path = "Resources/other/groupPrivateHeader@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AE31CDB1B360006368B /* groupPublicHeader@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "groupPublicHeader@2x.png"; path = "Resources/other/groupPublicHeader@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AE41CDB1B360006368B /* nav_createGroup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nav_createGroup@2x.png"; path = "Resources/other/nav_createGroup@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AE51CDB1B360006368B /* newFriends@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "newFriends@2x.png"; path = "Resources/other/newFriends@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AF11CDB1B530006368B /* tabbar_chats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbar_chats.png; path = Resources/tabbar/tabbar_chats.png; sourceTree = SOURCE_ROOT; };
+		C90B3AF21CDB1B530006368B /* tabbar_chats@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_chats@2x.png"; path = "Resources/tabbar/tabbar_chats@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AF31CDB1B530006368B /* tabbar_chatsHL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbar_chatsHL.png; path = Resources/tabbar/tabbar_chatsHL.png; sourceTree = SOURCE_ROOT; };
+		C90B3AF41CDB1B530006368B /* tabbar_chatsHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_chatsHL@2x.png"; path = "Resources/tabbar/tabbar_chatsHL@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AF51CDB1B530006368B /* tabbar_contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbar_contacts.png; path = Resources/tabbar/tabbar_contacts.png; sourceTree = SOURCE_ROOT; };
+		C90B3AF61CDB1B530006368B /* tabbar_contacts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_contacts@2x.png"; path = "Resources/tabbar/tabbar_contacts@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AF71CDB1B530006368B /* tabbar_contactsHL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbar_contactsHL.png; path = Resources/tabbar/tabbar_contactsHL.png; sourceTree = SOURCE_ROOT; };
+		C90B3AF81CDB1B530006368B /* tabbar_contactsHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_contactsHL@2x.png"; path = "Resources/tabbar/tabbar_contactsHL@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AF91CDB1B530006368B /* tabbar_setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbar_setting.png; path = Resources/tabbar/tabbar_setting.png; sourceTree = SOURCE_ROOT; };
+		C90B3AFA1CDB1B530006368B /* tabbar_setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_setting@2x.png"; path = "Resources/tabbar/tabbar_setting@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AFB1CDB1B530006368B /* tabbar_settingHL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbar_settingHL.png; path = Resources/tabbar/tabbar_settingHL.png; sourceTree = SOURCE_ROOT; };
+		C90B3AFC1CDB1B530006368B /* tabbar_settingHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_settingHL@2x.png"; path = "Resources/tabbar/tabbar_settingHL@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AFD1CDB1B530006368B /* tabbarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbarBackground.png; path = Resources/tabbar/tabbarBackground.png; sourceTree = SOURCE_ROOT; };
+		C90B3AFE1CDB1B530006368B /* tabbarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbarBackground@2x.png"; path = "Resources/tabbar/tabbarBackground@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3AFF1CDB1B530006368B /* tabbarSelectBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbarSelectBg.png; path = Resources/tabbar/tabbarSelectBg.png; sourceTree = SOURCE_ROOT; };
+		C90B3B001CDB1B530006368B /* tabbarSelectBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbarSelectBg@2x.png"; path = "Resources/tabbar/tabbarSelectBg@2x.png"; sourceTree = SOURCE_ROOT; };
+		C90B3B111CDB1D090006368B /* ChatDemoUIDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatDemoUIDefine.h; sourceTree = SOURCE_ROOT; };
 		F05A34ED8505DB24673140C1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE66E8851CD840D40092FADF /* beta1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beta1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE66E8891CD840D40092FADF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -719,6 +1299,654 @@
 			name = "opencore-amrwb";
 			sourceTree = "<group>";
 		};
+		C90B38A51CDB131D0006368B /* class */ = {
+			isa = PBXGroup;
+			children = (
+				C90B394A1CDB16600006368B /* Settings */,
+				C90B39461CDB16310006368B /* Profile */,
+				C90B393F1CDB161C0006368B /* Core Data */,
+				C90B39281CDB15CF0006368B /* Contacts */,
+				C90B391E1CDB15B50006368B /* Chatroom */,
+				C90B38FF1CDB158C0006368B /* ChatGroup */,
+				C90B38AC1CDB14180006368B /* Chat */,
+				C90B38A61CDB134C0006368B /* Call */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+		C90B38A61CDB134C0006368B /* Call */ = {
+			isa = PBXGroup;
+			children = (
+				C90B38A71CDB140B0006368B /* callRing.mp3 */,
+				C90B38A81CDB140B0006368B /* CallViewController.h */,
+				C90B38A91CDB140B0006368B /* CallViewController.m */,
+			);
+			name = Call;
+			sourceTree = "<group>";
+		};
+		C90B38AC1CDB14180006368B /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				C90B38B41CDB14480006368B /* ChatView */,
+				C90B38AD1CDB14290006368B /* ChatList */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		C90B38AD1CDB14290006368B /* ChatList */ = {
+			isa = PBXGroup;
+			children = (
+				C90B38AE1CDB143D0006368B /* ChatListCell.h */,
+				C90B38AF1CDB143D0006368B /* ChatListCell.m */,
+				C90B38B01CDB143D0006368B /* ChatListViewController.h */,
+				C90B38B11CDB143D0006368B /* ChatListViewController.m */,
+			);
+			name = ChatList;
+			sourceTree = "<group>";
+		};
+		C90B38B41CDB14480006368B /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				C90B38D81CDB15270006368B /* MessageView */,
+				C90B38C41CDB14700006368B /* MessageToolbar */,
+				C90B38B51CDB14650006368B /* ChatSendHelper.h */,
+				C90B38B61CDB14650006368B /* ChatSendHelper.m */,
+				C90B38B71CDB14650006368B /* ChatViewController.h */,
+				C90B38B81CDB14650006368B /* ChatViewController.m */,
+				C90B38B91CDB14650006368B /* ChatViewController+Category.h */,
+				C90B38BA1CDB14650006368B /* ChatViewController+Category.m */,
+				C90B38BB1CDB14650006368B /* ConvertToCommonEmoticonsHelper.h */,
+				C90B38BC1CDB14650006368B /* ConvertToCommonEmoticonsHelper.m */,
+				C90B38BD1CDB14650006368B /* LocationViewController.h */,
+				C90B38BE1CDB14650006368B /* LocationViewController.m */,
+			);
+			name = ChatView;
+			sourceTree = "<group>";
+		};
+		C90B38C41CDB14700006368B /* MessageToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				C90B38C81CDB14910006368B /* MessageToolBarBottomView */,
+				C90B38C51CDB147F0006368B /* DXMessageToolBar.h */,
+				C90B38C61CDB147F0006368B /* DXMessageToolBar.m */,
+			);
+			name = MessageToolbar;
+			sourceTree = "<group>";
+		};
+		C90B38C81CDB14910006368B /* MessageToolBarBottomView */ = {
+			isa = PBXGroup;
+			children = (
+				C90B38D41CDB14FA0006368B /* RecordView */,
+				C90B38D01CDB14D60006368B /* MoreView */,
+				C90B38C91CDB14A30006368B /* FaceView */,
+			);
+			name = MessageToolBarBottomView;
+			sourceTree = "<group>";
+		};
+		C90B38C91CDB14A30006368B /* FaceView */ = {
+			isa = PBXGroup;
+			children = (
+				C90B38CA1CDB14CB0006368B /* DXFaceView.h */,
+				C90B38CB1CDB14CB0006368B /* DXFaceView.m */,
+				C90B38CC1CDB14CB0006368B /* FacialView.h */,
+				C90B38CD1CDB14CB0006368B /* FacialView.m */,
+			);
+			name = FaceView;
+			sourceTree = "<group>";
+		};
+		C90B38D01CDB14D60006368B /* MoreView */ = {
+			isa = PBXGroup;
+			children = (
+				C90B38D11CDB14EC0006368B /* DXChatBarMoreView.h */,
+				C90B38D21CDB14EC0006368B /* DXChatBarMoreView.m */,
+			);
+			name = MoreView;
+			sourceTree = "<group>";
+		};
+		C90B38D41CDB14FA0006368B /* RecordView */ = {
+			isa = PBXGroup;
+			children = (
+				C90B38D51CDB15030006368B /* DXRecordView.h */,
+				C90B38D61CDB15030006368B /* DXRecordView.m */,
+			);
+			name = RecordView;
+			sourceTree = "<group>";
+		};
+		C90B38D81CDB15270006368B /* MessageView */ = {
+			isa = PBXGroup;
+			children = (
+				C90B38E21CDB153B0006368B /* ChatCell */,
+				C90B38D91CDB152F0006368B /* MessageModel.h */,
+				C90B38DA1CDB152F0006368B /* MessageModel.m */,
+				C90B38DB1CDB152F0006368B /* MessageModelManager.h */,
+				C90B38DC1CDB152F0006368B /* MessageModelManager.m */,
+				C90B38DD1CDB152F0006368B /* MessageReadManager.h */,
+				C90B38DE1CDB152F0006368B /* MessageReadManager.m */,
+			);
+			name = MessageView;
+			sourceTree = "<group>";
+		};
+		C90B38E21CDB153B0006368B /* ChatCell */ = {
+			isa = PBXGroup;
+			children = (
+				C90B38EC1CDB15620006368B /* ChatCellBubble */,
+				C90B38E31CDB15530006368B /* EMChatTimeCell.h */,
+				C90B38E41CDB15530006368B /* EMChatTimeCell.m */,
+				C90B38E51CDB15530006368B /* EMChatViewBaseCell.h */,
+				C90B38E61CDB15530006368B /* EMChatViewBaseCell.m */,
+				C90B38E71CDB15530006368B /* EMChatViewCell.h */,
+				C90B38E81CDB15530006368B /* EMChatViewCell.m */,
+			);
+			name = ChatCell;
+			sourceTree = "<group>";
+		};
+		C90B38EC1CDB15620006368B /* ChatCellBubble */ = {
+			isa = PBXGroup;
+			children = (
+				C90B38ED1CDB156C0006368B /* EMChatAudioBubbleView.h */,
+				C90B38EE1CDB156C0006368B /* EMChatAudioBubbleView.m */,
+				C90B38EF1CDB156C0006368B /* EMChatBaseBubbleView.h */,
+				C90B38F01CDB156C0006368B /* EMChatBaseBubbleView.m */,
+				C90B38F11CDB156C0006368B /* EMChatImageBubbleView.h */,
+				C90B38F21CDB156C0006368B /* EMChatImageBubbleView.m */,
+				C90B38F31CDB156C0006368B /* EMChatLocationBubbleView.h */,
+				C90B38F41CDB156C0006368B /* EMChatLocationBubbleView.m */,
+				C90B38F51CDB156C0006368B /* EMChatTextBubbleView.h */,
+				C90B38F61CDB156C0006368B /* EMChatTextBubbleView.m */,
+				C90B38F71CDB156C0006368B /* EMChatVideoBubbleView.h */,
+				C90B38F81CDB156C0006368B /* EMChatVideoBubbleView.m */,
+			);
+			name = ChatCellBubble;
+			sourceTree = "<group>";
+		};
+		C90B38FF1CDB158C0006368B /* ChatGroup */ = {
+			isa = PBXGroup;
+			children = (
+				C90B39001CDB15A80006368B /* ChatGroupDetailViewController.h */,
+				C90B39011CDB15A80006368B /* ChatGroupDetailViewController.m */,
+				C90B39021CDB15A80006368B /* ContactSelectionViewController.h */,
+				C90B39031CDB15A80006368B /* ContactSelectionViewController.m */,
+				C90B39041CDB15A80006368B /* ContactView.h */,
+				C90B39051CDB15A80006368B /* ContactView.m */,
+				C90B39061CDB15A80006368B /* CreateGroupViewController.h */,
+				C90B39071CDB15A80006368B /* CreateGroupViewController.m */,
+				C90B39081CDB15A80006368B /* GroupBansViewController.h */,
+				C90B39091CDB15A80006368B /* GroupBansViewController.m */,
+				C90B390A1CDB15A80006368B /* GroupListViewController.h */,
+				C90B390B1CDB15A80006368B /* GroupListViewController.m */,
+				C90B390C1CDB15A80006368B /* GroupSettingViewController.h */,
+				C90B390D1CDB15A80006368B /* GroupSettingViewController.m */,
+				C90B390E1CDB15A80006368B /* GroupSubjectChangingViewController.h */,
+				C90B390F1CDB15A80006368B /* GroupSubjectChangingViewController.m */,
+				C90B39101CDB15A80006368B /* PublicGroupDetailViewController.h */,
+				C90B39111CDB15A80006368B /* PublicGroupDetailViewController.m */,
+				C90B39121CDB15A80006368B /* PublicGroupListViewController.h */,
+				C90B39131CDB15A80006368B /* PublicGroupListViewController.m */,
+			);
+			name = ChatGroup;
+			sourceTree = "<group>";
+		};
+		C90B391E1CDB15B50006368B /* Chatroom */ = {
+			isa = PBXGroup;
+			children = (
+				C90B391F1CDB15BE0006368B /* ChatroomDetailViewController.h */,
+				C90B39201CDB15BE0006368B /* ChatroomDetailViewController.m */,
+				C90B39211CDB15BE0006368B /* ChatroomListViewController.h */,
+				C90B39221CDB15BE0006368B /* ChatroomListViewController.m */,
+				C90B39231CDB15BE0006368B /* MyChatroomListViewController.h */,
+				C90B39241CDB15BE0006368B /* MyChatroomListViewController.m */,
+			);
+			name = Chatroom;
+			sourceTree = "<group>";
+		};
+		C90B39281CDB15CF0006368B /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				C90B39321CDB16030006368B /* FriendApply */,
+				C90B39291CDB15E70006368B /* ChineseToPinyin.h */,
+				C90B392A1CDB15E70006368B /* ChineseToPinyin.m */,
+				C90B392B1CDB15E70006368B /* ContactsViewController.h */,
+				C90B392C1CDB15E70006368B /* ContactsViewController.m */,
+				C90B392D1CDB15E70006368B /* RealtimeSearchUtil.h */,
+				C90B392E1CDB15E70006368B /* RealtimeSearchUtil.m */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		C90B39321CDB16030006368B /* FriendApply */ = {
+			isa = PBXGroup;
+			children = (
+				C90B39331CDB160E0006368B /* AddFriendCell.h */,
+				C90B39341CDB160E0006368B /* AddFriendCell.m */,
+				C90B39351CDB160E0006368B /* AddFriendViewController.h */,
+				C90B39361CDB160E0006368B /* AddFriendViewController.m */,
+				C90B39371CDB160E0006368B /* ApplyFriendCell.h */,
+				C90B39381CDB160E0006368B /* ApplyFriendCell.m */,
+				C90B39391CDB160E0006368B /* ApplyViewController.h */,
+				C90B393A1CDB160E0006368B /* ApplyViewController.m */,
+			);
+			name = FriendApply;
+			sourceTree = "<group>";
+		};
+		C90B393F1CDB161C0006368B /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				C90B39401CDB16280006368B /* InvitationManager.h */,
+				C90B39411CDB16280006368B /* InvitationManager.m */,
+				C90B39421CDB16280006368B /* UserProfileManager.h */,
+				C90B39431CDB16280006368B /* UserProfileManager.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		C90B39461CDB16310006368B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C90B39471CDB163B0006368B /* UserProfileViewController.h */,
+				C90B39481CDB163B0006368B /* UserProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		C90B394A1CDB16600006368B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C90B394B1CDB166F0006368B /* EMRobotChatTextBubbleView.h */,
+				C90B394C1CDB166F0006368B /* EMRobotChatTextBubbleView.m */,
+				C90B394D1CDB166F0006368B /* EMRotbotChatViewCell.h */,
+				C90B394E1CDB166F0006368B /* EMRotbotChatViewCell.m */,
+				C90B394F1CDB166F0006368B /* RobotChatViewController.h */,
+				C90B39501CDB166F0006368B /* RobotChatViewController.m */,
+				C90B39511CDB166F0006368B /* RobotListViewController.h */,
+				C90B39521CDB166F0006368B /* RobotListViewController.m */,
+				C90B39531CDB166F0006368B /* RobotManager.h */,
+				C90B39541CDB166F0006368B /* RobotManager.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		C90B395A1CDB17940006368B /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				C90B396B1CDB17D70006368B /* ViewController */,
+				C90B39671CDB17BC0006368B /* View */,
+				C90B395B1CDB17B40006368B /* BaseTableViewCell.h */,
+				C90B395C1CDB17B40006368B /* BaseTableViewCell.m */,
+				C90B395D1CDB17B40006368B /* EMSearchBar.h */,
+				C90B395E1CDB17B40006368B /* EMSearchBar.m */,
+				C90B395F1CDB17B40006368B /* EMTextView.h */,
+				C90B39601CDB17B40006368B /* EMTextView.m */,
+				C90B39611CDB17B40006368B /* XHMessageTextView.h */,
+				C90B39621CDB17B40006368B /* XHMessageTextView.m */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		C90B39671CDB17BC0006368B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C90B39681CDB17C60006368B /* EMRemarkImageView.h */,
+				C90B39691CDB17C60006368B /* EMRemarkImageView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C90B396B1CDB17D70006368B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C90B396C1CDB17E00006368B /* BaseViewController.h */,
+				C90B396D1CDB17E00006368B /* BaseViewController.m */,
+				C90B396E1CDB17E00006368B /* EMChooseViewController.h */,
+				C90B396F1CDB17E00006368B /* EMChooseViewController.m */,
+				C90B39701CDB17E00006368B /* EMNavigationController.h */,
+				C90B39711CDB17E00006368B /* EMNavigationController.m */,
+				C90B39721CDB17E00006368B /* EMSearchDisplayController.h */,
+				C90B39731CDB17E00006368B /* EMSearchDisplayController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		C90B39781CDB19180006368B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C90B39791CDB19280006368B /* NSDate+Category.h */,
+				C90B397A1CDB19280006368B /* NSDate+Category.m */,
+				C90B397B1CDB19280006368B /* NSDateFormatter+Category.h */,
+				C90B397C1CDB19280006368B /* NSDateFormatter+Category.m */,
+				C90B397D1CDB19280006368B /* NSString+Valid.h */,
+				C90B397E1CDB19280006368B /* NSString+Valid.m */,
+				C90B397F1CDB19280006368B /* UIImageView+HeadImage.h */,
+				C90B39801CDB19280006368B /* UIImageView+HeadImage.m */,
+				C90B39811CDB19280006368B /* UIResponder+Router.h */,
+				C90B39821CDB19280006368B /* UIResponder+Router.m */,
+				C90B39831CDB19280006368B /* UIViewController+DismissKeyboard.h */,
+				C90B39841CDB19280006368B /* UIViewController+DismissKeyboard.m */,
+				C90B39851CDB19280006368B /* UIViewController+HUD.h */,
+				C90B39861CDB19280006368B /* UIViewController+HUD.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		C90B398E1CDB19720006368B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3AF01CDB1B420006368B /* tabbar */,
+				C90B3ADB1CDB1B2F0006368B /* other */,
+				C90B3ACE1CDB1B190006368B /* NavigationBar */,
+				C90B3AC51CDB1B040006368B /* Login */,
+				C90B39A11CDB1A020006368B /* ChatView */,
+				C90B399C1CDB19E20006368B /* chatListCell */,
+				C90B398F1CDB19CC0006368B /* appicon */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C90B398F1CDB19CC0006368B /* appicon */ = {
+			isa = PBXGroup;
+			children = (
+				C90B39901CDB19D30006368B /* 29.png */,
+				C90B39911CDB19D30006368B /* 57.png */,
+				C90B39921CDB19D30006368B /* 58.png */,
+				C90B39931CDB19D30006368B /* 80.png */,
+				C90B39941CDB19D30006368B /* 114.png */,
+				C90B39951CDB19D30006368B /* 120.png */,
+			);
+			name = appicon;
+			sourceTree = "<group>";
+		};
+		C90B399C1CDB19E20006368B /* chatListCell */ = {
+			isa = PBXGroup;
+			children = (
+				C90B399D1CDB19E90006368B /* chatListCellHead.png */,
+				C90B399E1CDB19E90006368B /* chatListCellHead@2x.png */,
+			);
+			name = chatListCell;
+			sourceTree = "<group>";
+		};
+		C90B39A11CDB1A020006368B /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3AAC1CDB1AEB0006368B /* sender_bubble */,
+				C90B3A931CDB1ADA0006368B /* receiver_bubble */,
+				C90B3A361CDB1A840006368B /* MessageToolbarImages */,
+				C90B3A311CDB1A6E0006368B /* emoji */,
+				C90B3A201CDB1A5B0006368B /* chatLocation */,
+				C90B3A0B1CDB1A470006368B /* ChatBarImages */,
+				C90B39BA1CDB1A230006368B /* audio */,
+				C90B39A21CDB1A110006368B /* call_out_h.png */,
+				C90B39A31CDB1A110006368B /* call_out_h@2x.png */,
+				C90B39A41CDB1A110006368B /* call_out.png */,
+				C90B39A51CDB1A110006368B /* call_out@2x.png */,
+				C90B39A61CDB1A110006368B /* call_silence_h.png */,
+				C90B39A71CDB1A110006368B /* call_silence_h@2x.png */,
+				C90B39A81CDB1A110006368B /* call_silence.png */,
+				C90B39A91CDB1A110006368B /* call_silence@2x.png */,
+				C90B39AA1CDB1A110006368B /* callBg@2x.png */,
+				C90B39AB1CDB1A110006368B /* chat_video_play.png */,
+				C90B39AC1CDB1A110006368B /* imageDownloadFail@2x.png */,
+				C90B39AD1CDB1A110006368B /* messageSendFail@2x.png */,
+			);
+			name = ChatView;
+			sourceTree = "<group>";
+		};
+		C90B39BA1CDB1A230006368B /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				C90B39BB1CDB1A350006368B /* VoiceSearchFeedback001.png */,
+				C90B39BC1CDB1A350006368B /* VoiceSearchFeedback001@2x.png */,
+				C90B39BD1CDB1A350006368B /* VoiceSearchFeedback002.png */,
+				C90B39BE1CDB1A350006368B /* VoiceSearchFeedback002@2x.png */,
+				C90B39BF1CDB1A350006368B /* VoiceSearchFeedback003.png */,
+				C90B39C01CDB1A350006368B /* VoiceSearchFeedback003@2x.png */,
+				C90B39C11CDB1A350006368B /* VoiceSearchFeedback004.png */,
+				C90B39C21CDB1A350006368B /* VoiceSearchFeedback004@2x.png */,
+				C90B39C31CDB1A350006368B /* VoiceSearchFeedback005.png */,
+				C90B39C41CDB1A350006368B /* VoiceSearchFeedback005@2x.png */,
+				C90B39C51CDB1A350006368B /* VoiceSearchFeedback006.png */,
+				C90B39C61CDB1A350006368B /* VoiceSearchFeedback006@2x.png */,
+				C90B39C71CDB1A350006368B /* VoiceSearchFeedback007.png */,
+				C90B39C81CDB1A350006368B /* VoiceSearchFeedback007@2x.png */,
+				C90B39C91CDB1A350006368B /* VoiceSearchFeedback008.png */,
+				C90B39CA1CDB1A350006368B /* VoiceSearchFeedback008@2x.png */,
+				C90B39CB1CDB1A350006368B /* VoiceSearchFeedback009.png */,
+				C90B39CC1CDB1A350006368B /* VoiceSearchFeedback009@2x.png */,
+				C90B39CD1CDB1A350006368B /* VoiceSearchFeedback010.png */,
+				C90B39CE1CDB1A350006368B /* VoiceSearchFeedback010@2x.png */,
+				C90B39CF1CDB1A350006368B /* VoiceSearchFeedback011.png */,
+				C90B39D01CDB1A350006368B /* VoiceSearchFeedback011@2x.png */,
+				C90B39D11CDB1A350006368B /* VoiceSearchFeedback012.png */,
+				C90B39D21CDB1A350006368B /* VoiceSearchFeedback012@2x.png */,
+				C90B39D31CDB1A350006368B /* VoiceSearchFeedback013.png */,
+				C90B39D41CDB1A350006368B /* VoiceSearchFeedback013@2x.png */,
+				C90B39D51CDB1A350006368B /* VoiceSearchFeedback014.png */,
+				C90B39D61CDB1A350006368B /* VoiceSearchFeedback014@2x.png */,
+				C90B39D71CDB1A350006368B /* VoiceSearchFeedback015.png */,
+				C90B39D81CDB1A350006368B /* VoiceSearchFeedback015@2x.png */,
+				C90B39D91CDB1A350006368B /* VoiceSearchFeedback016.png */,
+				C90B39DA1CDB1A350006368B /* VoiceSearchFeedback016@2x.png */,
+				C90B39DB1CDB1A350006368B /* VoiceSearchFeedback017.png */,
+				C90B39DC1CDB1A350006368B /* VoiceSearchFeedback017@2x.png */,
+				C90B39DD1CDB1A350006368B /* VoiceSearchFeedback018.png */,
+				C90B39DE1CDB1A350006368B /* VoiceSearchFeedback018@2x.png */,
+				C90B39DF1CDB1A350006368B /* VoiceSearchFeedback019.png */,
+				C90B39E01CDB1A350006368B /* VoiceSearchFeedback019@2x.png */,
+				C90B39E11CDB1A350006368B /* VoiceSearchFeedback020.png */,
+				C90B39E21CDB1A350006368B /* VoiceSearchFeedback020@2x.png */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+		C90B3A0B1CDB1A470006368B /* ChatBarImages */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3A0C1CDB1A500006368B /* chatBar_more_card.png */,
+				C90B3A0D1CDB1A500006368B /* chatBar_more_card@2x.png */,
+				C90B3A0E1CDB1A500006368B /* chatBar_more_cardSelected.png */,
+				C90B3A0F1CDB1A500006368B /* chatBar_more_cardSelected@2x.png */,
+				C90B3A101CDB1A500006368B /* chatBar_more_face.png */,
+				C90B3A111CDB1A500006368B /* chatBar_more_face@2x.png */,
+				C90B3A121CDB1A500006368B /* chatBar_more_faceSelected.png */,
+				C90B3A131CDB1A500006368B /* chatBar_more_faceSelected@2x.png */,
+				C90B3A141CDB1A500006368B /* chatBar_textBg.png */,
+				C90B3A151CDB1A500006368B /* chatBar_textBg@2x.png */,
+			);
+			name = ChatBarImages;
+			sourceTree = "<group>";
+		};
+		C90B3A201CDB1A5B0006368B /* chatLocation */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3A211CDB1A630006368B /* chat_location_annotation_someone.png */,
+				C90B3A221CDB1A630006368B /* chat_location_annotation_someone@2x.png */,
+				C90B3A231CDB1A630006368B /* chat_location_detail_disclosure.png */,
+				C90B3A241CDB1A630006368B /* chat_location_detail_disclosure@2x.png */,
+				C90B3A251CDB1A630006368B /* chat_location_detail_disclosureHL.png */,
+				C90B3A261CDB1A630006368B /* chat_location_detail_disclosureHL@2x.png */,
+				C90B3A271CDB1A630006368B /* chat_location_preview.png */,
+				C90B3A281CDB1A630006368B /* chat_location_preview@2x.png */,
+			);
+			name = chatLocation;
+			sourceTree = "<group>";
+		};
+		C90B3A311CDB1A6E0006368B /* emoji */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3A321CDB1A760006368B /* faceDelete.png */,
+				C90B3A331CDB1A760006368B /* faceDelete@2x.png */,
+			);
+			name = emoji;
+			sourceTree = "<group>";
+		};
+		C90B3A361CDB1A840006368B /* MessageToolbarImages */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3A7A1CDB1AC10006368B /* Gray */,
+				C90B3A611CDB1AAB0006368B /* Color */,
+				C90B3A371CDB1AA60006368B /* chatBar_face.png */,
+				C90B3A381CDB1AA60006368B /* chatBar_face@2x.png */,
+				C90B3A391CDB1AA60006368B /* chatBar_faceSelected.png */,
+				C90B3A3A1CDB1AA60006368B /* chatBar_faceSelected@2x.png */,
+				C90B3A3B1CDB1AA60006368B /* chatBar_keyboard.png */,
+				C90B3A3C1CDB1AA60006368B /* chatBar_keyboard@2x.png */,
+				C90B3A3D1CDB1AA60006368B /* chatBar_keyboardSelected.png */,
+				C90B3A3E1CDB1AA60006368B /* chatBar_keyboardSelected@2x.png */,
+				C90B3A3F1CDB1AA60006368B /* chatBar_more.png */,
+				C90B3A401CDB1AA60006368B /* chatBar_more@2x.png */,
+				C90B3A411CDB1AA60006368B /* chatBar_moreSelected.png */,
+				C90B3A421CDB1AA60006368B /* chatBar_moreSelected@2x.png */,
+				C90B3A431CDB1AA60006368B /* chatBar_record.png */,
+				C90B3A441CDB1AA60006368B /* chatBar_record@2x.png */,
+				C90B3A451CDB1AA60006368B /* chatBar_recordBg.png */,
+				C90B3A461CDB1AA60006368B /* chatBar_recordBg@2x.png */,
+				C90B3A471CDB1AA60006368B /* chatBar_recordSelected.png */,
+				C90B3A481CDB1AA60006368B /* chatBar_recordSelected@2x.png */,
+				C90B3A491CDB1AA60006368B /* chatBar_recordSelectedBg.png */,
+				C90B3A4A1CDB1AA60006368B /* chatBar_recordSelectedBg@2x.png */,
+				C90B3A4B1CDB1AA60006368B /* messageToolbarBg@2x.png */,
+			);
+			name = MessageToolbarImages;
+			sourceTree = "<group>";
+		};
+		C90B3A611CDB1AAB0006368B /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3A621CDB1AB60006368B /* chatBar_colorMore_audioCall@2x.png */,
+				C90B3A631CDB1AB60006368B /* chatBar_colorMore_audioCallSelected@2x.png */,
+				C90B3A641CDB1AB60006368B /* chatBar_colorMore_camera@2x.png */,
+				C90B3A651CDB1AB60006368B /* chatBar_colorMore_cameraSelected@2x.png */,
+				C90B3A661CDB1AB60006368B /* chatBar_colorMore_location@2x.png */,
+				C90B3A671CDB1AB60006368B /* chatBar_colorMore_locationSelected@2x.png */,
+				C90B3A681CDB1AB60006368B /* chatBar_colorMore_photo@2x.png */,
+				C90B3A691CDB1AB60006368B /* chatBar_colorMore_photoSelected@2x.png */,
+				C90B3A6A1CDB1AB60006368B /* chatBar_colorMore_video@2x.png */,
+				C90B3A6B1CDB1AB60006368B /* chatBar_colorMore_videoCall@2x.png */,
+				C90B3A6C1CDB1AB60006368B /* chatBar_colorMore_videoCallSelected@2x.png */,
+				C90B3A6D1CDB1AB60006368B /* chatBar_colorMore_videoSelected@2x.png */,
+			);
+			name = Color;
+			sourceTree = "<group>";
+		};
+		C90B3A7A1CDB1AC10006368B /* Gray */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3A7B1CDB1ACA0006368B /* chatBar_more_camera.png */,
+				C90B3A7C1CDB1ACA0006368B /* chatBar_more_camera@2x.png */,
+				C90B3A7D1CDB1ACA0006368B /* chatBar_more_cameraSelected.png */,
+				C90B3A7E1CDB1ACA0006368B /* chatBar_more_cameraSelected@2x.png */,
+				C90B3A7F1CDB1ACA0006368B /* chatBar_more_location.png */,
+				C90B3A801CDB1ACA0006368B /* chatBar_more_location@2x.png */,
+				C90B3A811CDB1ACA0006368B /* chatBar_more_locationSelected.png */,
+				C90B3A821CDB1ACA0006368B /* chatBar_more_locationSelected@2x.png */,
+				C90B3A831CDB1ACA0006368B /* chatBar_more_photo.png */,
+				C90B3A841CDB1ACA0006368B /* chatBar_more_photo@2x.png */,
+				C90B3A851CDB1ACA0006368B /* chatBar_more_photoSelected.png */,
+				C90B3A861CDB1ACA0006368B /* chatBar_more_photoSelected@2x.png */,
+			);
+			name = Gray;
+			sourceTree = "<group>";
+		};
+		C90B3A931CDB1ADA0006368B /* receiver_bubble */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3A941CDB1AE20006368B /* chat_receiver_audio_playing_full.png */,
+				C90B3A951CDB1AE20006368B /* chat_receiver_audio_playing_full@2x.png */,
+				C90B3A961CDB1AE20006368B /* chat_receiver_audio_playing000.png */,
+				C90B3A971CDB1AE20006368B /* chat_receiver_audio_playing000@2x.png */,
+				C90B3A981CDB1AE20006368B /* chat_receiver_audio_playing001.png */,
+				C90B3A991CDB1AE20006368B /* chat_receiver_audio_playing001@2x.png */,
+				C90B3A9A1CDB1AE20006368B /* chat_receiver_audio_playing002.png */,
+				C90B3A9B1CDB1AE20006368B /* chat_receiver_audio_playing002@2x.png */,
+				C90B3A9C1CDB1AE20006368B /* chat_receiver_audio_playing003.png */,
+				C90B3A9D1CDB1AE20006368B /* chat_receiver_audio_playing003@2x.png */,
+				C90B3A9E1CDB1AE20006368B /* chat_receiver_bg.png */,
+				C90B3A9F1CDB1AE20006368B /* chat_receiver_bg@2x.png */,
+			);
+			name = receiver_bubble;
+			sourceTree = "<group>";
+		};
+		C90B3AAC1CDB1AEB0006368B /* sender_bubble */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3AAD1CDB1AF20006368B /* chat_sender_audio_playing_000.png */,
+				C90B3AAE1CDB1AF20006368B /* chat_sender_audio_playing_000@2x.png */,
+				C90B3AAF1CDB1AF20006368B /* chat_sender_audio_playing_001.png */,
+				C90B3AB01CDB1AF20006368B /* chat_sender_audio_playing_001@2x.png */,
+				C90B3AB11CDB1AF20006368B /* chat_sender_audio_playing_002.png */,
+				C90B3AB21CDB1AF20006368B /* chat_sender_audio_playing_002@2x.png */,
+				C90B3AB31CDB1AF20006368B /* chat_sender_audio_playing_003.png */,
+				C90B3AB41CDB1AF20006368B /* chat_sender_audio_playing_003@2x.png */,
+				C90B3AB51CDB1AF20006368B /* chat_sender_audio_playing_full.png */,
+				C90B3AB61CDB1AF20006368B /* chat_sender_audio_playing_full@2x.png */,
+				C90B3AB71CDB1AF20006368B /* chat_sender_bg.png */,
+				C90B3AB81CDB1AF20006368B /* chat_sender_bg@2x.png */,
+			);
+			name = sender_bubble;
+			sourceTree = "<group>";
+		};
+		C90B3AC51CDB1B040006368B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3AC61CDB1B100006368B /* account.png */,
+				C90B3AC71CDB1B100006368B /* account@2x.png */,
+				C90B3AC81CDB1B100006368B /* password.png */,
+				C90B3AC91CDB1B100006368B /* password@2x.png */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		C90B3ACE1CDB1B190006368B /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3ACF1CDB1B220006368B /* add@2x.png */,
+				C90B3AD01CDB1B220006368B /* back@2x.png */,
+				C90B3AD11CDB1B220006368B /* delete@2x.png */,
+				C90B3AD21CDB1B220006368B /* group_detail@2x.png */,
+				C90B3AD31CDB1B220006368B /* titleBar.png */,
+				C90B3AD41CDB1B220006368B /* titleBar@2x.png */,
+			);
+			name = NavigationBar;
+			sourceTree = "<group>";
+		};
+		C90B3ADB1CDB1B2F0006368B /* other */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3ADC1CDB1B360006368B /* group_creategroup@2x.png */,
+				C90B3ADD1CDB1B360006368B /* group_header@2x.png */,
+				C90B3ADE1CDB1B360006368B /* group_invitee_delete@2x.png */,
+				C90B3ADF1CDB1B360006368B /* group_joinpublicgroup@2x.png */,
+				C90B3AE01CDB1B360006368B /* group_participant_add@2x.png */,
+				C90B3AE11CDB1B360006368B /* group_participant_addHL@2x.png */,
+				C90B3AE21CDB1B360006368B /* groupPrivateHeader@2x.png */,
+				C90B3AE31CDB1B360006368B /* groupPublicHeader@2x.png */,
+				C90B3AE41CDB1B360006368B /* nav_createGroup@2x.png */,
+				C90B3AE51CDB1B360006368B /* newFriends@2x.png */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		C90B3AF01CDB1B420006368B /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3AF11CDB1B530006368B /* tabbar_chats.png */,
+				C90B3AF21CDB1B530006368B /* tabbar_chats@2x.png */,
+				C90B3AF31CDB1B530006368B /* tabbar_chatsHL.png */,
+				C90B3AF41CDB1B530006368B /* tabbar_chatsHL@2x.png */,
+				C90B3AF51CDB1B530006368B /* tabbar_contacts.png */,
+				C90B3AF61CDB1B530006368B /* tabbar_contacts@2x.png */,
+				C90B3AF71CDB1B530006368B /* tabbar_contactsHL.png */,
+				C90B3AF81CDB1B530006368B /* tabbar_contactsHL@2x.png */,
+				C90B3AF91CDB1B530006368B /* tabbar_setting.png */,
+				C90B3AFA1CDB1B530006368B /* tabbar_setting@2x.png */,
+				C90B3AFB1CDB1B530006368B /* tabbar_settingHL.png */,
+				C90B3AFC1CDB1B530006368B /* tabbar_settingHL@2x.png */,
+				C90B3AFD1CDB1B530006368B /* tabbarBackground.png */,
+				C90B3AFE1CDB1B530006368B /* tabbarBackground@2x.png */,
+				C90B3AFF1CDB1B530006368B /* tabbarSelectBg.png */,
+				C90B3B001CDB1B530006368B /* tabbarSelectBg@2x.png */,
+			);
+			name = tabbar;
+			sourceTree = "<group>";
+		};
 		FE5D3DFB1CD8A55E008EE58C /* Utility */ = {
 			isa = PBXGroup;
 			children = (
@@ -731,6 +1959,9 @@
 		FE66E87C1CD840D40092FADF = {
 			isa = PBXGroup;
 			children = (
+				C90B39781CDB19180006368B /* Category */,
+				C90B395A1CDB17940006368B /* Custom */,
+				C90B38A51CDB131D0006368B /* class */,
 				C90B37C91CDAE4DD0006368B /* 3rd */,
 				FEF4CBDF1CD98D6300C96E11 /* Constants */,
 				FE5D3DFB1CD8A55E008EE58C /* Utility */,
@@ -767,6 +1998,8 @@
 		FE66E8881CD840D40092FADF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C90B3B111CDB1D090006368B /* ChatDemoUIDefine.h */,
+				C90B398E1CDB19720006368B /* Resources */,
 				FE66E88B1CD840D40092FADF /* AppDelegate.h */,
 				FE66E89C1CD840D40092FADF /* Info.plist */,
 				FE66E88C1CD840D40092FADF /* AppDelegate.m */,
@@ -958,14 +2191,200 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90B3AA71CDB1AE20006368B /* chat_receiver_audio_playing002@2x.png in Resources */,
+				C90B39B21CDB1A110006368B /* call_silence_h.png in Resources */,
+				C90B3A021CDB1A350006368B /* VoiceSearchFeedback016@2x.png in Resources */,
+				C90B3A011CDB1A350006368B /* VoiceSearchFeedback016.png in Resources */,
+				C90B3A001CDB1A350006368B /* VoiceSearchFeedback015@2x.png in Resources */,
+				C90B3A071CDB1A350006368B /* VoiceSearchFeedback019.png in Resources */,
+				C90B39991CDB19D30006368B /* 80.png in Resources */,
+				C90B39971CDB19D30006368B /* 57.png in Resources */,
+				C90B39E71CDB1A350006368B /* VoiceSearchFeedback003.png in Resources */,
+				C90B3AEF1CDB1B360006368B /* newFriends@2x.png in Resources */,
+				C90B39F61CDB1A350006368B /* VoiceSearchFeedback010@2x.png in Resources */,
+				C90B39FE1CDB1A350006368B /* VoiceSearchFeedback014@2x.png in Resources */,
+				C90B3A2D1CDB1A630006368B /* chat_location_detail_disclosureHL.png in Resources */,
+				C90B3B081CDB1B530006368B /* tabbar_contactsHL@2x.png in Resources */,
+				C90B39FA1CDB1A350006368B /* VoiceSearchFeedback012@2x.png in Resources */,
+				C90B39EE1CDB1A350006368B /* VoiceSearchFeedback006@2x.png in Resources */,
+				C90B39F01CDB1A350006368B /* VoiceSearchFeedback007@2x.png in Resources */,
+				C90B3ACD1CDB1B100006368B /* password@2x.png in Resources */,
+				C90B39FC1CDB1A350006368B /* VoiceSearchFeedback013@2x.png in Resources */,
+				C90B3AEE1CDB1B360006368B /* nav_createGroup@2x.png in Resources */,
+				C90B3A291CDB1A630006368B /* chat_location_annotation_someone.png in Resources */,
+				C90B39F11CDB1A350006368B /* VoiceSearchFeedback008.png in Resources */,
+				C90B3AE81CDB1B360006368B /* group_invitee_delete@2x.png in Resources */,
+				C90B3A711CDB1AB60006368B /* chatBar_colorMore_cameraSelected@2x.png in Resources */,
+				C90B3A911CDB1ACA0006368B /* chatBar_more_photoSelected.png in Resources */,
+				C90B3AC41CDB1AF20006368B /* chat_sender_bg@2x.png in Resources */,
+				C90B3A881CDB1ACA0006368B /* chatBar_more_camera@2x.png in Resources */,
+				C90B3B011CDB1B530006368B /* tabbar_chats.png in Resources */,
+				C90B3AC31CDB1AF20006368B /* chat_sender_bg.png in Resources */,
+				C90B3A8F1CDB1ACA0006368B /* chatBar_more_photo.png in Resources */,
+				C90B3ABE1CDB1AF20006368B /* chat_sender_audio_playing_002@2x.png in Resources */,
+				C90B3A2F1CDB1A630006368B /* chat_location_preview.png in Resources */,
+				C90B3ADA1CDB1B220006368B /* titleBar@2x.png in Resources */,
+				C90B39AF1CDB1A110006368B /* call_out_h@2x.png in Resources */,
+				C90B3AEB1CDB1B360006368B /* group_participant_addHL@2x.png in Resources */,
+				C90B3A5C1CDB1AA60006368B /* chatBar_recordSelected.png in Resources */,
+				C90B39961CDB19D30006368B /* 29.png in Resources */,
+				C90B3A2E1CDB1A630006368B /* chat_location_detail_disclosureHL@2x.png in Resources */,
+				C90B3A2C1CDB1A630006368B /* chat_location_detail_disclosure@2x.png in Resources */,
+				C90B3B021CDB1B530006368B /* tabbar_chats@2x.png in Resources */,
 				C90B38841CDAE8340006368B /* sr_refresh.png in Resources */,
+				C90B3A061CDB1A350006368B /* VoiceSearchFeedback018@2x.png in Resources */,
+				C90B3AE71CDB1B360006368B /* group_header@2x.png in Resources */,
+				C90B3AAB1CDB1AE20006368B /* chat_receiver_bg@2x.png in Resources */,
+				C90B39B71CDB1A110006368B /* chat_video_play.png in Resources */,
+				C90B3A5D1CDB1AA60006368B /* chatBar_recordSelected@2x.png in Resources */,
+				C90B39E81CDB1A350006368B /* VoiceSearchFeedback003@2x.png in Resources */,
+				C90B3B0B1CDB1B530006368B /* tabbar_settingHL.png in Resources */,
+				C90B3A891CDB1ACA0006368B /* chatBar_more_cameraSelected.png in Resources */,
+				C90B3B0C1CDB1B530006368B /* tabbar_settingHL@2x.png in Resources */,
 				C90B38851CDAE8340006368B /* sr_refresh@2X.png in Resources */,
+				C90B399F1CDB19E90006368B /* chatListCellHead.png in Resources */,
+				C90B39B51CDB1A110006368B /* call_silence@2x.png in Resources */,
+				C90B3B101CDB1B530006368B /* tabbarSelectBg@2x.png in Resources */,
+				C90B3A091CDB1A350006368B /* VoiceSearchFeedback020.png in Resources */,
+				C90B39EA1CDB1A350006368B /* VoiceSearchFeedback004@2x.png in Resources */,
 				FE66E8CB1CD861800092FADF /* Second.storyboard in Resources */,
+				C90B3B061CDB1B530006368B /* tabbar_contacts@2x.png in Resources */,
+				C90B3ABB1CDB1AF20006368B /* chat_sender_audio_playing_001.png in Resources */,
+				C90B3A5F1CDB1AA60006368B /* chatBar_recordSelectedBg@2x.png in Resources */,
+				C90B3AAA1CDB1AE20006368B /* chat_receiver_bg.png in Resources */,
+				C90B3A6F1CDB1AB60006368B /* chatBar_colorMore_audioCallSelected@2x.png in Resources */,
+				C90B3B0F1CDB1B530006368B /* tabbarSelectBg.png in Resources */,
+				C90B3A0A1CDB1A350006368B /* VoiceSearchFeedback020@2x.png in Resources */,
+				C90B39F81CDB1A350006368B /* VoiceSearchFeedback011@2x.png in Resources */,
+				C90B39EF1CDB1A350006368B /* VoiceSearchFeedback007.png in Resources */,
+				C90B3AA31CDB1AE20006368B /* chat_receiver_audio_playing000@2x.png in Resources */,
+				C90B3ABA1CDB1AF20006368B /* chat_sender_audio_playing_000@2x.png in Resources */,
+				C90B3B0D1CDB1B530006368B /* tabbarBackground.png in Resources */,
+				C90B3A161CDB1A500006368B /* chatBar_more_card.png in Resources */,
+				C90B3AC11CDB1AF20006368B /* chat_sender_audio_playing_full.png in Resources */,
+				C90B3AE61CDB1B360006368B /* group_creategroup@2x.png in Resources */,
+				C90B39AE1CDB1A110006368B /* call_out_h.png in Resources */,
+				C90B3AD61CDB1B220006368B /* back@2x.png in Resources */,
+				C90B39F31CDB1A350006368B /* VoiceSearchFeedback009.png in Resources */,
+				C90B3A1A1CDB1A500006368B /* chatBar_more_face.png in Resources */,
+				C90B3A041CDB1A350006368B /* VoiceSearchFeedback017@2x.png in Resources */,
+				C90B3A701CDB1AB60006368B /* chatBar_colorMore_camera@2x.png in Resources */,
+				C90B3AA41CDB1AE20006368B /* chat_receiver_audio_playing001.png in Resources */,
+				C90B39B31CDB1A110006368B /* call_silence_h@2x.png in Resources */,
+				C90B39EC1CDB1A350006368B /* VoiceSearchFeedback005@2x.png in Resources */,
+				C90B39B11CDB1A110006368B /* call_out@2x.png in Resources */,
+				C90B39FD1CDB1A350006368B /* VoiceSearchFeedback014.png in Resources */,
 				FE66E89B1CD840D40092FADF /* LaunchScreen.storyboard in Resources */,
+				C90B3ABF1CDB1AF20006368B /* chat_sender_audio_playing_003.png in Resources */,
+				C90B39E31CDB1A350006368B /* VoiceSearchFeedback001.png in Resources */,
+				C90B3A5E1CDB1AA60006368B /* chatBar_recordSelectedBg.png in Resources */,
+				C90B3B041CDB1B530006368B /* tabbar_chatsHL@2x.png in Resources */,
+				C90B3AA51CDB1AE20006368B /* chat_receiver_audio_playing001@2x.png in Resources */,
+				C90B3A531CDB1AA60006368B /* chatBar_keyboardSelected@2x.png in Resources */,
+				C90B3A791CDB1AB60006368B /* chatBar_colorMore_videoSelected@2x.png in Resources */,
+				C90B3A8A1CDB1ACA0006368B /* chatBar_more_cameraSelected@2x.png in Resources */,
+				C90B3A1D1CDB1A500006368B /* chatBar_more_faceSelected@2x.png in Resources */,
+				C90B3AA01CDB1AE20006368B /* chat_receiver_audio_playing_full.png in Resources */,
+				C90B3AD81CDB1B220006368B /* group_detail@2x.png in Resources */,
+				C90B3B071CDB1B530006368B /* tabbar_contactsHL.png in Resources */,
+				C90B3AD51CDB1B220006368B /* add@2x.png in Resources */,
+				C90B3A4F1CDB1AA60006368B /* chatBar_faceSelected@2x.png in Resources */,
+				C90B3A4E1CDB1AA60006368B /* chatBar_faceSelected.png in Resources */,
+				C90B3A761CDB1AB60006368B /* chatBar_colorMore_video@2x.png in Resources */,
+				C90B39ED1CDB1A350006368B /* VoiceSearchFeedback006.png in Resources */,
+				C90B3A561CDB1AA60006368B /* chatBar_moreSelected.png in Resources */,
+				C90B39E91CDB1A350006368B /* VoiceSearchFeedback004.png in Resources */,
+				C90B3A901CDB1ACA0006368B /* chatBar_more_photo@2x.png in Resources */,
+				C90B39E51CDB1A350006368B /* VoiceSearchFeedback002.png in Resources */,
+				C90B3A081CDB1A350006368B /* VoiceSearchFeedback019@2x.png in Resources */,
+				C90B3A2A1CDB1A630006368B /* chat_location_annotation_someone@2x.png in Resources */,
+				C90B38AA1CDB140B0006368B /* callRing.mp3 in Resources */,
+				C90B39B61CDB1A110006368B /* callBg@2x.png in Resources */,
+				C90B3A351CDB1A760006368B /* faceDelete@2x.png in Resources */,
+				C90B3AD71CDB1B220006368B /* delete@2x.png in Resources */,
+				C90B39EB1CDB1A350006368B /* VoiceSearchFeedback005.png in Resources */,
+				C90B3A6E1CDB1AB60006368B /* chatBar_colorMore_audioCall@2x.png in Resources */,
+				C90B3ABC1CDB1AF20006368B /* chat_sender_audio_playing_001@2x.png in Resources */,
+				C90B39FB1CDB1A350006368B /* VoiceSearchFeedback013.png in Resources */,
+				C90B3A191CDB1A500006368B /* chatBar_more_cardSelected@2x.png in Resources */,
+				C90B39F51CDB1A350006368B /* VoiceSearchFeedback010.png in Resources */,
+				C90B3AC21CDB1AF20006368B /* chat_sender_audio_playing_full@2x.png in Resources */,
+				C90B3A601CDB1AA60006368B /* messageToolbarBg@2x.png in Resources */,
+				C90B3A8E1CDB1ACA0006368B /* chatBar_more_locationSelected@2x.png in Resources */,
 				FE66E8981CD840D40092FADF /* Assets.xcassets in Resources */,
+				C90B3A8D1CDB1ACA0006368B /* chatBar_more_locationSelected.png in Resources */,
+				C90B3A741CDB1AB60006368B /* chatBar_colorMore_photo@2x.png in Resources */,
+				C90B3A771CDB1AB60006368B /* chatBar_colorMore_videoCall@2x.png in Resources */,
+				C90B3A4C1CDB1AA60006368B /* chatBar_face.png in Resources */,
+				C90B3A1E1CDB1A500006368B /* chatBar_textBg.png in Resources */,
+				C90B3A781CDB1AB60006368B /* chatBar_colorMore_videoCallSelected@2x.png in Resources */,
+				C90B3A591CDB1AA60006368B /* chatBar_record@2x.png in Resources */,
+				C90B3B0A1CDB1B530006368B /* tabbar_setting@2x.png in Resources */,
+				C90B39FF1CDB1A350006368B /* VoiceSearchFeedback015.png in Resources */,
 				C90B387B1CDAE80A0006368B /* MWPhotoBrowser.bundle in Resources */,
+				C90B3A921CDB1ACA0006368B /* chatBar_more_photoSelected@2x.png in Resources */,
+				C90B3A501CDB1AA60006368B /* chatBar_keyboard.png in Resources */,
+				C90B3AA21CDB1AE20006368B /* chat_receiver_audio_playing000.png in Resources */,
+				C90B3A8B1CDB1ACA0006368B /* chatBar_more_location.png in Resources */,
+				C90B3A5B1CDB1AA60006368B /* chatBar_recordBg@2x.png in Resources */,
+				C90B3AED1CDB1B360006368B /* groupPublicHeader@2x.png in Resources */,
+				C90B3ACC1CDB1B100006368B /* password.png in Resources */,
+				C90B3AA81CDB1AE20006368B /* chat_receiver_audio_playing003.png in Resources */,
+				C90B3A571CDB1AA60006368B /* chatBar_moreSelected@2x.png in Resources */,
+				C90B39F41CDB1A350006368B /* VoiceSearchFeedback009@2x.png in Resources */,
+				C90B3A031CDB1A350006368B /* VoiceSearchFeedback017.png in Resources */,
+				C90B3A301CDB1A630006368B /* chat_location_preview@2x.png in Resources */,
+				C90B3A2B1CDB1A630006368B /* chat_location_detail_disclosure.png in Resources */,
+				C90B3A5A1CDB1AA60006368B /* chatBar_recordBg.png in Resources */,
+				C90B39F71CDB1A350006368B /* VoiceSearchFeedback011.png in Resources */,
+				C90B39A01CDB19E90006368B /* chatListCellHead@2x.png in Resources */,
+				C90B3ACA1CDB1B100006368B /* account.png in Resources */,
+				C90B3A1F1CDB1A500006368B /* chatBar_textBg@2x.png in Resources */,
+				C90B3AE91CDB1B360006368B /* group_joinpublicgroup@2x.png in Resources */,
+				C90B3A721CDB1AB60006368B /* chatBar_colorMore_location@2x.png in Resources */,
+				C90B39B41CDB1A110006368B /* call_silence.png in Resources */,
+				C90B3A1B1CDB1A500006368B /* chatBar_more_face@2x.png in Resources */,
+				C90B3A181CDB1A500006368B /* chatBar_more_cardSelected.png in Resources */,
+				C90B3A731CDB1AB60006368B /* chatBar_colorMore_locationSelected@2x.png in Resources */,
+				C90B3AA11CDB1AE20006368B /* chat_receiver_audio_playing_full@2x.png in Resources */,
+				C90B3A751CDB1AB60006368B /* chatBar_colorMore_photoSelected@2x.png in Resources */,
+				C90B3AC01CDB1AF20006368B /* chat_sender_audio_playing_003@2x.png in Resources */,
+				C90B3A581CDB1AA60006368B /* chatBar_record.png in Resources */,
+				C90B3A171CDB1A500006368B /* chatBar_more_card@2x.png in Resources */,
+				C90B3A1C1CDB1A500006368B /* chatBar_more_faceSelected.png in Resources */,
+				C90B3B051CDB1B530006368B /* tabbar_contacts.png in Resources */,
+				C90B3B0E1CDB1B530006368B /* tabbarBackground@2x.png in Resources */,
+				C90B39B91CDB1A110006368B /* messageSendFail@2x.png in Resources */,
+				C90B3A341CDB1A760006368B /* faceDelete.png in Resources */,
+				C90B3A511CDB1AA60006368B /* chatBar_keyboard@2x.png in Resources */,
+				C90B39B01CDB1A110006368B /* call_out.png in Resources */,
+				C90B3B091CDB1B530006368B /* tabbar_setting.png in Resources */,
+				C90B3AA91CDB1AE20006368B /* chat_receiver_audio_playing003@2x.png in Resources */,
+				C90B3A541CDB1AA60006368B /* chatBar_more.png in Resources */,
+				C90B39E41CDB1A350006368B /* VoiceSearchFeedback001@2x.png in Resources */,
+				C90B39F21CDB1A350006368B /* VoiceSearchFeedback008@2x.png in Resources */,
+				C90B3A051CDB1A350006368B /* VoiceSearchFeedback018.png in Resources */,
 				FE66E8931CD840D40092FADF /* Main.storyboard in Resources */,
+				C90B3AEA1CDB1B360006368B /* group_participant_add@2x.png in Resources */,
+				C90B39F91CDB1A350006368B /* VoiceSearchFeedback012.png in Resources */,
+				C90B39981CDB19D30006368B /* 58.png in Resources */,
+				C90B3AB91CDB1AF20006368B /* chat_sender_audio_playing_000.png in Resources */,
+				C90B3AA61CDB1AE20006368B /* chat_receiver_audio_playing002.png in Resources */,
+				C90B39B81CDB1A110006368B /* imageDownloadFail@2x.png in Resources */,
+				C90B3A551CDB1AA60006368B /* chatBar_more@2x.png in Resources */,
+				C90B3A8C1CDB1ACA0006368B /* chatBar_more_location@2x.png in Resources */,
+				C90B3A871CDB1ACA0006368B /* chatBar_more_camera.png in Resources */,
+				C90B3ACB1CDB1B100006368B /* account@2x.png in Resources */,
+				C90B39E61CDB1A350006368B /* VoiceSearchFeedback002@2x.png in Resources */,
+				C90B399B1CDB19D30006368B /* 120.png in Resources */,
+				C90B3ABD1CDB1AF20006368B /* chat_sender_audio_playing_002.png in Resources */,
+				C90B3A4D1CDB1AA60006368B /* chatBar_face@2x.png in Resources */,
+				C90B3B031CDB1B530006368B /* tabbar_chatsHL.png in Resources */,
+				C90B3AEC1CDB1B360006368B /* groupPrivateHeader@2x.png in Resources */,
+				C90B3A521CDB1AA60006368B /* chatBar_keyboardSelected.png in Resources */,
+				C90B399A1CDB19D30006368B /* 114.png in Resources */,
 				FE66E8CD1CD861900092FADF /* Third.storyboard in Resources */,
+				C90B3AD91CDB1B220006368B /* titleBar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1039,79 +2458,145 @@
 			buildActionMask = 2147483647;
 			files = (
 				C90B37E11CDAE6020006368B /* EMCDDeviceManager+Media.m in Sources */,
+				C90B38FA1CDB156C0006368B /* EMChatBaseBubbleView.m in Sources */,
 				C90B38141CDAE68F0006368B /* MWZoomingScrollView.m in Sources */,
 				FEA65FF31CD8795E00A857DD /* LeftViewController.m in Sources */,
+				C90B38D71CDB15030006368B /* DXRecordView.m in Sources */,
 				C90B37F61CDAE6630006368B /* MBProgressHUD.m in Sources */,
 				C90B38401CDAE7730006368B /* EMSDWebImageDecoder.m in Sources */,
 				FE66E8D31CD863C40092FADF /* SecondViewController.m in Sources */,
+				C90B38C21CDB14650006368B /* ConvertToCommonEmoticonsHelper.m in Sources */,
 				C90B38701CDAE7930006368B /* PSTCollectionViewFlowLayout.m in Sources */,
+				C90B39191CDB15A80006368B /* GroupListViewController.m in Sources */,
+				C90B393D1CDB160E0006368B /* ApplyFriendCell.m in Sources */,
 				C90B37E01CDAE6020006368B /* EMAudioRecorderUtil.m in Sources */,
+				C90B38E11CDB152F0006368B /* MessageReadManager.m in Sources */,
+				C90B39301CDB15E70006368B /* ContactsViewController.m in Sources */,
 				FE66E8901CD840D40092FADF /* ViewController.m in Sources */,
+				C90B39751CDB17E00006368B /* EMChooseViewController.m in Sources */,
+				C90B39451CDB16280006368B /* UserProfileManager.m in Sources */,
+				C90B38E91CDB15530006368B /* EMChatTimeCell.m in Sources */,
 				FEC03F371CDAE57800D3AFFC /* PresonTableViewController.m in Sources */,
+				C90B38D31CDB14EC0006368B /* DXChatBarMoreView.m in Sources */,
 				FE66E88D1CD840D40092FADF /* AppDelegate.m in Sources */,
 				C90B38761CDAE7930006368B /* PSTGridLayoutRow.m in Sources */,
 				C90B386B1CDAE7930006368B /* NSIndexPath+PSTCollectionViewAdditions.m in Sources */,
 				C90B37F71CDAE6630006368B /* MBProgressHUD+Add.m in Sources */,
 				FEA65FF91CD87C6A00A857DD /* RegisteredViewController.m in Sources */,
-
 				FEC03F3A1CDAE5AA00D3AFFC /* MineTableViewController.m in Sources */,
-
+				C90B38C71CDB147F0006368B /* DXMessageToolBar.m in Sources */,
 				C90B38111CDAE68F0006368B /* MWPhotoBrowser.m in Sources */,
 				C90B388F1CDAE8540006368B /* TTGlobalUICommon.m in Sources */,
 				C90B380E1CDAE68F0006368B /* MWGridCell.m in Sources */,
-
+				C90B38EA1CDB15530006368B /* EMChatViewBaseCell.m in Sources */,
 				FEA65FF61CD87C0F00A857DD /* LoginViewController.m in Sources */,
 				C90B38771CDAE7930006368B /* PSTGridLayoutSection.m in Sources */,
 				C90B38461CDAE7730006368B /* NSData+EMImageContentType.m in Sources */,
 				C90B386D1CDAE7930006368B /* PSTCollectionViewCell.m in Sources */,
+				C90B398A1CDB19280006368B /* UIImageView+HeadImage.m in Sources */,
 				FEF4CBDC1CD98C1600C96E11 /* Utilities.m in Sources */,
+				C90B39881CDB19280006368B /* NSDateFormatter+Category.m in Sources */,
 				C90B38711CDAE7930006368B /* PSTCollectionViewItemKey.m in Sources */,
 				C90B38721CDAE7930006368B /* PSTCollectionViewLayout.m in Sources */,
+				C90B39591CDB166F0006368B /* RobotManager.m in Sources */,
 				C90B37E41CDAE6020006368B /* EMCDDeviceManager+Remind.m in Sources */,
 				C90B38991CDAE8780006368B /* amrFileCodec.mm in Sources */,
 				C90B37F01CDAE6370006368B /* EmojiEmoticons.m in Sources */,
+				C90B38C31CDB14650006368B /* LocationViewController.m in Sources */,
 				C90B386F1CDAE7930006368B /* PSTCollectionViewData.m in Sources */,
+				C90B38EB1CDB15530006368B /* EMChatViewCell.m in Sources */,
 				C90B38751CDAE7930006368B /* PSTGridLayoutItem.m in Sources */,
 				C90B38931CDAE8660006368B /* EMVoiceConverter.mm in Sources */,
+				C90B39161CDB15A80006368B /* ContactView.m in Sources */,
+				C90B39761CDB17E00006368B /* EMNavigationController.m in Sources */,
+				C90B38FD1CDB156C0006368B /* EMChatTextBubbleView.m in Sources */,
 				C90B386E1CDAE7930006368B /* PSTCollectionViewController.m in Sources */,
+				C90B396A1CDB17C60006368B /* EMRemarkImageView.m in Sources */,
 				FE66E8D01CD863B20092FADF /* FirstViewController.m in Sources */,
 				C90B38421CDAE7730006368B /* EMSDWebImageDownloaderOperation.m in Sources */,
+				C90B39151CDB15A80006368B /* ContactSelectionViewController.m in Sources */,
+				C90B39181CDB15A80006368B /* GroupBansViewController.m in Sources */,
+				C90B398C1CDB19280006368B /* UIViewController+DismissKeyboard.m in Sources */,
 				C90B38451CDAE7730006368B /* MKAnnotationView+EMWebCache.m in Sources */,
+				C90B39581CDB166F0006368B /* RobotListViewController.m in Sources */,
+				C90B391A1CDB15A80006368B /* GroupSettingViewController.m in Sources */,
 				FE66E8DC1CD868870092FADF /* Bate1ViewController.m in Sources */,
+				C90B39891CDB19280006368B /* NSString+Valid.m in Sources */,
 				C90B37EF1CDAE6370006368B /* Emoji.m in Sources */,
 				C90B38741CDAE7930006368B /* PSTGridLayoutInfo.m in Sources */,
+				C90B39741CDB17E00006368B /* BaseViewController.m in Sources */,
 				C90B38871CDAE8340006368B /* SRSlimeView.m in Sources */,
 				C90B38491CDAE7730006368B /* UIImage+EMMultiFormat.m in Sources */,
+				C90B38FC1CDB156C0006368B /* EMChatLocationBubbleView.m in Sources */,
+				C90B38F91CDB156C0006368B /* EMChatAudioBubbleView.m in Sources */,
+				C90B38FB1CDB156C0006368B /* EMChatImageBubbleView.m in Sources */,
+				C90B39631CDB17B40006368B /* BaseTableViewCell.m in Sources */,
 				C90B38121CDAE68F0006368B /* MWTapDetectingImageView.m in Sources */,
 				C90B384A1CDAE7730006368B /* UIImage+EMWebP.m in Sources */,
 				FE66E88A1CD840D40092FADF /* main.m in Sources */,
 				C90B386C1CDAE7930006368B /* PSTCollectionView.m in Sources */,
+				C90B391C1CDB15A80006368B /* PublicGroupDetailViewController.m in Sources */,
+				C90B38CE1CDB14CB0006368B /* DXFaceView.m in Sources */,
+				C90B39491CDB163B0006368B /* UserProfileViewController.m in Sources */,
 				C90B38471CDAE7730006368B /* UIButton+EMWebCache.m in Sources */,
+				C90B393E1CDB160E0006368B /* ApplyViewController.m in Sources */,
 				C90B38431CDAE7730006368B /* EMSDWebImageManager.m in Sources */,
 				C90B38101CDAE68F0006368B /* MWPhoto.m in Sources */,
+				C90B39251CDB15BE0006368B /* ChatroomDetailViewController.m in Sources */,
 				C90B384C1CDAE7730006368B /* UIImageView+EMWebCache.m in Sources */,
+				C90B392F1CDB15E70006368B /* ChineseToPinyin.m in Sources */,
+				C90B39141CDB15A80006368B /* ChatGroupDetailViewController.m in Sources */,
+				C90B39771CDB17E00006368B /* EMSearchDisplayController.m in Sources */,
 				C90B37E51CDAE6020006368B /* EMCDDeviceManagerBase.m in Sources */,
+				C90B393B1CDB160E0006368B /* AddFriendCell.m in Sources */,
+				C90B39871CDB19280006368B /* NSDate+Category.m in Sources */,
+				C90B39661CDB17B40006368B /* XHMessageTextView.m in Sources */,
+				C90B39441CDB16280006368B /* InvitationManager.m in Sources */,
 				C90B37E21CDAE6020006368B /* EMCDDeviceManager+Microphone.m in Sources */,
+				C90B38FE1CDB156C0006368B /* EMChatVideoBubbleView.m in Sources */,
 				C90B389A1CDAE8780006368B /* wav.mm in Sources */,
 				C90B38481CDAE7730006368B /* UIImage+EMGIF.m in Sources */,
 				C90B380D1CDAE68F0006368B /* MWCaptionView.m in Sources */,
 				FE66E8961CD840D40092FADF /* beta1.xcdatamodeld in Sources */,
+				C90B393C1CDB160E0006368B /* AddFriendViewController.m in Sources */,
+				C90B398B1CDB19280006368B /* UIResponder+Router.m in Sources */,
 				C90B384B1CDAE7730006368B /* UIImageView+EMHighlightedWebCache.m in Sources */,
 				C90B380F1CDAE68F0006368B /* MWGridViewController.m in Sources */,
 				C90B383E1CDAE7730006368B /* EMSDImageCache.m in Sources */,
 				C90B37E31CDAE6020006368B /* EMCDDeviceManager+ProximitySensor.m in Sources */,
 				C90B381B1CDAE7520006368B /* DACircularProgressView.m in Sources */,
+				C90B39561CDB166F0006368B /* EMRotbotChatViewCell.m in Sources */,
+				C90B38CF1CDB14CB0006368B /* FacialView.m in Sources */,
+				C90B398D1CDB19280006368B /* UIViewController+HUD.m in Sources */,
 				C90B38411CDAE7730006368B /* EMSDWebImageDownloader.m in Sources */,
+				C90B391D1CDB15A80006368B /* PublicGroupListViewController.m in Sources */,
 				C90B383F1CDAE7730006368B /* EMSDWebImageCompat.m in Sources */,
+				C90B38E01CDB152F0006368B /* MessageModelManager.m in Sources */,
+				C90B38BF1CDB14650006368B /* ChatSendHelper.m in Sources */,
+				C90B38B31CDB143D0006368B /* ChatListViewController.m in Sources */,
+				C90B39571CDB166F0006368B /* RobotChatViewController.m in Sources */,
+				C90B39261CDB15BE0006368B /* ChatroomListViewController.m in Sources */,
+				C90B39651CDB17B40006368B /* EMTextView.m in Sources */,
 				C90B37E91CDAE6220006368B /* EMAlertView.m in Sources */,
+				C90B38DF1CDB152F0006368B /* MessageModel.m in Sources */,
+				C90B391B1CDB15A80006368B /* GroupSubjectChangingViewController.m in Sources */,
 				C90B37DF1CDAE6020006368B /* EMAudioPlayerUtil.m in Sources */,
 				C90B388B1CDAE8460006368B /* THProgressView.m in Sources */,
+				C90B39551CDB166F0006368B /* EMRobotChatTextBubbleView.m in Sources */,
 				C90B38441CDAE7730006368B /* EMSDWebImagePrefetcher.m in Sources */,
+				C90B39171CDB15A80006368B /* CreateGroupViewController.m in Sources */,
+				C90B38B21CDB143D0006368B /* ChatListCell.m in Sources */,
+				C90B39311CDB15E70006368B /* RealtimeSearchUtil.m in Sources */,
+				C90B38AB1CDB140B0006368B /* CallViewController.m in Sources */,
+				C90B38C01CDB14650006368B /* ChatViewController.m in Sources */,
 				C90B38731CDAE7930006368B /* PSTCollectionViewUpdateItem.m in Sources */,
 				C90B38861CDAE8340006368B /* SRRefreshView.m in Sources */,
+				C90B39271CDB15BE0006368B /* MyChatroomListViewController.m in Sources */,
+				C90B38C11CDB14650006368B /* ChatViewController+Category.m in Sources */,
 				C90B384D1CDAE7730006368B /* UIView+EMWebCacheOperation.m in Sources */,
 				FE66E8D61CD863D80092FADF /* ThirdViewController.m in Sources */,
 				C90B38131CDAE68F0006368B /* MWTapDetectingView.m in Sources */,
+				C90B39641CDB17B40006368B /* EMSearchBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
