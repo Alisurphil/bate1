@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		069D6B0B605BDABFBF331254 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F05A34ED8505DB24673140C1 /* libPods.a */; };
+		C90B37BF1CDADB880006368B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90B37BE1CDADB880006368B /* MobileCoreServices.framework */; };
+		C90B37C01CDADB940006368B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBF11CD9973300C96E11 /* CFNetwork.framework */; };
+		C90B37C21CDADBD30006368B /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C90B37C11CDADBD30006368B /* libstdc++.6.0.9.tbd */; };
+		C90B37C41CDADBF00006368B /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C90B37C31CDADBF00006368B /* libiconv.tbd */; };
+		C90B37C61CDADBFB0006368B /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C90B37C51CDADBFB0006368B /* libresolv.tbd */; };
+		C90B37C81CDADC080006368B /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C90B37C71CDADC080006368B /* libxml2.tbd */; };
 		FE66E88A1CD840D40092FADF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E8891CD840D40092FADF /* main.m */; };
 		FE66E88D1CD840D40092FADF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E88C1CD840D40092FADF /* AppDelegate.m */; };
 		FE66E8901CD840D40092FADF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E88F1CD840D40092FADF /* ViewController.m */; };
@@ -61,6 +67,11 @@
 /* Begin PBXFileReference section */
 		3FB370494D783422F92CE473 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A799931B887F2A29191C7810 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C90B37BE1CDADB880006368B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C90B37C11CDADBD30006368B /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		C90B37C31CDADBF00006368B /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		C90B37C51CDADBFB0006368B /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		C90B37C71CDADC080006368B /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		F05A34ED8505DB24673140C1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE66E8851CD840D40092FADF /* beta1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beta1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE66E8891CD840D40092FADF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -126,14 +137,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90B37C81CDADC080006368B /* libxml2.tbd in Frameworks */,
+				C90B37C61CDADBFB0006368B /* libresolv.tbd in Frameworks */,
+				C90B37C41CDADBF00006368B /* libiconv.tbd in Frameworks */,
+				FEF4CBFA1CD9979200C96E11 /* libz.tbd in Frameworks */,
+				C90B37C21CDADBD30006368B /* libstdc++.6.0.9.tbd in Frameworks */,
+				FEF4CBFC1CD9979D00C96E11 /* libsqlite3.tbd in Frameworks */,
+				C90B37C01CDADB940006368B /* CFNetwork.framework in Frameworks */,
+				C90B37BF1CDADB880006368B /* MobileCoreServices.framework in Frameworks */,
 				FEF4CC0B1CD9A97700C96E11 /* AudioToolbox.framework in Frameworks */,
 				FEF4CC0A1CD9A96500C96E11 /* Social.framework in Frameworks */,
 				FEF4CC091CD9A95500C96E11 /* UIKit.framework in Frameworks */,
 				FEF4CC081CD9A94900C96E11 /* Accounts.framework in Frameworks */,
 				FEF4CC021CD99E0200C96E11 /* Bolts.framework in Frameworks */,
 				FEF4CBE21CD98F5200C96E11 /* Parse.framework in Frameworks */,
-				FEF4CBFC1CD9979D00C96E11 /* libsqlite3.tbd in Frameworks */,
-				FEF4CBFA1CD9979200C96E11 /* libz.tbd in Frameworks */,
 				FEF4CBEE1CD992F100C96E11 /* SystemConfiguration.framework in Frameworks */,
 				FEF4CBE81CD992C300C96E11 /* CoreGraphics.framework in Frameworks */,
 				FEF4CBE61CD992B100C96E11 /* QuartzCore.framework in Frameworks */,
@@ -171,6 +188,11 @@
 		4792A8FAD786FF7F55484C03 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C90B37C71CDADC080006368B /* libxml2.tbd */,
+				C90B37C51CDADBFB0006368B /* libresolv.tbd */,
+				C90B37C31CDADBF00006368B /* libiconv.tbd */,
+				C90B37C11CDADBD30006368B /* libstdc++.6.0.9.tbd */,
+				C90B37BE1CDADB880006368B /* MobileCoreServices.framework */,
 				FEF4CBFD1CD99E0200C96E11 /* Bolts.framework */,
 				FEF4CBFE1CD99E0200C96E11 /* ParseFacebookUtils.framework */,
 				FEF4CBFF1CD99E0200C96E11 /* ParseFacebookUtilsV4.framework */,
