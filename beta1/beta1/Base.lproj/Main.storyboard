@@ -167,11 +167,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VOk-YA-4dd">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JCF-Ae-X1k">
                                 <rect key="frame" x="11" y="69" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="btV-dl-qfB"/>
+                                    <constraint firstAttribute="height" constant="80" id="kMr-zf-j7D"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="40"/>
@@ -182,13 +183,15 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPs-95-TLP">
-                                <rect key="frame" x="111.5" y="69" width="51.5" height="25"/>
+                                <rect key="frame" x="111" y="69" width="51.5" height="25"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izF-nn-eC0">
-                                <rect key="frame" x="11" y="203" width="120" height="30"/>
+                                <rect key="frame" x="11" y="197" width="100" height="42"/>
+                                <color key="backgroundColor" red="0.23580057758103901" green="0.9796275691463231" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="个人资料"/>
                                 <connections>
                                     <segue destination="k1M-77-UJ1" kind="show" id="hnb-10-0Yb"/>
@@ -199,17 +202,19 @@
                                 <color key="backgroundColor" red="1" green="0.17741503585103613" blue="0.3726955822095448" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="退出当前账号"/>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VOk-YA-4dd">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="izF-nn-eC0" firstAttribute="top" secondItem="JCF-Ae-X1k" secondAttribute="bottom" constant="54" id="03q-tM-Mrk"/>
+                            <constraint firstItem="izF-nn-eC0" firstAttribute="top" secondItem="JCF-Ae-X1k" secondAttribute="bottom" constant="48" id="03q-tM-Mrk"/>
                             <constraint firstAttribute="trailing" secondItem="Yax-o2-KVh" secondAttribute="trailing" constant="82" id="0eg-BD-Z5A"/>
                             <constraint firstItem="VOk-YA-4dd" firstAttribute="top" secondItem="PNi-up-D47" secondAttribute="top" id="0sQ-6B-r5i"/>
                             <constraint firstItem="dPs-95-TLP" firstAttribute="leading" secondItem="JCF-Ae-X1k" secondAttribute="trailing" constant="20.5" id="6aL-oW-S4S"/>
-                            <constraint firstItem="Yax-o2-KVh" firstAttribute="top" secondItem="izF-nn-eC0" secondAttribute="bottom" constant="297" id="C6W-ks-mMt"/>
                             <constraint firstItem="Yax-o2-KVh" firstAttribute="leading" secondItem="PNi-up-D47" secondAttribute="leading" constant="11" id="MfG-gd-Goo"/>
                             <constraint firstItem="JCF-Ae-X1k" firstAttribute="leading" secondItem="PNi-up-D47" secondAttribute="leading" constant="11" id="RT2-S1-7JQ"/>
-                            <constraint firstAttribute="trailing" secondItem="izF-nn-eC0" secondAttribute="trailing" constant="189" id="Tg1-XZ-rT9"/>
+                            <constraint firstAttribute="trailing" secondItem="izF-nn-eC0" secondAttribute="trailing" constant="209" id="Tg1-XZ-rT9"/>
                             <constraint firstItem="CQH-22-bhX" firstAttribute="top" secondItem="Yax-o2-KVh" secondAttribute="bottom" constant="8" id="byy-Y4-8Sm"/>
                             <constraint firstItem="VOk-YA-4dd" firstAttribute="leading" secondItem="PNi-up-D47" secondAttribute="leading" id="cQv-Ep-Tw9"/>
                             <constraint firstAttribute="trailing" secondItem="VOk-YA-4dd" secondAttribute="trailing" id="hNe-Lx-EwA"/>
