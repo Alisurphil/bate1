@@ -9,6 +9,14 @@
 #import "RegisteredViewController.h"
 
 @interface RegisteredViewController ()
+- (IBAction)signUpAction:(UIButton *)sender forEvent:(UIEvent *)event;
+- (IBAction)cancelAction:(UIButton *)sender forEvent:(UIEvent *)event;
+@property (weak, nonatomic) IBOutlet UITextField *inPutName;
+@property (weak, nonatomic) IBOutlet UITextField *inPutID;
+@property (weak, nonatomic) IBOutlet UITextField *inPutNikname;
+@property (weak, nonatomic) IBOutlet UITextField *inPutPwd;
+@property (weak, nonatomic) IBOutlet UITextField *pwdAgain;
+
 
 @end
 
@@ -34,4 +42,9 @@
 }
 */
 
+- (IBAction)signUpAction:(UIButton *)sender forEvent:(UIEvent *)event {
+}
+
+- (IBAction)cancelAction:(UIButton *)sender forEvent:(UIEvent *)event {
+}
 @end

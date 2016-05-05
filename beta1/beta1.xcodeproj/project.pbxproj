@@ -32,6 +32,8 @@
 		FEA65FF31CD8795E00A857DD /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA65FF21CD8795E00A857DD /* LeftViewController.m */; };
 		FEA65FF61CD87C0F00A857DD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA65FF51CD87C0F00A857DD /* LoginViewController.m */; };
 		FEA65FF91CD87C6A00A857DD /* RegisteredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA65FF81CD87C6A00A857DD /* RegisteredViewController.m */; };
+		FEC03F371CDAE57800D3AFFC /* PresonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC03F361CDAE57800D3AFFC /* PresonTableViewController.m */; };
+		FEC03F3A1CDAE5AA00D3AFFC /* MineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC03F391CDAE5AA00D3AFFC /* MineTableViewController.m */; };
 		FEF4CBDC1CD98C1600C96E11 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4CBDB1CD98C1600C96E11 /* Utilities.m */; };
 		FEF4CBDE1CD98CDD00C96E11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBDD1CD98CDD00C96E11 /* Foundation.framework */; };
 		FEF4CBE21CD98F5200C96E11 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBE11CD98F5200C96E11 /* Parse.framework */; };
@@ -106,6 +108,10 @@
 		FEA65FF51CD87C0F00A857DD /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		FEA65FF71CD87C6A00A857DD /* RegisteredViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisteredViewController.h; sourceTree = "<group>"; };
 		FEA65FF81CD87C6A00A857DD /* RegisteredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisteredViewController.m; sourceTree = "<group>"; };
+		FEC03F351CDAE57800D3AFFC /* PresonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresonTableViewController.h; sourceTree = "<group>"; };
+		FEC03F361CDAE57800D3AFFC /* PresonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresonTableViewController.m; sourceTree = "<group>"; };
+		FEC03F381CDAE5AA00D3AFFC /* MineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableViewController.h; sourceTree = "<group>"; };
+		FEC03F391CDAE5AA00D3AFFC /* MineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableViewController.m; sourceTree = "<group>"; };
 		FEF4CBD61CD983FE00C96E11 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FEF4CBDA1CD98C1600C96E11 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		FEF4CBDB1CD98C1600C96E11 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
@@ -331,6 +337,10 @@
 				FE66E8D51CD863D80092FADF /* ThirdViewController.m */,
 				FEA65FF11CD8795E00A857DD /* LeftViewController.h */,
 				FEA65FF21CD8795E00A857DD /* LeftViewController.m */,
+				FEC03F351CDAE57800D3AFFC /* PresonTableViewController.h */,
+				FEC03F361CDAE57800D3AFFC /* PresonTableViewController.m */,
+				FEC03F381CDAE5AA00D3AFFC /* MineTableViewController.h */,
+				FEC03F391CDAE5AA00D3AFFC /* MineTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -532,8 +542,10 @@
 				FEA65FF31CD8795E00A857DD /* LeftViewController.m in Sources */,
 				FE66E8D31CD863C40092FADF /* SecondViewController.m in Sources */,
 				FE66E8901CD840D40092FADF /* ViewController.m in Sources */,
+				FEC03F371CDAE57800D3AFFC /* PresonTableViewController.m in Sources */,
 				FE66E88D1CD840D40092FADF /* AppDelegate.m in Sources */,
 				FEA65FF91CD87C6A00A857DD /* RegisteredViewController.m in Sources */,
+				FEC03F3A1CDAE5AA00D3AFFC /* MineTableViewController.m in Sources */,
 				FEA65FF61CD87C0F00A857DD /* LoginViewController.m in Sources */,
 				FEF4CBDC1CD98C1600C96E11 /* Utilities.m in Sources */,
 				FE66E8D01CD863B20092FADF /* FirstViewController.m in Sources */,
