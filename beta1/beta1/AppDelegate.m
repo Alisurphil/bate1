@@ -24,7 +24,7 @@
     //获得main。story实例
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
     //在main.story中找到名为tab的页面
-    Bate1ViewController *BateVC = [storyboard instantiateViewControllerWithIdentifier:@"Bate"];
+    Bate1ViewController *BateVC = [storyboard instantiateViewControllerWithIdentifier:@"Left"];
     [Parse setApplicationId:@"mfuxulVFdLqosOwOSqUAhBrB6HopBZ6IyYyB6jzg" clientKey:@"vTNiFFMIEyutRnmHP0V3ZZTWojvNgEWuYRFoz0HY"];
     /*[PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
