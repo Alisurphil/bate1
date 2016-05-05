@@ -32,8 +32,19 @@
 #import "EaseMob.h"
 #import "Utilities.h"
 #import "ECSlidingViewController.h"
+
 #import "storageMgr.h"
 #import "Constants.h"
 #import <EaseMobSDKFull/EaseMob.h>
 #import "EMSDWebImageCompat.h"
+
+#import "EMAlertView.h"
+#import "TTGlobalUICommon.h"
+#import "UIViewController+HUD.h"
+#import "UIViewController+DismissKeyboard.h"
+#import "NSString+Valid.h"
+#import "Constants.h"
+#import "ChatDemoUIDefine.h"
+
+
 #endif /* PrefixHeader_pch */
