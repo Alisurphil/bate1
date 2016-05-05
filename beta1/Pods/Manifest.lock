@@ -20,16 +20,28 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - EaseMobSDKFull (2.2.3)
   - ECSlidingViewController (2.0.3)
   - TAOverlay (2.0.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
+  - EaseMobSDKFull (from `https://github.com/easemob/sdk-ios-cocoapods-integration.git`)
   - ECSlidingViewController (~> 2.0.3)
   - TAOverlay
 
+EXTERNAL SOURCES:
+  EaseMobSDKFull:
+    :git: https://github.com/easemob/sdk-ios-cocoapods-integration.git
+
+CHECKOUT OPTIONS:
+  EaseMobSDKFull:
+    :commit: e7589cd9316e4298f89d3bbcb8aa3d2cefc8aaf0
+    :git: https://github.com/easemob/sdk-ios-cocoapods-integration.git
+
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  EaseMobSDKFull: f0505c617b4422964cc66f7040419c78d39d6666
   ECSlidingViewController: 6485c14f23b4487e9946535421ca8f111f86cc53
   TAOverlay: 940e37fdb45fbc9acfc73bf1089668367e3b1be6
 
