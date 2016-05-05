@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "Bate1ViewController.h"
 #import "LeftViewController.h"
+
+#import <EaseMobSDKFull/EaseMob.h>
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //registerSDKWithAppKey:注册的appKey，详细见下面注释。
+    //apnsCertName:推送证书名(不需要加后缀)，详细见下面注释。
+    [[EaseMob sharedInstance] registerSDKWithAppKey:@"easemob-demo#chatdemoui" apnsCertName:@"chatdemoui_dev"];
+    [[EaseMob sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
+    //    [[EaseMob sharedInstance].chatManager asyncRegisterNewAccount:@"800123" password:@"111111"];
+    [[EaseMob sharedInstance].chatManager enableDeliveryNotification];
+
+    
     //初始化主窗口并将主窗口设置为屏幕大小
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     //将该窗口设置为keywindow
@@ -33,6 +43,17 @@
 
     //将上述页面设置为app入口
     self.window.rootViewController = BateVC;
+    
+    // 登录成功后，自动去取好友列表
+    // SDK获取结束后，会回调
+    // - (void)didFetchedBuddyList:(NSArray *)buddyList error:(EMError *)error方法。
+    [[EaseMob sharedInstance].chatManager setIsAutoFetchBuddyList:YES];
+    
+    // 注册环信监听
+    [self registerEaseMobNotification];
+    [[EaseMob sharedInstance] application:application
+            didFinishLaunchingWithOptions:launchOptions];
+    
     return YES;
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -123,6 +144,18 @@
     [_managedObjectContext setPersistentStoreCoordinator:coordinator];
     return _managedObjectContext;
 }
+
+#pragma mark - registerEaseMobNotification
+- (void)registerEaseMobNotification{
+    [self unRegisterEaseMobNotification];
+    // 将self 添加到SDK回调中，以便本类可以收到SDK回调
+    [[EaseMob sharedInstance].chatManager addDelegate:self delegateQueue:nil];
+}
+
+- (void)unRegisterEaseMobNotification{
+    [[EaseMob sharedInstance].chatManager removeDelegate:self];
+}
+
 
 #pragma mark - Core Data Saving support
 
