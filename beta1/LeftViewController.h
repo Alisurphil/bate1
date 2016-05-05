@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
+#import <MobileCoreServices/MobileCoreServices.h>
 
-@interface LeftViewController : UIViewController
-
+@interface LeftViewController : UIViewController<UIActionSheetDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@property (strong, nonatomic) UIImagePickerController *imagePickerController;
 @end

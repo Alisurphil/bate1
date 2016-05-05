@@ -32,7 +32,8 @@
 #import "EaseMob.h"
 #import "Utilities.h"
 #import "ECSlidingViewController.h"
-
+#import "storageMgr.h"
 #import "Constants.h"
-
+#import <EaseMobSDKFull/EaseMob.h>
+#import "EMSDWebImageCompat.h"
 #endif /* PrefixHeader_pch */

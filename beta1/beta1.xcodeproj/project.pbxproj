@@ -97,6 +97,7 @@
 		FEA65FF91CD87C6A00A857DD /* RegisteredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA65FF81CD87C6A00A857DD /* RegisteredViewController.m */; };
 		FEC03F371CDAE57800D3AFFC /* PresonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC03F361CDAE57800D3AFFC /* PresonTableViewController.m */; };
 		FEC03F3A1CDAE5AA00D3AFFC /* MineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC03F391CDAE5AA00D3AFFC /* MineTableViewController.m */; };
+		FED794AF1CDB1552006325A3 /* storageMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = FED794AE1CDB1552006325A3 /* storageMgr.m */; };
 		FEF4CBDC1CD98C1600C96E11 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4CBDB1CD98C1600C96E11 /* Utilities.m */; };
 		FEF4CBDE1CD98CDD00C96E11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBDD1CD98CDD00C96E11 /* Foundation.framework */; };
 		FEF4CBE21CD98F5200C96E11 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBE11CD98F5200C96E11 /* Parse.framework */; };
@@ -310,6 +311,8 @@
 		FEC03F361CDAE57800D3AFFC /* PresonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresonTableViewController.m; sourceTree = "<group>"; };
 		FEC03F381CDAE5AA00D3AFFC /* MineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableViewController.h; sourceTree = "<group>"; };
 		FEC03F391CDAE5AA00D3AFFC /* MineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableViewController.m; sourceTree = "<group>"; };
+		FED794AD1CDB1552006325A3 /* storageMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = storageMgr.h; sourceTree = "<group>"; };
+		FED794AE1CDB1552006325A3 /* storageMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = storageMgr.m; sourceTree = "<group>"; };
 		FEF4CBD61CD983FE00C96E11 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FEF4CBDA1CD98C1600C96E11 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		FEF4CBDB1CD98C1600C96E11 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
@@ -722,6 +725,8 @@
 		FE5D3DFB1CD8A55E008EE58C /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				FED794AD1CDB1552006325A3 /* storageMgr.h */,
+				FED794AE1CDB1552006325A3 /* storageMgr.m */,
 				FEF4CBDA1CD98C1600C96E11 /* Utilities.h */,
 				FEF4CBDB1CD98C1600C96E11 /* Utilities.m */,
 			);
@@ -833,10 +838,10 @@
 				FE66E8D51CD863D80092FADF /* ThirdViewController.m */,
 				FEA65FF11CD8795E00A857DD /* LeftViewController.h */,
 				FEA65FF21CD8795E00A857DD /* LeftViewController.m */,
-				FEC03F351CDAE57800D3AFFC /* PresonTableViewController.h */,
-				FEC03F361CDAE57800D3AFFC /* PresonTableViewController.m */,
 				FEC03F381CDAE5AA00D3AFFC /* MineTableViewController.h */,
 				FEC03F391CDAE5AA00D3AFFC /* MineTableViewController.m */,
+				FEC03F351CDAE57800D3AFFC /* PresonTableViewController.h */,
+				FEC03F361CDAE57800D3AFFC /* PresonTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -1053,13 +1058,10 @@
 				C90B386B1CDAE7930006368B /* NSIndexPath+PSTCollectionViewAdditions.m in Sources */,
 				C90B37F71CDAE6630006368B /* MBProgressHUD+Add.m in Sources */,
 				FEA65FF91CD87C6A00A857DD /* RegisteredViewController.m in Sources */,
-
 				FEC03F3A1CDAE5AA00D3AFFC /* MineTableViewController.m in Sources */,
-
 				C90B38111CDAE68F0006368B /* MWPhotoBrowser.m in Sources */,
 				C90B388F1CDAE8540006368B /* TTGlobalUICommon.m in Sources */,
 				C90B380E1CDAE68F0006368B /* MWGridCell.m in Sources */,
-
 				FEA65FF61CD87C0F00A857DD /* LoginViewController.m in Sources */,
 				C90B38771CDAE7930006368B /* PSTGridLayoutSection.m in Sources */,
 				C90B38461CDAE7730006368B /* NSData+EMImageContentType.m in Sources */,
@@ -1091,6 +1093,7 @@
 				C90B38101CDAE68F0006368B /* MWPhoto.m in Sources */,
 				C90B384C1CDAE7730006368B /* UIImageView+EMWebCache.m in Sources */,
 				C90B37E51CDAE6020006368B /* EMCDDeviceManagerBase.m in Sources */,
+				FED794AF1CDB1552006325A3 /* storageMgr.m in Sources */,
 				C90B37E21CDAE6020006368B /* EMCDDeviceManager+Microphone.m in Sources */,
 				C90B389A1CDAE8780006368B /* wav.mm in Sources */,
 				C90B38481CDAE7730006368B /* UIImage+EMGIF.m in Sources */,

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PresonTableViewController : UITableViewController
+@interface PresonTableViewController : UITableViewController<UIPickerViewDataSource, UIPickerViewDelegate>
 
 @end

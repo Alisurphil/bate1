@@ -42,48 +42,49 @@
                                     <action selector="signIn:forEvent:" destination="oTS-Xl-3sU" eventType="touchUpInside" id="FOd-SX-q3F"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mSx-Y2-heF">
-                                <rect key="frame" x="119" y="37" width="82" height="82"/>
-                                <color key="backgroundColor" red="0.41368495465105254" green="0.41224324101893461" blue="0.41488381410256414" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XaJ-iZ-9jJ">
+                                <rect key="frame" x="120" y="45" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.47982772435897436" green="0.47982772435897436" blue="0.47982772435897436" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="82" id="l2F-hF-Ssx"/>
-                                    <constraint firstAttribute="width" secondItem="mSx-Y2-heF" secondAttribute="height" multiplier="1:1" id="o1l-8G-gtu"/>
-                                    <constraint firstAttribute="width" constant="82" id="sSY-k5-UxD"/>
+                                    <constraint firstAttribute="height" constant="80" id="hB3-9t-Rw1"/>
+                                    <constraint firstAttribute="width" constant="80" id="tkz-an-d3W"/>
                                 </constraints>
+                                <state key="normal" title="Button"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="41"/>
+                                        <integer key="value" value="40"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
                                         <integer key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                            </imageView>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="mSx-Y2-heF" secondAttribute="trailing" constant="119" id="1Yi-td-Wqp"/>
-                            <constraint firstItem="uia-aX-uiX" firstAttribute="leading" secondItem="TFG-dz-O7I" secondAttribute="leading" constant="63" id="5Uk-WL-swP"/>
-                            <constraint firstItem="HQb-Fd-1KZ" firstAttribute="top" secondItem="DM9-qe-e8f" secondAttribute="bottom" constant="65" id="6S9-0J-blj"/>
-                            <constraint firstItem="mSx-Y2-heF" firstAttribute="leading" secondItem="TFG-dz-O7I" secondAttribute="leading" constant="119" id="Bff-d9-Wgu"/>
-                            <constraint firstItem="DM9-qe-e8f" firstAttribute="leading" secondItem="uia-aX-uiX" secondAttribute="leading" id="DDa-Rj-G30"/>
-                            <constraint firstItem="Kfn-B7-8h1" firstAttribute="leading" secondItem="TFG-dz-O7I" secondAttribute="leading" constant="63" id="LD3-Ao-krd"/>
-                            <constraint firstItem="DM9-qe-e8f" firstAttribute="top" secondItem="uia-aX-uiX" secondAttribute="bottom" constant="51" id="Mln-Ds-jl5"/>
-                            <constraint firstAttribute="trailing" secondItem="Kfn-B7-8h1" secondAttribute="trailing" constant="63" id="Nps-GL-h58"/>
-                            <constraint firstItem="DM9-qe-e8f" firstAttribute="leading" secondItem="TFG-dz-O7I" secondAttribute="leading" constant="63" id="Owt-bw-RYn"/>
-                            <constraint firstAttribute="trailing" secondItem="uia-aX-uiX" secondAttribute="trailing" constant="63" id="WTf-LR-FmA"/>
-                            <constraint firstItem="uia-aX-uiX" firstAttribute="centerX" secondItem="TFG-dz-O7I" secondAttribute="centerX" id="ZU9-Kj-WKh"/>
-                            <constraint firstItem="Kfn-B7-8h1" firstAttribute="top" secondItem="HQb-Fd-1KZ" secondAttribute="bottom" constant="21" id="bC2-E1-k5e"/>
-                            <constraint firstItem="mSx-Y2-heF" firstAttribute="top" secondItem="54D-Mn-AtJ" secondAttribute="bottom" constant="17" id="dfq-4E-O20"/>
-                            <constraint firstItem="uia-aX-uiX" firstAttribute="top" secondItem="mSx-Y2-heF" secondAttribute="bottom" constant="32" id="kam-HX-QKP"/>
-                            <constraint firstItem="HQb-Fd-1KZ" firstAttribute="leading" secondItem="TFG-dz-O7I" secondAttribute="leading" constant="63" id="mO8-a1-k3p"/>
-                            <constraint firstItem="DM9-qe-e8f" firstAttribute="centerX" secondItem="TFG-dz-O7I" secondAttribute="centerX" id="mQp-cc-Zxf"/>
-                            <constraint firstAttribute="trailing" secondItem="DM9-qe-e8f" secondAttribute="trailing" constant="63" id="mnP-eX-moF"/>
-                            <constraint firstItem="Kfn-B7-8h1" firstAttribute="leading" secondItem="HQb-Fd-1KZ" secondAttribute="leading" id="nNc-yj-OMb"/>
-                            <constraint firstAttribute="trailing" secondItem="HQb-Fd-1KZ" secondAttribute="trailing" constant="63" id="x4G-IH-hlG"/>
+                            <constraint firstItem="DM9-qe-e8f" firstAttribute="top" secondItem="uia-aX-uiX" secondAttribute="bottom" constant="51" id="07l-54-SzL"/>
+                            <constraint firstItem="DM9-qe-e8f" firstAttribute="width" secondItem="uia-aX-uiX" secondAttribute="width" id="94V-NW-BzW"/>
+                            <constraint firstItem="XaJ-iZ-9jJ" firstAttribute="leading" secondItem="TFG-dz-O7I" secondAttribute="leading" constant="120" id="DKq-uE-3Id"/>
+                            <constraint firstAttribute="trailing" secondItem="HQb-Fd-1KZ" secondAttribute="trailing" constant="63" id="IKY-Bs-xA5"/>
+                            <constraint firstItem="DM9-qe-e8f" firstAttribute="leading" secondItem="uia-aX-uiX" secondAttribute="leading" id="LH3-5C-tjB"/>
+                            <constraint firstItem="Kfn-B7-8h1" firstAttribute="leading" secondItem="HQb-Fd-1KZ" secondAttribute="leading" id="O1E-Z7-hkc"/>
+                            <constraint firstItem="uia-aX-uiX" firstAttribute="leading" secondItem="TFG-dz-O7I" secondAttribute="leading" constant="63" id="Ub0-Zr-QjD"/>
+                            <constraint firstItem="uia-aX-uiX" firstAttribute="top" secondItem="XaJ-iZ-9jJ" secondAttribute="bottom" constant="26" id="VWY-Ef-No1"/>
+                            <constraint firstItem="Kfn-B7-8h1" firstAttribute="top" secondItem="HQb-Fd-1KZ" secondAttribute="bottom" constant="21" id="a29-09-Jwd"/>
+                            <constraint firstItem="XaJ-iZ-9jJ" firstAttribute="top" secondItem="54D-Mn-AtJ" secondAttribute="bottom" constant="25" id="dms-Rh-z0d"/>
+                            <constraint firstAttribute="trailing" secondItem="uia-aX-uiX" secondAttribute="trailing" constant="63" id="ftx-0W-cyE"/>
+                            <constraint firstItem="Kfn-B7-8h1" firstAttribute="width" secondItem="HQb-Fd-1KZ" secondAttribute="width" id="iIT-pt-JHa"/>
+                            <constraint firstItem="HQb-Fd-1KZ" firstAttribute="leading" secondItem="TFG-dz-O7I" secondAttribute="leading" constant="63" id="lUN-Bs-FzU"/>
+                            <constraint firstItem="HQb-Fd-1KZ" firstAttribute="top" secondItem="DM9-qe-e8f" secondAttribute="bottom" constant="65" id="oFP-bG-qnd"/>
+                            <constraint firstAttribute="trailing" secondItem="XaJ-iZ-9jJ" secondAttribute="trailing" constant="120" id="zi5-ay-eeo"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="avatarImg" destination="XaJ-iZ-9jJ" id="DHi-N2-upY"/>
+                        <outlet property="passwordTF" destination="DM9-qe-e8f" id="xh7-HA-ejv"/>
+                        <outlet property="usernameTF" destination="uia-aX-uiX" id="Qdk-f6-jXM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JG5-Lh-6eC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -597,6 +598,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="headView" destination="En8-lF-oWn" id="XGY-ac-Iai"/>
+                        <outlet property="useImage" destination="OYa-id-dF8" id="pw5-gU-EUa"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nth-YV-ACh" userLabel="First Responder" sceneMemberID="firstResponder"/>

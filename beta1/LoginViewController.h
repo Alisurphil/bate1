@@ -11,6 +11,9 @@
 #import "Bate1ViewController.h"
 #import "LeftViewController.h"
 @interface LoginViewController : UIViewController<UIViewControllerAnimatedTransitioning, ECSlidingViewControllerDelegate, ECSlidingViewControllerLayout>
+@property (weak, nonatomic) IBOutlet UIButton *avatarImg;
+@property (weak, nonatomic) IBOutlet UITextField *usernameTF;
+@property (weak, nonatomic) IBOutlet UITextField *passwordTF;
 
 @property (strong, nonatomic) ECSlidingViewController *slidingViewController;
 @property (assign, nonatomic) ECSlidingViewControllerOperation operation;

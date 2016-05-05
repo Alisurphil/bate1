@@ -9,6 +9,7 @@
 #import "MineTableViewController.h"
 
 @interface MineTableViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *useImage;
 @property (weak, nonatomic) IBOutlet UIView *headView;
 - (IBAction)useImag:(UIButton *)sender forEvent:(UIEvent *)event;
 
@@ -19,84 +20,97 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
+-(void)viewWillAppear:(BOOL)animated{
+    if (![[Utilities getUserDefaults:@"userName"] isKindOfClass:[NSNull class]]) {
+        if (![[Utilities getUserDefaults:@"userName"] isKindOfClass:[NSNull class]]) {
+            NSString *currentStr = [Utilities getUserDefaults:@"userName"];
+            NSFileManager *fileManager = [NSFileManager defaultManager];
+            NSArray *directories = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+            NSString *documentDirectory = [directories objectAtIndex:0];
+            __block NSString *filePath = nil;
+            filePath = [documentDirectory stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.png", currentStr]];
+            if ([fileManager fileExistsAtPath:filePath]) {
+                UIImage *image = [UIImage imageWithContentsOfFile:filePath];
+                [_useImage setBackgroundImage:image forState:UIControlStateNormal];
+            } else {
+                [_useImage setBackgroundImage:[UIImage imageNamed:@"default"] forState:UIControlStateNormal];
+            }
+        }
+    }
+    
+    self.tableView.tableFooterView = [[UIView alloc]init];
+}
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [[NSNotificationCenter defaultCenter]postNotificationName:@"enablePanGes" object:nil];
+    [self.tableView reloadData];
+}
+//每当离开该页面以后调用以下方法（进入其他视图页面以后）
+-(void)viewDidDisappear:(BOOL)animated{
+    [super viewDidDisappear:animated];
+    [[NSNotificationCenter defaultCenter]postNotificationName:@"disablePanGes" object:nil];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
-}
-
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    return cell;
-}
-*/
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 - (IBAction)useImag:(UIButton *)sender forEvent:(UIEvent *)event {
+    
 }
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 5;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    PFUser *user = [PFUser currentUser];
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd"];
+    switch (indexPath.row) {
+        case 0: {
+            cell.textLabel.text = @"昵称";
+            cell.detailTextLabel.text = user[@"nickName"];
+        }
+            break;
+        case 1: {
+            cell.textLabel.text = @"性别";
+            if ([user[@"gender"]  isEqual: @"nan"]) {
+                cell.detailTextLabel.text = @"男";
+            }else if ([user[@"gender"]  isEqual: @"nv"]){
+                cell.detailTextLabel.text = @"女";
+            }else{
+                cell.detailTextLabel.text = @"";
+            }
+        }
+            break;
+        case 2: {
+            cell.textLabel.text = @"生日";
+            cell.detailTextLabel.text = [dateFormatter stringFromDate:user[@"birthDate"]];;
+        }
+            break;
+        case 3: {
+            cell.textLabel.text = @"所在地";
+            cell.detailTextLabel.text = user[@"address"];
+        }
+            break;
+        case 4: {
+            cell.textLabel.text = @"常用种族";
+            cell.detailTextLabel.text = user[@"race"];
+        }
+            break;
+        default:
+            break;
+    }
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+    
 @end
