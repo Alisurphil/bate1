@@ -2489,17 +2489,14 @@
 				C90B37F71CDAE6630006368B /* MBProgressHUD+Add.m in Sources */,
 				FEA65FF91CD87C6A00A857DD /* RegisteredViewController.m in Sources */,
 				FEC03F3A1CDAE5AA00D3AFFC /* MineTableViewController.m in Sources */,
-
 				C90B38111CDAE68F0006368B /* MWPhotoBrowser.m in Sources */,
 				C90B388F1CDAE8540006368B /* TTGlobalUICommon.m in Sources */,
 				C90B380E1CDAE68F0006368B /* MWGridCell.m in Sources */,
-
 				C90B38C71CDB147F0006368B /* DXMessageToolBar.m in Sources */,
 				C90B38111CDAE68F0006368B /* MWPhotoBrowser.m in Sources */,
 				C90B388F1CDAE8540006368B /* TTGlobalUICommon.m in Sources */,
 				C90B380E1CDAE68F0006368B /* MWGridCell.m in Sources */,
 				C90B38EA1CDB15530006368B /* EMChatViewBaseCell.m in Sources */,
-
 				FEA65FF61CD87C0F00A857DD /* LoginViewController.m in Sources */,
 				C90B38771CDAE7930006368B /* PSTGridLayoutSection.m in Sources */,
 				C90B38461CDAE7730006368B /* NSData+EMImageContentType.m in Sources */,
@@ -2559,9 +2556,7 @@
 				C90B39141CDB15A80006368B /* ChatGroupDetailViewController.m in Sources */,
 				C90B39771CDB17E00006368B /* EMSearchDisplayController.m in Sources */,
 				C90B37E51CDAE6020006368B /* EMCDDeviceManagerBase.m in Sources */,
-
 				FED794AF1CDB1552006325A3 /* storageMgr.m in Sources */,
-
 				C90B393B1CDB160E0006368B /* AddFriendCell.m in Sources */,
 				C90B39871CDB19280006368B /* NSDate+Category.m in Sources */,
 				C90B39661CDB17B40006368B /* XHMessageTextView.m in Sources */,
@@ -2763,6 +2758,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/beta1/PrefixHeader.pch";
 				INFOPLIST_FILE = beta1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2786,6 +2782,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/beta1/PrefixHeader.pch";
 				INFOPLIST_FILE = beta1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,8 +1,10 @@
-platform :ios, '7.0'
-pod "AFNetworking", "~> 2.0"
+platform :ios, '6.1'
+pod 'SDWebImage', '~>3.7'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+pod 'AFNetworking', '~> 3.0'
 platform :ios, '7.0'
 pod 'ECSlidingViewController', '~> 2.0.3'
 pod 'TAOverlay'
 pod 'EaseMobSDKFull', :git => 'https://github.com/easemob/sdk-ios-cocoapods-integration.git'
-platform :ios, '6.1'
-pod 'SDWebImage', '~>3.7'
