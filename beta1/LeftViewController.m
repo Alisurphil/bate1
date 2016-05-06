@@ -7,6 +7,8 @@
 //
 
 #import "LeftViewController.h"
+#import <EaseMobSDKFull/EaseMob.h>
+#import <SDWebImage/UIButton+WebCache.h>
 
 @interface LeftViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imview;
