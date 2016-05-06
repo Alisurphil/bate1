@@ -12,6 +12,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *useImage;
 @property (weak, nonatomic) IBOutlet UIView *headView;
 - (IBAction)useImag:(UIButton *)sender forEvent:(UIEvent *)event;
+- (IBAction)backUp:(UIButton *)sender forEvent:(UIEvent *)event;
 
 @end
 
@@ -61,6 +62,10 @@
 
 - (IBAction)useImag:(UIButton *)sender forEvent:(UIEvent *)event {
     
+}
+
+- (IBAction)backUp:(UIButton *)sender forEvent:(UIEvent *)event {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 5;

@@ -115,6 +115,7 @@
 }
 
 - (IBAction)cancelAction:(UIButton *)sender forEvent:(UIEvent *)event {
-    [self.navigationController popViewControllerAnimated:YES];
+    //[self.navigationController popViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 @end
