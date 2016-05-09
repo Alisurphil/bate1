@@ -82,7 +82,6 @@
 		FE66E8901CD840D40092FADF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E88F1CD840D40092FADF /* ViewController.m */; };
 		FE66E8931CD840D40092FADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE66E8911CD840D40092FADF /* Main.storyboard */; };
 		FE66E8961CD840D40092FADF /* beta1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE66E8941CD840D40092FADF /* beta1.xcdatamodeld */; };
-		FE66E8981CD840D40092FADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE66E8971CD840D40092FADF /* Assets.xcassets */; };
 		FE66E89B1CD840D40092FADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE66E8991CD840D40092FADF /* LaunchScreen.storyboard */; };
 		FE66E8A61CD840D40092FADF /* beta1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E8A51CD840D40092FADF /* beta1Tests.m */; };
 		FE66E8B11CD840D40092FADF /* beta1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66E8B01CD840D40092FADF /* beta1UITests.m */; };
@@ -98,6 +97,8 @@
 		FEC03F371CDAE57800D3AFFC /* PresonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC03F361CDAE57800D3AFFC /* PresonTableViewController.m */; };
 		FEC03F3A1CDAE5AA00D3AFFC /* MineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC03F391CDAE5AA00D3AFFC /* MineTableViewController.m */; };
 		FED794AF1CDB1552006325A3 /* storageMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = FED794AE1CDB1552006325A3 /* storageMgr.m */; };
+		FEE98DB21CE0324300A4E30C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE98DB11CE0324300A4E30C /* Media.xcassets */; };
+		FEE98DB41CE0325700A4E30C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE98DB31CE0325700A4E30C /* Assets.xcassets */; };
 		FEF4CBDC1CD98C1600C96E11 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF4CBDB1CD98C1600C96E11 /* Utilities.m */; };
 		FEF4CBDE1CD98CDD00C96E11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBDD1CD98CDD00C96E11 /* Foundation.framework */; };
 		FEF4CBE21CD98F5200C96E11 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF4CBE11CD98F5200C96E11 /* Parse.framework */; };
@@ -282,7 +283,6 @@
 		FE66E88F1CD840D40092FADF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = beta1/ViewController.m; sourceTree = "<group>"; };
 		FE66E8921CD840D40092FADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE66E8951CD840D40092FADF /* beta1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = beta1.xcdatamodel; sourceTree = "<group>"; };
-		FE66E8971CD840D40092FADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = beta1/Assets.xcassets; sourceTree = "<group>"; };
 		FE66E89A1CD840D40092FADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE66E89C1CD840D40092FADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE66E8A11CD840D40092FADF /* beta1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beta1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -313,6 +313,8 @@
 		FEC03F391CDAE5AA00D3AFFC /* MineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableViewController.m; sourceTree = "<group>"; };
 		FED794AD1CDB1552006325A3 /* storageMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = storageMgr.h; sourceTree = "<group>"; };
 		FED794AE1CDB1552006325A3 /* storageMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = storageMgr.m; sourceTree = "<group>"; };
+		FEE98DB11CE0324300A4E30C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = beta1/Media.xcassets; sourceTree = "<group>"; };
+		FEE98DB31CE0325700A4E30C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = beta1/Assets.xcassets; sourceTree = "<group>"; };
 		FEF4CBD61CD983FE00C96E11 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FEF4CBDA1CD98C1600C96E11 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		FEF4CBDB1CD98C1600C96E11 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
@@ -803,10 +805,11 @@
 			isa = PBXGroup;
 			children = (
 				FE66E8911CD840D40092FADF /* Main.storyboard */,
-				FE66E8971CD840D40092FADF /* Assets.xcassets */,
+				FEE98DB31CE0325700A4E30C /* Assets.xcassets */,
 				FE66E8991CD840D40092FADF /* LaunchScreen.storyboard */,
 				FE66E8CA1CD861800092FADF /* Second.storyboard */,
 				FE66E8CC1CD861900092FADF /* Third.storyboard */,
+				FEE98DB11CE0324300A4E30C /* Media.xcassets */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -965,11 +968,12 @@
 			files = (
 				C90B38841CDAE8340006368B /* sr_refresh.png in Resources */,
 				C90B38851CDAE8340006368B /* sr_refresh@2X.png in Resources */,
+				FEE98DB21CE0324300A4E30C /* Media.xcassets in Resources */,
 				FE66E8CB1CD861800092FADF /* Second.storyboard in Resources */,
 				FE66E89B1CD840D40092FADF /* LaunchScreen.storyboard in Resources */,
-				FE66E8981CD840D40092FADF /* Assets.xcassets in Resources */,
 				C90B387B1CDAE80A0006368B /* MWPhotoBrowser.bundle in Resources */,
 				FE66E8931CD840D40092FADF /* Main.storyboard in Resources */,
+				FEE98DB41CE0325700A4E30C /* Assets.xcassets in Resources */,
 				FE66E8CD1CD861900092FADF /* Third.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1260,6 +1264,7 @@
 			baseConfigurationReference = 3FB370494D783422F92CE473 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/beta1",
@@ -1267,6 +1272,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/beta1/PrefixHeader.pch";
 				INFOPLIST_FILE = beta1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1283,6 +1289,7 @@
 			baseConfigurationReference = A799931B887F2A29191C7810 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/beta1",
@@ -1290,6 +1297,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/beta1/PrefixHeader.pch";
 				INFOPLIST_FILE = beta1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
