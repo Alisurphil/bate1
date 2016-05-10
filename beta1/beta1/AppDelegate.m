@@ -172,4 +172,23 @@
     }
 }
 
+- (void)didReceiveBuddyRequest:(NSString *)username
+                       message:(NSString *)message
+{
+    if (!username) {
+        return;
+    }
+    if (!message) {
+        message = [NSString stringWithFormat:(@"%@ 添加你为好友"), username];
+    }
+    NSMutableDictionary *dic = [NSMutableDictionary dictionaryWithDictionary:@{@"title":username, @"username":username, @"applyMessage":message, @"applyStyle":[NSNumber numberWithInteger:ApplyStyleFriend]}];
+    [[ApplyViewController shareController] addNewApply:dic];
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"setupUntreatedApplyCount" object:nil];
+    //    if (self.mainController) {
+    //        [self.mainController setupUntreatedApplyCount];
+    
+    //    }
+}
+
+
 @end
