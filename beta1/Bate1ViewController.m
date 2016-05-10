@@ -61,6 +61,11 @@
     _ThirdVC = [storyboard3 instantiateViewControllerWithIdentifier:@"Third"];
     _ThirdNC = [[UINavigationController alloc]initWithRootViewController:_ThirdVC];
     _ThirdNC.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"朋友圈" image:[UIImage imageNamed:@"friend"] tag:2];
+    
+    //将添加好友按钮添加到navigationItem右侧，点击触发addFriendAction事件
+    _addFriendItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:_contactsVC action:@selector(addFriendAction)];
+    _contactsVC.navigationItem.rightBarButtonItem = _addFriendItem;
+    
     //设置选项卡栏控制器的选项卡栏项目（@［］数组中的每个item都会对应一个选项卡栏项目）
     self.viewControllers = @[_FirstNC,_SecondNC,_ThirdNC];
 }
