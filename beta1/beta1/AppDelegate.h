@@ -23,6 +23,8 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+- (void)easemobApplication:(UIApplication *)application
+didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
 
 
 @end

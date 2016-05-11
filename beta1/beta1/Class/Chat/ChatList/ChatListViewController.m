@@ -252,7 +252,7 @@
                                                             conversationType:conversation.conversationType];
                 chatController.title = [conversation showName];
 //            }
-            //隐藏导航栏
+            //隐藏底部导航栏
              chatController.hidesBottomBarWhenPushed = YES;
             [weakSelf.navigationController pushViewController:chatController animated:YES];
         }];

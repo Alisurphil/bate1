@@ -184,10 +184,102 @@
     NSMutableDictionary *dic = [NSMutableDictionary dictionaryWithDictionary:@{@"title":username, @"username":username, @"applyMessage":message, @"applyStyle":[NSNumber numberWithInteger:ApplyStyleFriend]}];
     [[ApplyViewController shareController] addNewApply:dic];
     [[NSNotificationCenter defaultCenter] postNotificationName:@"setupUntreatedApplyCount" object:nil];
-    //    if (self.mainController) {
-    //        [self.mainController setupUntreatedApplyCount];
+        if (self.mainController) {
+            [self.mainController setupUntreatedApplyCount];
     
-    //    }
+        }
+}
+
+// 离开群组回调
+- (void)group:(EMGroup *)group didLeave:(EMGroupLeaveReason)reason error:(EMError *)error
+{
+    NSString *tmpStr = group.groupSubject;
+    NSString *str;
+    if (!tmpStr || tmpStr.length == 0) {
+        NSArray *groupArray = [[EaseMob sharedInstance].chatManager groupList];
+        for (EMGroup *obj in groupArray) {
+            if ([obj.groupId isEqualToString:group.groupId]) {
+                tmpStr = obj.groupSubject;
+                break;
+            }
+        }
+    }
+    
+    if (reason == eGroupLeaveReason_BeRemoved) {
+        str = [NSString stringWithFormat:NSLocalizedString(@"group.beKicked", @"you have been kicked out from the group of \'%@\'"), tmpStr];
+    }
+    if (str.length > 0) {
+        TTAlertNoTitle(str);
+    }
+}
+
+// 申请加入群组被拒绝回调
+- (void)didReceiveRejectApplyToJoinGroupFrom:(NSString *)fromId
+                                   groupname:(NSString *)groupname
+                                      reason:(NSString *)reason
+                                       error:(EMError *)error{
+    if (!reason || reason.length == 0) {
+        reason = [NSString stringWithFormat:NSLocalizedString(@"group.beRefusedToJoin", @"be refused to join the group\'%@\'"), groupname];
+    }
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"prompt", @"Prompt") message:reason delegate:nil cancelButtonTitle:NSLocalizedString(@"ok", @"OK") otherButtonTitles:nil, nil];
+    [alertView show];
+}
+
+//接收到入群申请
+- (void)didReceiveApplyToJoinGroup:(NSString *)groupId
+                         groupname:(NSString *)groupname
+                     applyUsername:(NSString *)username
+                            reason:(NSString *)reason
+                             error:(EMError *)error
+{
+    if (!groupId || !username) {
+        return;
+    }
+    
+    if (!reason || reason.length == 0) {
+        reason = [NSString stringWithFormat:NSLocalizedString(@"group.applyJoin", @"%@ apply to join groups\'%@\'"), username, groupname];
+    }
+    else{
+        reason = [NSString stringWithFormat:NSLocalizedString(@"group.applyJoinWithName", @"%@ apply to join groups\'%@\'：%@"), username, groupname, reason];
+    }
+    
+    if (error) {
+        NSString *message = [NSString stringWithFormat:NSLocalizedString(@"group.sendApplyFail", @"send application failure:%@\nreason：%@"), reason, error.description];
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"error", @"Error") message:message delegate:nil cancelButtonTitle:NSLocalizedString(@"ok", @"OK") otherButtonTitles:nil, nil];
+        [alertView show];
+    }
+    else{
+        NSMutableDictionary *dic = [NSMutableDictionary dictionaryWithDictionary:@{@"title":groupname, @"groupId":groupId, @"username":username, @"groupname":groupname, @"applyMessage":reason, @"applyStyle":[NSNumber numberWithInteger:ApplyStyleJoinGroup]}];
+        [[ApplyViewController shareController] addNewApply:dic];
+        if (self.mainController) {
+            [self.mainController setupUntreatedApplyCount];
+        }
+    }
+}
+
+// 已经同意并且加入群组后的回调
+- (void)didAcceptInvitationFromGroup:(EMGroup *)group
+                               error:(EMError *)error
+{
+    if(error)
+    {
+        return;
+    }
+    
+    NSString *groupTag = group.groupSubject;
+    if ([groupTag length] == 0) {
+        groupTag = group.groupId;
+    }
+    
+    NSString *message = [NSString stringWithFormat:NSLocalizedString(@"group.agreedAndJoined", @"agreed and joined the group of \'%@\'"), groupTag];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"prompt", @"Prompt") message:message delegate:nil cancelButtonTitle:NSLocalizedString(@"ok", @"OK") otherButtonTitles:nil, nil];
+    [alertView show];
+}
+
+- (void)didConnectionStateChanged:(EMConnectionState)connectionState
+{
+    _connectionState = connectionState;
+    [self.mainController networkChanged:connectionState];
 }
 
 
