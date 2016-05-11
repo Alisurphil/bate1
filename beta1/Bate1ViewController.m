@@ -26,7 +26,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.delegate = self;
-    
+    self.hidesBottomBarWhenPushed = false;
+
     [self registerNotifications];
     
     if ([UIDevice currentDevice].systemVersion.floatValue >= 7) {
@@ -68,6 +69,21 @@
     
     //设置选项卡栏控制器的选项卡栏项目（@［］数组中的每个item都会对应一个选项卡栏项目）
     self.viewControllers = @[_FirstNC,_SecondNC,_ThirdNC];
+
+    [self setNav];
+}
+
+- (void)setNav
+
+{
+    
+    UINavigationBar *bar = [UINavigationBar appearance];
+    
+    //设置显示的颜色
+    
+    bar.barTintColor = [UIColor colorWithRed:84/255.0 green:185/255.0 blue:235/255.0 alpha:1.0];
+     bar.tintColor = [UIColor whiteColor];
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated {

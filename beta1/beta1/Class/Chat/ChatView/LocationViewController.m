@@ -90,6 +90,7 @@ static LocationViewController *defaultLocation = nil;
     else{
         [self removeToLocation:_currentLocationCoordinate];
     }
+
 }
 
 - (void)didReceiveMemoryWarning

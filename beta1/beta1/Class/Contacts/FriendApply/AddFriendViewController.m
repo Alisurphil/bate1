@@ -42,6 +42,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //self.hidesBottomBarWhenPushed = true;
     // Do any additional setup after loading the view.
     if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)])
     {
