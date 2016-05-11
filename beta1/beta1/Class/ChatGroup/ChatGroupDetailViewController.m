@@ -74,6 +74,7 @@
         _chatGroup = chatGroup;
         _dataSource = [NSMutableArray array];
         _occupantType = GroupOccupantTypeMember;
+        
         [self registerNotifications];
     }
     return self;
@@ -295,6 +296,7 @@
     
     if (indexPath.row == 3) {
         GroupSettingViewController *settingController = [[GroupSettingViewController alloc] initWithGroup:_chatGroup];
+        
         [self.navigationController pushViewController:settingController animated:YES];
     }
     else if (indexPath.row == 4)
