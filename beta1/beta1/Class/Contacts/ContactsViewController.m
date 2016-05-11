@@ -634,8 +634,12 @@
 
 - (void)addFriendAction
 {
+    //self.hidesBottomBarWhenPushed = true;
     AddFriendViewController *addController = [[AddFriendViewController alloc] initWithStyle:UITableViewStylePlain];
+    //addController.hidesBottomBarWhenPushed = true;
     [self.navigationController pushViewController:addController animated:YES];
+    //[self.tabBarController setHidesBottomBarWhenPushed:YES];
+    
 }
 
 #pragma mark - EMChatManagerBuddyDelegate

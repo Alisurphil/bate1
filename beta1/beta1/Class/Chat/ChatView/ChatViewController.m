@@ -156,13 +156,14 @@
 {
     [super viewDidLoad];
     [self registerBecomeActive];
+
     // Do any additional setup after loading the view.
     self.view.backgroundColor = RGBACOLOR(248, 248, 248, 1);
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0) {
         self.edgesForExtendedLayout =  UIRectEdgeNone;
     }
     
-#warning 以下三行代码必须写，注册为SDK的ChatManager的delegate
+//#warning 以下三行代码必须写，注册为SDK的ChatManager的delegate
     [EMCDDeviceManager sharedInstance].delegate = self;
     [[EaseMob sharedInstance].chatManager removeDelegate:self];
     //注册为SDK的ChatManager的delegate
@@ -184,7 +185,8 @@
     [self.view addSubview:self.tableView];
     [self.tableView addSubview:self.slimeView];
     [self.view addSubview:self.chatToolBar];
-    
+
+
     //将self注册为chatToolBar的moreView的代理
     if ([self.chatToolBar.moreView isKindOfClass:[DXChatBarMoreView class]]) {
         [(DXChatBarMoreView *)self.chatToolBar.moreView setDelegate:self];
@@ -204,6 +206,7 @@
     {
         [self joinChatroom:_chatter];
     }
+
 }
 
 - (void)handleCallNotification:(NSNotification *)notification
@@ -426,6 +429,7 @@
         
         UILongPressGestureRecognizer *lpgr = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(handleLongPress:)];
         lpgr.minimumPressDuration = .5;
+
         [_tableView addGestureRecognizer:lpgr];
     }
     
