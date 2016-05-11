@@ -252,6 +252,8 @@
                                                             conversationType:conversation.conversationType];
                 chatController.title = [conversation showName];
 //            }
+            //隐藏导航栏
+             chatController.hidesBottomBarWhenPushed = YES;
             [weakSelf.navigationController pushViewController:chatController animated:YES];
         }];
     }
@@ -454,8 +456,9 @@
                                                     conversationType:conversation.conversationType];
         chatController.title = title;
     
-    
     chatController.delelgate = self;
+    //隐藏导航栏
+    chatController.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:chatController animated:YES];
 }
 

@@ -212,6 +212,7 @@
             [weakSelf.searchController.searchBar endEditing:YES];
             ChatViewController *chatVC = [[ChatViewController alloc] initWithChatter:buddy.username isGroup:NO];
             chatVC.title = [[UserProfileManager sharedInstance] getNickNameWithUsername:buddy.username];
+            chatVC.hidesBottomBarWhenPushed = YES;
             [weakSelf.navigationController pushViewController:chatVC animated:YES];
         }];
     }
@@ -384,6 +385,8 @@
     
     if (indexPath.section == 0) {
         if (indexPath.row == 0) {
+            ApplyViewController *applyVC = [ApplyViewController shareController];
+            applyVC.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:[ApplyViewController shareController] animated:YES];
         }
         else if (indexPath.row == 1)
@@ -413,6 +416,7 @@
         
         ChatViewController *chatVC = [[ChatViewController alloc] initWithChatter:buddy.username isGroup:NO];
         chatVC.title = [[UserProfileManager sharedInstance] getNickNameWithUsername:buddy.username];
+        chatVC.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:chatVC animated:YES];
     }
 }
@@ -635,6 +639,7 @@
 - (void)addFriendAction
 {
     AddFriendViewController *addController = [[AddFriendViewController alloc] initWithStyle:UITableViewStylePlain];
+    addController.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:addController animated:YES];
 }
 
