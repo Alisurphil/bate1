@@ -7,7 +7,7 @@
 //
 
 #import "PresonTableViewController.h"
-
+#import "ThirdViewController.h"
 @interface PresonTableViewController ()
 - (IBAction)backToMe:(UIBarButtonItem *)sender;
 - (IBAction)finishChange:(UIBarButtonItem *)sender;
